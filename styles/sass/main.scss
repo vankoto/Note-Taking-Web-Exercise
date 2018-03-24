@@ -16,7 +16,32 @@ html {
            -o-box-sizing: inherit;
               box-sizing: inherit;
     }
-body{
-  background-color: cyan;
+
+$bg-color: #2C3E50;
+$text-color: #FFFFFF;
+$hover-color: #16A085;
+
+.navbar{
+  margin-bottom: 1%;
+
+  ul{
+    background-color: $bg-color;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+  }
+  li{
+    display: inline-block;
+  }
+  a{
+    display: inline-block;
+    color: $text-color;
+    padding: 1.25rem 2.5rem;
+    text-decoration: none;
+    &:hover{
+      background-color: $hover-color;
+    }
+  }
 
 }
