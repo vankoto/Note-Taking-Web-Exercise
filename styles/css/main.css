@@ -14,6 +14,12 @@ html {
   -o-box-sizing: inherit;
   box-sizing: inherit; }
 
+.line {
+  border: 0.5px solid #fff;
+  display: block;
+  width: 400px;
+  margin-bottom: 1%; }
+
 .navbar {
   margin-bottom: 1%; }
   .navbar ul {
