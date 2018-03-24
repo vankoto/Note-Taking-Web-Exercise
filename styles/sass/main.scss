@@ -20,6 +20,7 @@ html {
 $bg-color: #2C3E50;
 $text-color: #FFFFFF;
 $hover-color: #16A085;
+$font: 'Roboto Slab', serif;
 
 .navbar{
   margin-bottom: 1%;
@@ -44,6 +45,7 @@ $hover-color: #16A085;
     text-transform: uppercase;
     font-size: 0.8rem;
     font-weight: 500;
+    font-family: $font;
     border-bottom: 3px solid transparent;
     &:hover{
       color: $hover-color;

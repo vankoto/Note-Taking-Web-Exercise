@@ -34,6 +34,7 @@ html {
     text-transform: uppercase;
     font-size: 0.8rem;
     font-weight: 500;
+    font-family: "Roboto Slab", serif;
     border-bottom: 3px solid transparent; }
     .navbar a:hover {
       color: #16A085;
