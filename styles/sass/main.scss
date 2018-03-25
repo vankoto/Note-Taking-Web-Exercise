@@ -65,7 +65,7 @@ $overlay-color: rgba(44, 62, 80, 0.6);
   }
 }
 
-.divider{
+.divider-before-section{
   padding: 0;
   margin: 0;
   height: 5px;
@@ -151,4 +151,7 @@ $overlay-color: rgba(44, 62, 80, 0.6);
       }
     }
   }
+}
+.divider-after-section{
+  @extend .divider-before-section;
 }
