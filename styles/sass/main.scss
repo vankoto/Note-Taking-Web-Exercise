@@ -86,6 +86,8 @@ $overlay-color: rgba(44, 62, 80, 0.6);
     width: 100%;
     height: 100%;
     background-color: $overlay-color;
+    .intro-text{
+    }
     h1{
       text-transform: uppercase;
       font-size: 2.3rem;
@@ -93,7 +95,7 @@ $overlay-color: rgba(44, 62, 80, 0.6);
       font-family: $font;
       color: $text-color;
       text-align: center;
-      margin-top: 8.5rem;
+      margin-top: 9%;
       margin-bottom: -1rem;
     }
     h2{
@@ -113,7 +115,7 @@ $overlay-color: rgba(44, 62, 80, 0.6);
     .intro-buttons{
       text-align: center;
       word-spacing: 0.8rem;
-      margin-top: 3.5rem;
+      margin-top: 3.7%;
       .large-button{
         text-decoration: none;
         text-transform: uppercase;

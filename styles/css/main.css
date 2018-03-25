@@ -75,7 +75,7 @@ html {
       font-family: "Roboto Slab", serif;
       color: #FFFFFF;
       text-align: center;
-      margin-top: 8.5rem;
+      margin-top: 9%;
       margin-bottom: -1rem; }
     .image-wrapper .overlay h2, .image-wrapper .overlay p {
       font-size: 1.5rem;
@@ -90,7 +90,7 @@ html {
     .image-wrapper .overlay .intro-buttons {
       text-align: center;
       word-spacing: 0.8rem;
-      margin-top: 3.5rem; }
+      margin-top: 3.7%; }
       .image-wrapper .overlay .intro-buttons .large-button {
         text-decoration: none;
         text-transform: uppercase;
