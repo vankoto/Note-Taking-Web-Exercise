@@ -216,6 +216,7 @@ $msection-color: #EEEFF1;
       	width: 23%;
       	float:left;
         margin-right: 2%;
+        margin-bottom: 2%;
       	//border: 1px solid red;
       }
       .note-two{
@@ -229,6 +230,22 @@ $msection-color: #EEEFF1;
       .note-four{
         @extend .note-one;
         background-color: yellow;
+      }
+      .note-five{
+        @extend .note-one;
+        background-color: cyan;
+      }
+      .note-six{
+        @extend .note-one;
+        background-color: black;
+      }
+      .note-seven{
+        @extend .note-one;
+        background-color: gray;
+      }
+      .note-eight{
+        @extend .note-one;
+        background-color: red;
       }
     }
   }

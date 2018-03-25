@@ -167,16 +167,25 @@ html {
       width: 80%;
       display: block;
       margin: 5% auto; }
-      .main-content .content-notes #box-notes .note-one, .main-content .content-notes #box-notes .note-two, .main-content .content-notes #box-notes .note-three, .main-content .content-notes #box-notes .note-four {
+      .main-content .content-notes #box-notes .note-one, .main-content .content-notes #box-notes .note-two, .main-content .content-notes #box-notes .note-three, .main-content .content-notes #box-notes .note-four, .main-content .content-notes #box-notes .note-five, .main-content .content-notes #box-notes .note-six, .main-content .content-notes #box-notes .note-seven, .main-content .content-notes #box-notes .note-eight {
         background-color: #7FFFD4;
         width: 23%;
         float: left;
-        margin-right: 2%; }
+        margin-right: 2%;
+        margin-bottom: 2%; }
       .main-content .content-notes #box-notes .note-two {
         background-color: blue; }
       .main-content .content-notes #box-notes .note-three {
         background-color: purple; }
       .main-content .content-notes #box-notes .note-four {
         background-color: yellow; }
+      .main-content .content-notes #box-notes .note-five {
+        background-color: cyan; }
+      .main-content .content-notes #box-notes .note-six {
+        background-color: black; }
+      .main-content .content-notes #box-notes .note-seven {
+        background-color: gray; }
+      .main-content .content-notes #box-notes .note-eight {
+        background-color: red; }
 
 /*# sourceMappingURL=main.css.map */
