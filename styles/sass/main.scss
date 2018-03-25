@@ -155,3 +155,28 @@ $overlay-color: rgba(44, 62, 80, 0.6);
 .divider-after-section{
   @extend .divider-before-section;
 }
+.note-tickers{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    word-spacing: 2rem;
+  }
+  .tick{
+    color: $hover-color;
+    margin-right: 0.5rem;
+  }
+  li{
+    word-spacing: normal;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: $font;
+
+  }
+
+}
