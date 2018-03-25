@@ -166,12 +166,12 @@ html {
     .main-content .content-notes #box-notes {
       width: 80%;
       display: block;
-      margin: 0 auto; }
+      margin: 5% auto; }
       .main-content .content-notes #box-notes .note-one, .main-content .content-notes #box-notes .note-two, .main-content .content-notes #box-notes .note-three, .main-content .content-notes #box-notes .note-four {
         background-color: #7FFFD4;
-        width: 24%;
+        width: 23%;
         float: left;
-        margin-right: 10px; }
+        margin-right: 2%; }
       .main-content .content-notes #box-notes .note-two {
         background-color: blue; }
       .main-content .content-notes #box-notes .note-three {
