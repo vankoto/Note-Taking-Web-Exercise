@@ -70,12 +70,12 @@ html {
     background-color: rgba(44, 62, 80, 0.6); }
     .image-wrapper .overlay h1, .image-wrapper .overlay h2, .image-wrapper .overlay p {
       text-transform: uppercase;
-      font-size: 2rem;
+      font-size: 2.3rem;
       font-weight: bold;
       font-family: "Roboto Slab", serif;
       color: #FFFFFF;
       text-align: center;
-      margin-top: 8rem;
+      margin-top: 8.5rem;
       margin-bottom: -1rem; }
     .image-wrapper .overlay h2, .image-wrapper .overlay p {
       font-size: 1.5rem;
@@ -87,5 +87,39 @@ html {
       font-weight: normal;
       text-transform: none;
       line-height: 1.6; }
+    .image-wrapper .overlay .intro-buttons {
+      text-align: center;
+      word-spacing: 0.8rem;
+      margin-top: 3.5rem; }
+      .image-wrapper .overlay .intro-buttons .large-button {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1rem;
+        color: #FFFFFF;
+        border: 2px solid #16A085;
+        background-color: transparent;
+        border-radius: 0.2rem;
+        padding-top: 0.8rem;
+        padding-bottom: 0.8rem;
+        padding-left: 1.7rem;
+        padding-right: 1.7rem; }
+        .image-wrapper .overlay .intro-buttons .large-button:hover {
+          background-color: #16A085;
+          cursor: pointer;
+          -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s; }
+      .image-wrapper .overlay .intro-buttons span {
+        text-transform: uppercase;
+        font-size: 1rem;
+        color: #FFFFFF; }
+      .image-wrapper .overlay .intro-buttons .jump-link {
+        text-transform: uppercase;
+        color: #FFFFFF;
+        word-spacing: normal; }
+        .image-wrapper .overlay .intro-buttons .jump-link:hover {
+          color: #16A085;
+          cursor: pointer;
+          -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s; }
 
 /*# sourceMappingURL=main.css.map */
