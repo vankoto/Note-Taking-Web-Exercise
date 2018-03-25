@@ -21,7 +21,7 @@ $bg-color: #2C3E50;
 $text-color: #FFFFFF;
 $hover-color: #16A085;
 $font: 'Roboto Slab', serif;
-$overlay-color: rgba(44, 62, 80, 0.5);
+$overlay-color: rgba(44, 62, 80, 0.6);
 
 .navbar{
   ul{
@@ -86,5 +86,29 @@ $overlay-color: rgba(44, 62, 80, 0.5);
     width: 100%;
     height: 100%;
     background-color: $overlay-color;
+    h1{
+      text-transform: uppercase;
+      font-size: 2rem;
+      font-weight: bold;
+      font-family: $font;
+      color: $text-color;
+      text-align: center;
+      margin-top: 8rem;
+      margin-bottom: -1rem;
+    }
+    h2{
+      @extend h1;
+      font-size: 1.5rem;
+      font-weight: 500;
+      margin-top: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    p{
+      @extend h2;
+      font-size: 1rem;
+      font-weight: normal;
+      text-transform: none;
+      line-height: 1.6;
+    }
   }
 }

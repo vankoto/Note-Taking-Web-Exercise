@@ -67,6 +67,25 @@ html {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(44, 62, 80, 0.5); }
+    background-color: rgba(44, 62, 80, 0.6); }
+    .image-wrapper .overlay h1, .image-wrapper .overlay h2, .image-wrapper .overlay p {
+      text-transform: uppercase;
+      font-size: 2rem;
+      font-weight: bold;
+      font-family: "Roboto Slab", serif;
+      color: #FFFFFF;
+      text-align: center;
+      margin-top: 8rem;
+      margin-bottom: -1rem; }
+    .image-wrapper .overlay h2, .image-wrapper .overlay p {
+      font-size: 1.5rem;
+      font-weight: 500;
+      margin-top: 1.5rem;
+      margin-bottom: 2rem; }
+    .image-wrapper .overlay p {
+      font-size: 1rem;
+      font-weight: normal;
+      text-transform: none;
+      line-height: 1.6; }
 
 /*# sourceMappingURL=main.css.map */
