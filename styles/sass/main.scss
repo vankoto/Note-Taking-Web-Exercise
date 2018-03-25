@@ -23,6 +23,14 @@ $hover-color: #16A085;
 $font: 'Roboto Slab', serif;
 $overlay-color: rgba(44, 62, 80, 0.6);
 $msection-color: #EEEFF1;
+$note-color-one: $text-color;
+$note-color-two: #FFE4B5;
+$note-color-three: #B0C4DE;
+$note-color-four: #87CEFA;
+$note-color-five: #F0E68C;
+$note-color-six: #7FFFD4;
+$note-color-seven: #FFC0CB;
+$note-color-eight: #FA8072;
 
 .navbar{
   ul{
@@ -193,7 +201,7 @@ $msection-color: #EEEFF1;
   border-bottom: 0.5px solid $hover-color;
   background-color: $msection-color;
   .content-notes{
-    overflow: hidden; //The her line was messing with the content blocks.
+    overflow: hidden; //The hr line was messing with the content blocks.
     h1{
       font-size: 1.75rem;
       font-weight: 500;
@@ -212,7 +220,7 @@ $msection-color: #EEEFF1;
       display: block;
       margin: 5% auto;
       .note-one{
-        background-color: $text-color;
+        background-color: $note-color-one;
       	width: 23%;
         height: 20rem;
         border-bottom: 1px solid $hover-color;
@@ -262,31 +270,31 @@ $msection-color: #EEEFF1;
       }
       .note-two{
         @extend .note-one;
-        background-color: #FFE4B5;
+        background-color: $note-color-two;
       }
       .note-three{
         @extend .note-one;
-        background-color: #B0C4DE;
+        background-color: $note-color-three;
       }
       .note-four{
         @extend .note-one;
-        background-color: #87CEFA;
+        background-color: $note-color-four;
       }
       .note-five{
         @extend .note-one;
-        background-color: #F0E68C;
+        background-color: $note-color-five;
       }
       .note-six{
         @extend .note-one;
-        background-color: #7FFFD4;
+        background-color: $note-color-six;
       }
       .note-seven{
         @extend .note-one;
-        background-color: #FFC0CB;
+        background-color: $note-color-seven;
       }
       .note-eight{
         @extend .note-one;
-        background-color: #FA8072;
+        background-color: $note-color-eight;
       }
     }
   }
