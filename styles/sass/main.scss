@@ -212,40 +212,60 @@ $msection-color: #EEEFF1;
       display: block;
       margin: 5% auto;
       .note-one{
-        background-color: #7FFFD4;
+        background-color: $text-color;
       	width: 23%;
+        height: 20rem;
+        border-bottom: 1px solid $hover-color;
+        border-radius: 0.3rem;
       	float:left;
         margin-right: 2%;
         margin-bottom: 2%;
-      	//border: 1px solid red;
+        -webkit-box-shadow: 5px 5px 25px 5px rgba(46,61,73,0.5);
+        box-shadow: 5px 5px 25px 5px rgba(46,61,73,0.5);
+        .upper-bar{
+          width: 100%;
+          background-color: $hover-color;
+          height: 2.2rem;
+          border-bottom: 1px solid $hover-color;
+          border-top-left-radius: 0.2rem;
+          border-top-right-radius: 0.2rem;
+        }
+        p{
+          padding-left: 0.8rem;
+          padding-right: 0.8rem;
+          font-size: 1rem;
+          font-family: $font;
+          text-transform: none;
+          line-height: 1.6;
+        }
       }
       .note-two{
         @extend .note-one;
-        background-color: blue;
+        background-color: #FFE4B5;
       }
       .note-three{
         @extend .note-one;
-        background-color: purple;
+        background-color: #B0C4DE;
       }
       .note-four{
         @extend .note-one;
-        background-color: yellow;
+        background-color: #87CEFA;
       }
       .note-five{
         @extend .note-one;
-        background-color: cyan;
+        background-color: #F0E68C;
       }
       .note-six{
         @extend .note-one;
-        background-color: black;
+        background-color: #7FFFD4;
       }
       .note-seven{
         @extend .note-one;
-        background-color: gray;
+        background-color: #FFC0CB;
       }
       .note-eight{
         @extend .note-one;
-        background-color: red;
+        background-color: #FA8072;
       }
     }
   }
