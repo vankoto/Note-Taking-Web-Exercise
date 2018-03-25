@@ -193,12 +193,43 @@ $msection-color: #EEEFF1;
   border-bottom: 0.5px solid $hover-color;
   background-color: $msection-color;
   .content-notes{
+    overflow: hidden; //The her line was messing with the content blocks.
     h1{
       font-size: 1.75rem;
       font-weight: 500;
       font-family: $font;
       text-align: center;
       margin-top: 5%;
+    }
+    hr{
+      width:10%;
+      height: 0.5px;
+      border: 1px solid $hover-color;
+      background-color: $hover-color;
+    }
+    #box-notes{
+      width: 80%;
+      display: block;
+      margin: 0 auto;
+      .note-one{
+        background-color: #7FFFD4;
+      	width: 24%;
+      	float:left;
+        margin-right: 10px;
+      	//border: 1px solid red;
+      }
+      .note-two{
+        @extend .note-one;
+        background-color: blue;
+      }
+      .note-three{
+        @extend .note-one;
+        background-color: purple;
+      }
+      .note-four{
+        @extend .note-one;
+        background-color: yellow;
+      }
     }
   }
 }

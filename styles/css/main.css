@@ -150,11 +150,33 @@ html {
   border-top: 0.5px solid #16A085;
   border-bottom: 0.5px solid #16A085;
   background-color: #EEEFF1; }
-  .main-content .content-notes h1, .main-content .content-notes .image-wrapper .overlay h2, .image-wrapper .overlay .main-content .content-notes h2, .main-content .content-notes .image-wrapper .overlay p, .image-wrapper .overlay .main-content .content-notes p {
-    font-size: 1.75rem;
-    font-weight: 500;
-    font-family: "Roboto Slab", serif;
-    text-align: center;
-    margin-top: 5%; }
+  .main-content .content-notes {
+    overflow: hidden; }
+    .main-content .content-notes h1, .main-content .content-notes .image-wrapper .overlay h2, .image-wrapper .overlay .main-content .content-notes h2, .main-content .content-notes .image-wrapper .overlay p, .image-wrapper .overlay .main-content .content-notes p {
+      font-size: 1.75rem;
+      font-weight: 500;
+      font-family: "Roboto Slab", serif;
+      text-align: center;
+      margin-top: 5%; }
+    .main-content .content-notes hr {
+      width: 10%;
+      height: 0.5px;
+      border: 1px solid #16A085;
+      background-color: #16A085; }
+    .main-content .content-notes #box-notes {
+      width: 80%;
+      display: block;
+      margin: 0 auto; }
+      .main-content .content-notes #box-notes .note-one, .main-content .content-notes #box-notes .note-two, .main-content .content-notes #box-notes .note-three, .main-content .content-notes #box-notes .note-four {
+        background-color: #7FFFD4;
+        width: 24%;
+        float: left;
+        margin-right: 10px; }
+      .main-content .content-notes #box-notes .note-two {
+        background-color: blue; }
+      .main-content .content-notes #box-notes .note-three {
+        background-color: purple; }
+      .main-content .content-notes #box-notes .note-four {
+        background-color: yellow; }
 
 /*# sourceMappingURL=main.css.map */
