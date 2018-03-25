@@ -22,6 +22,7 @@ $text-color: #FFFFFF;
 $hover-color: #16A085;
 $font: 'Roboto Slab', serif;
 $overlay-color: rgba(44, 62, 80, 0.6);
+$msection-color: #EEEFF1;
 
 .navbar{
   ul{
@@ -178,7 +179,26 @@ $overlay-color: rgba(44, 62, 80, 0.6);
     font-size: 1rem;
     font-weight: 500;
     font-family: $font;
-
   }
-
+}
+//Here for the h1 of content-notes I can have properties from h1 intro section
+//but I cannot extend nested selectors, (workaround is to use a placeholder) but..
+//I prefer to rewrite some code instead.
+.main-content{
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  border-top: 0.5px solid $hover-color;
+  border-bottom: 0.5px solid $hover-color;
+  background-color: $msection-color;
+  .content-notes{
+    h1{
+      font-size: 1.75rem;
+      font-weight: 500;
+      font-family: $font;
+      text-align: center;
+      margin-top: 5%;
+    }
+  }
 }

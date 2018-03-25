@@ -142,4 +142,19 @@ html {
     font-weight: 500;
     font-family: "Roboto Slab", serif; }
 
+.main-content {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  border-top: 0.5px solid #16A085;
+  border-bottom: 0.5px solid #16A085;
+  background-color: #EEEFF1; }
+  .main-content .content-notes h1, .main-content .content-notes .image-wrapper .overlay h2, .image-wrapper .overlay .main-content .content-notes h2, .main-content .content-notes .image-wrapper .overlay p, .image-wrapper .overlay .main-content .content-notes p {
+    font-size: 1.75rem;
+    font-weight: 500;
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+    margin-top: 5%; }
+
 /*# sourceMappingURL=main.css.map */
