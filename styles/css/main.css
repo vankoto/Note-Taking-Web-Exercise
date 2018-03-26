@@ -224,5 +224,16 @@ html {
         background-color: #FFC0CB; }
       .main-content .content-notes #box-notes .note-eight {
         background-color: #FA8072; }
+  .main-content .main-description h1, .main-content .main-description .image-wrapper .overlay h2, .image-wrapper .overlay .main-content .main-description h2, .main-content .main-description .image-wrapper .overlay p, .image-wrapper .overlay .main-content .main-description p {
+    font-size: 1.75rem;
+    font-weight: 500;
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+    margin-top: 5%; }
+  .main-content .main-description hr {
+    width: 10%;
+    height: 0.5px;
+    border: 1px solid #16A085;
+    background-color: #16A085; }
 
 /*# sourceMappingURL=main.css.map */

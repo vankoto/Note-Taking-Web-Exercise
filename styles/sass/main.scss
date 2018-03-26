@@ -298,4 +298,19 @@ $note-color-eight: #FA8072;
       }
     }
   }
+  .main-description{
+    h1{
+      font-size: 1.75rem;
+      font-weight: 500;
+      font-family: $font;
+      text-align: center;
+      margin-top: 5%;
+    }
+    hr{
+      width:10%;
+      height: 0.5px;
+      border: 1px solid $hover-color;
+      background-color: $hover-color;
+    }
+  }
 }
