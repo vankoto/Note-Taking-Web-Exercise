@@ -254,7 +254,7 @@ $note-color-add: #DAA671;
   background-color: $msection-color;
   .content-notes{
     overflow: hidden; //The hr line was messing with the content blocks.
-    margin-bottom: 5%;
+    margin-bottom: 4%;
     h1{
       font-size: 1.75rem;
       font-weight: 500;
@@ -304,6 +304,14 @@ $note-color-add: #DAA671;
         background-color: $note-color-eight;
       }
     }
+  }
+  .small-line{
+    width:10%;
+    position: relative;
+    top: -1.5rem;
+    height: 0.5px;
+    border: 1px solid $hover-color;
+    background-color: $hover-color;
   }
 }
 .main-description{
