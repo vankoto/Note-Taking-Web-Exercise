@@ -333,7 +333,6 @@ $note-color-add: #DAA671;
     width: 80%;
     display: block;
     margin: 3% auto;
-    font-weight: bold;
     padding-left: 0.8rem;
     padding-right: 0.8rem;
     font-size: 1rem;
@@ -344,9 +343,15 @@ $note-color-add: #DAA671;
       width: 50%;
       float: left;
       padding-left: 2rem;
+      h3{
+        margin-bottom: 0.7rem;
+      }
+      p{
+        margin-top: 0;
+      }
     }
     .right-article-wrapper{
-      width: 50%;
+      @extend .left-article-wrapper;
       float: right;
       padding-left: 1.5rem;
     }

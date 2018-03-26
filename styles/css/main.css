@@ -544,19 +544,21 @@ html {
     width: 80%;
     display: block;
     margin: 3% auto;
-    font-weight: bold;
     padding-left: 0.8rem;
     padding-right: 0.8rem;
     font-size: 1rem;
     font-family: "Roboto Slab", serif;
     text-transform: none;
     line-height: 1.6; }
-    .main-description .articles .left-article-wrapper {
+    .main-description .articles .left-article-wrapper, .main-description .articles .right-article-wrapper {
       width: 50%;
       float: left;
       padding-left: 2rem; }
+      .main-description .articles .left-article-wrapper h3, .main-description .articles .right-article-wrapper h3 {
+        margin-bottom: 0.7rem; }
+      .main-description .articles .left-article-wrapper p, .main-description .articles .right-article-wrapper p {
+        margin-top: 0; }
     .main-description .articles .right-article-wrapper {
-      width: 50%;
       float: right;
       padding-left: 1.5rem; }
 
