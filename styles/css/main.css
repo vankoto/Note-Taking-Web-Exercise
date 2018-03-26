@@ -179,14 +179,14 @@ html {
         -webkit-box-shadow: 5px 5px 25px 5px rgba(46, 61, 73, 0.5);
         -moz-box-shadow: 5px 5px 25px 5px rgba(46, 61, 73, 0.5);
         box-shadow: 5px 5px 25px 5px rgba(46, 61, 73, 0.5); }
-        .main-content .content-notes #box-notes .note-one .upper-bar, .main-content .content-notes #box-notes .note-one .upper-bar .title, .main-content .content-notes #box-notes .note-two .upper-bar .note-one .title, .main-content .content-notes #box-notes .note-three .upper-bar .note-one .title, .main-content .content-notes #box-notes .note-four .upper-bar .note-one .title, .main-content .content-notes #box-notes .note-five .upper-bar .note-one .title, .main-content .content-notes #box-notes .note-six .upper-bar .note-one .title, .main-content .content-notes #box-notes .note-seven .upper-bar .note-one .title, .main-content .content-notes #box-notes .note-eight .upper-bar .note-one .title, .main-content .main-description .addition-note .upper-bar .content-notes #box-notes .note-one .title {
+        .main-content .content-notes #box-notes .note-one .upper-bar, .main-content .content-notes #box-notes .note-one .upper-bar .title, .main-content .content-notes #box-notes .note-two .upper-bar .note-one .title, .main-content .content-notes #box-notes .note-three .upper-bar .note-one .title, .main-content .content-notes #box-notes .note-four .upper-bar .note-one .title, .main-content .content-notes #box-notes .note-five .upper-bar .note-one .title, .main-content .content-notes #box-notes .note-six .upper-bar .note-one .title, .main-content .content-notes #box-notes .note-seven .upper-bar .note-one .title, .main-content .content-notes #box-notes .note-eight .upper-bar .note-one .title {
           width: 100%;
           background-color: #16A085;
           height: 2.2rem;
           border-bottom: 1px solid #16A085;
           border-top-left-radius: 0.2rem;
           border-top-right-radius: 0.2rem; }
-          .main-content .content-notes #box-notes .note-one .upper-bar .title, .main-content .content-notes #box-notes .note-two .upper-bar .note-one .title .title, .main-content .content-notes #box-notes .note-three .upper-bar .note-one .title .title, .main-content .content-notes #box-notes .note-four .upper-bar .note-one .title .title, .main-content .content-notes #box-notes .note-five .upper-bar .note-one .title .title, .main-content .content-notes #box-notes .note-six .upper-bar .note-one .title .title, .main-content .content-notes #box-notes .note-seven .upper-bar .note-one .title .title, .main-content .content-notes #box-notes .note-eight .upper-bar .note-one .title .title, .main-content .main-description .addition-note .upper-bar .content-notes #box-notes .note-one .title .title {
+          .main-content .content-notes #box-notes .note-one .upper-bar .title, .main-content .content-notes #box-notes .note-two .upper-bar .note-one .title .title, .main-content .content-notes #box-notes .note-three .upper-bar .note-one .title .title, .main-content .content-notes #box-notes .note-four .upper-bar .note-one .title .title, .main-content .content-notes #box-notes .note-five .upper-bar .note-one .title .title, .main-content .content-notes #box-notes .note-six .upper-bar .note-one .title .title, .main-content .content-notes #box-notes .note-seven .upper-bar .note-one .title .title, .main-content .content-notes #box-notes .note-eight .upper-bar .note-one .title .title {
             background-color: #FFFFFF;
             width: 50%;
             display: block;
@@ -195,7 +195,7 @@ html {
             -webkit-box-shadow: inset 0 0 3px rgba(46, 61, 73, 0.5);
             -moz-box-shadow: inset 0 0 3px rgba(46, 61, 73, 0.5);
             box-shadow: inset 0 0 3px rgba(46, 61, 73, 0.5); }
-          .main-content .content-notes #box-notes .note-one .upper-bar h3, .main-content .content-notes #box-notes .note-one .upper-bar .title h3, .main-content .content-notes #box-notes .note-two .upper-bar .note-one .title h3, .main-content .content-notes #box-notes .note-three .upper-bar .note-one .title h3, .main-content .content-notes #box-notes .note-four .upper-bar .note-one .title h3, .main-content .content-notes #box-notes .note-five .upper-bar .note-one .title h3, .main-content .content-notes #box-notes .note-six .upper-bar .note-one .title h3, .main-content .content-notes #box-notes .note-seven .upper-bar .note-one .title h3, .main-content .content-notes #box-notes .note-eight .upper-bar .note-one .title h3, .main-content .main-description .addition-note .upper-bar .content-notes #box-notes .note-one .title h3 {
+          .main-content .content-notes #box-notes .note-one .upper-bar h3, .main-content .content-notes #box-notes .note-one .upper-bar .title h3, .main-content .content-notes #box-notes .note-two .upper-bar .note-one .title h3, .main-content .content-notes #box-notes .note-three .upper-bar .note-one .title h3, .main-content .content-notes #box-notes .note-four .upper-bar .note-one .title h3, .main-content .content-notes #box-notes .note-five .upper-bar .note-one .title h3, .main-content .content-notes #box-notes .note-six .upper-bar .note-one .title h3, .main-content .content-notes #box-notes .note-seven .upper-bar .note-one .title h3, .main-content .content-notes #box-notes .note-eight .upper-bar .note-one .title h3 {
             margin: 0;
             padding-top: 0.5rem;
             text-align: center;
@@ -223,14 +223,14 @@ html {
         -moz-box-shadow: 5px 5px 25px 5px rgba(46, 61, 73, 0.5);
         box-shadow: 5px 5px 25px 5px rgba(46, 61, 73, 0.5);
         background-color: #FFE4B5; }
-        .main-content .content-notes #box-notes .note-two .upper-bar, .main-content .content-notes #box-notes .note-one .upper-bar .note-two .title, .main-content .content-notes #box-notes .note-two .upper-bar .title, .main-content .content-notes #box-notes .note-three .upper-bar .note-two .title, .main-content .content-notes #box-notes .note-four .upper-bar .note-two .title, .main-content .content-notes #box-notes .note-five .upper-bar .note-two .title, .main-content .content-notes #box-notes .note-six .upper-bar .note-two .title, .main-content .content-notes #box-notes .note-seven .upper-bar .note-two .title, .main-content .content-notes #box-notes .note-eight .upper-bar .note-two .title, .main-content .main-description .addition-note .upper-bar .content-notes #box-notes .note-two .title {
+        .main-content .content-notes #box-notes .note-two .upper-bar, .main-content .content-notes #box-notes .note-one .upper-bar .note-two .title, .main-content .content-notes #box-notes .note-two .upper-bar .title, .main-content .content-notes #box-notes .note-three .upper-bar .note-two .title, .main-content .content-notes #box-notes .note-four .upper-bar .note-two .title, .main-content .content-notes #box-notes .note-five .upper-bar .note-two .title, .main-content .content-notes #box-notes .note-six .upper-bar .note-two .title, .main-content .content-notes #box-notes .note-seven .upper-bar .note-two .title, .main-content .content-notes #box-notes .note-eight .upper-bar .note-two .title {
           width: 100%;
           background-color: #16A085;
           height: 2.2rem;
           border-bottom: 1px solid #16A085;
           border-top-left-radius: 0.2rem;
           border-top-right-radius: 0.2rem; }
-          .main-content .content-notes #box-notes .note-two .upper-bar .title, .main-content .content-notes #box-notes .note-one .upper-bar .note-two .title .title, .main-content .content-notes #box-notes .note-three .upper-bar .note-two .title .title, .main-content .content-notes #box-notes .note-four .upper-bar .note-two .title .title, .main-content .content-notes #box-notes .note-five .upper-bar .note-two .title .title, .main-content .content-notes #box-notes .note-six .upper-bar .note-two .title .title, .main-content .content-notes #box-notes .note-seven .upper-bar .note-two .title .title, .main-content .content-notes #box-notes .note-eight .upper-bar .note-two .title .title, .main-content .main-description .addition-note .upper-bar .content-notes #box-notes .note-two .title .title {
+          .main-content .content-notes #box-notes .note-two .upper-bar .title, .main-content .content-notes #box-notes .note-one .upper-bar .note-two .title .title, .main-content .content-notes #box-notes .note-three .upper-bar .note-two .title .title, .main-content .content-notes #box-notes .note-four .upper-bar .note-two .title .title, .main-content .content-notes #box-notes .note-five .upper-bar .note-two .title .title, .main-content .content-notes #box-notes .note-six .upper-bar .note-two .title .title, .main-content .content-notes #box-notes .note-seven .upper-bar .note-two .title .title, .main-content .content-notes #box-notes .note-eight .upper-bar .note-two .title .title {
             background-color: #FFFFFF;
             width: 50%;
             display: block;
@@ -239,7 +239,7 @@ html {
             -webkit-box-shadow: inset 0 0 3px rgba(46, 61, 73, 0.5);
             -moz-box-shadow: inset 0 0 3px rgba(46, 61, 73, 0.5);
             box-shadow: inset 0 0 3px rgba(46, 61, 73, 0.5); }
-          .main-content .content-notes #box-notes .note-two .upper-bar h3, .main-content .content-notes #box-notes .note-one .upper-bar .note-two .title h3, .main-content .content-notes #box-notes .note-two .upper-bar .title h3, .main-content .content-notes #box-notes .note-three .upper-bar .note-two .title h3, .main-content .content-notes #box-notes .note-four .upper-bar .note-two .title h3, .main-content .content-notes #box-notes .note-five .upper-bar .note-two .title h3, .main-content .content-notes #box-notes .note-six .upper-bar .note-two .title h3, .main-content .content-notes #box-notes .note-seven .upper-bar .note-two .title h3, .main-content .content-notes #box-notes .note-eight .upper-bar .note-two .title h3, .main-content .main-description .addition-note .upper-bar .content-notes #box-notes .note-two .title h3 {
+          .main-content .content-notes #box-notes .note-two .upper-bar h3, .main-content .content-notes #box-notes .note-one .upper-bar .note-two .title h3, .main-content .content-notes #box-notes .note-two .upper-bar .title h3, .main-content .content-notes #box-notes .note-three .upper-bar .note-two .title h3, .main-content .content-notes #box-notes .note-four .upper-bar .note-two .title h3, .main-content .content-notes #box-notes .note-five .upper-bar .note-two .title h3, .main-content .content-notes #box-notes .note-six .upper-bar .note-two .title h3, .main-content .content-notes #box-notes .note-seven .upper-bar .note-two .title h3, .main-content .content-notes #box-notes .note-eight .upper-bar .note-two .title h3 {
             margin: 0;
             padding-top: 0.5rem;
             text-align: center;
@@ -267,14 +267,14 @@ html {
         -moz-box-shadow: 5px 5px 25px 5px rgba(46, 61, 73, 0.5);
         box-shadow: 5px 5px 25px 5px rgba(46, 61, 73, 0.5);
         background-color: #B0C4DE; }
-        .main-content .content-notes #box-notes .note-three .upper-bar, .main-content .content-notes #box-notes .note-one .upper-bar .note-three .title, .main-content .content-notes #box-notes .note-two .upper-bar .note-three .title, .main-content .content-notes #box-notes .note-three .upper-bar .title, .main-content .content-notes #box-notes .note-four .upper-bar .note-three .title, .main-content .content-notes #box-notes .note-five .upper-bar .note-three .title, .main-content .content-notes #box-notes .note-six .upper-bar .note-three .title, .main-content .content-notes #box-notes .note-seven .upper-bar .note-three .title, .main-content .content-notes #box-notes .note-eight .upper-bar .note-three .title, .main-content .main-description .addition-note .upper-bar .content-notes #box-notes .note-three .title {
+        .main-content .content-notes #box-notes .note-three .upper-bar, .main-content .content-notes #box-notes .note-one .upper-bar .note-three .title, .main-content .content-notes #box-notes .note-two .upper-bar .note-three .title, .main-content .content-notes #box-notes .note-three .upper-bar .title, .main-content .content-notes #box-notes .note-four .upper-bar .note-three .title, .main-content .content-notes #box-notes .note-five .upper-bar .note-three .title, .main-content .content-notes #box-notes .note-six .upper-bar .note-three .title, .main-content .content-notes #box-notes .note-seven .upper-bar .note-three .title, .main-content .content-notes #box-notes .note-eight .upper-bar .note-three .title {
           width: 100%;
           background-color: #16A085;
           height: 2.2rem;
           border-bottom: 1px solid #16A085;
           border-top-left-radius: 0.2rem;
           border-top-right-radius: 0.2rem; }
-          .main-content .content-notes #box-notes .note-three .upper-bar .title, .main-content .content-notes #box-notes .note-one .upper-bar .note-three .title .title, .main-content .content-notes #box-notes .note-two .upper-bar .note-three .title .title, .main-content .content-notes #box-notes .note-four .upper-bar .note-three .title .title, .main-content .content-notes #box-notes .note-five .upper-bar .note-three .title .title, .main-content .content-notes #box-notes .note-six .upper-bar .note-three .title .title, .main-content .content-notes #box-notes .note-seven .upper-bar .note-three .title .title, .main-content .content-notes #box-notes .note-eight .upper-bar .note-three .title .title, .main-content .main-description .addition-note .upper-bar .content-notes #box-notes .note-three .title .title {
+          .main-content .content-notes #box-notes .note-three .upper-bar .title, .main-content .content-notes #box-notes .note-one .upper-bar .note-three .title .title, .main-content .content-notes #box-notes .note-two .upper-bar .note-three .title .title, .main-content .content-notes #box-notes .note-four .upper-bar .note-three .title .title, .main-content .content-notes #box-notes .note-five .upper-bar .note-three .title .title, .main-content .content-notes #box-notes .note-six .upper-bar .note-three .title .title, .main-content .content-notes #box-notes .note-seven .upper-bar .note-three .title .title, .main-content .content-notes #box-notes .note-eight .upper-bar .note-three .title .title {
             background-color: #FFFFFF;
             width: 50%;
             display: block;
@@ -283,7 +283,7 @@ html {
             -webkit-box-shadow: inset 0 0 3px rgba(46, 61, 73, 0.5);
             -moz-box-shadow: inset 0 0 3px rgba(46, 61, 73, 0.5);
             box-shadow: inset 0 0 3px rgba(46, 61, 73, 0.5); }
-          .main-content .content-notes #box-notes .note-three .upper-bar h3, .main-content .content-notes #box-notes .note-one .upper-bar .note-three .title h3, .main-content .content-notes #box-notes .note-two .upper-bar .note-three .title h3, .main-content .content-notes #box-notes .note-three .upper-bar .title h3, .main-content .content-notes #box-notes .note-four .upper-bar .note-three .title h3, .main-content .content-notes #box-notes .note-five .upper-bar .note-three .title h3, .main-content .content-notes #box-notes .note-six .upper-bar .note-three .title h3, .main-content .content-notes #box-notes .note-seven .upper-bar .note-three .title h3, .main-content .content-notes #box-notes .note-eight .upper-bar .note-three .title h3, .main-content .main-description .addition-note .upper-bar .content-notes #box-notes .note-three .title h3 {
+          .main-content .content-notes #box-notes .note-three .upper-bar h3, .main-content .content-notes #box-notes .note-one .upper-bar .note-three .title h3, .main-content .content-notes #box-notes .note-two .upper-bar .note-three .title h3, .main-content .content-notes #box-notes .note-three .upper-bar .title h3, .main-content .content-notes #box-notes .note-four .upper-bar .note-three .title h3, .main-content .content-notes #box-notes .note-five .upper-bar .note-three .title h3, .main-content .content-notes #box-notes .note-six .upper-bar .note-three .title h3, .main-content .content-notes #box-notes .note-seven .upper-bar .note-three .title h3, .main-content .content-notes #box-notes .note-eight .upper-bar .note-three .title h3 {
             margin: 0;
             padding-top: 0.5rem;
             text-align: center;
@@ -311,14 +311,14 @@ html {
         -moz-box-shadow: 5px 5px 25px 5px rgba(46, 61, 73, 0.5);
         box-shadow: 5px 5px 25px 5px rgba(46, 61, 73, 0.5);
         background-color: #87CEFA; }
-        .main-content .content-notes #box-notes .note-four .upper-bar, .main-content .content-notes #box-notes .note-one .upper-bar .note-four .title, .main-content .content-notes #box-notes .note-two .upper-bar .note-four .title, .main-content .content-notes #box-notes .note-three .upper-bar .note-four .title, .main-content .content-notes #box-notes .note-four .upper-bar .title, .main-content .content-notes #box-notes .note-five .upper-bar .note-four .title, .main-content .content-notes #box-notes .note-six .upper-bar .note-four .title, .main-content .content-notes #box-notes .note-seven .upper-bar .note-four .title, .main-content .content-notes #box-notes .note-eight .upper-bar .note-four .title, .main-content .main-description .addition-note .upper-bar .content-notes #box-notes .note-four .title {
+        .main-content .content-notes #box-notes .note-four .upper-bar, .main-content .content-notes #box-notes .note-one .upper-bar .note-four .title, .main-content .content-notes #box-notes .note-two .upper-bar .note-four .title, .main-content .content-notes #box-notes .note-three .upper-bar .note-four .title, .main-content .content-notes #box-notes .note-four .upper-bar .title, .main-content .content-notes #box-notes .note-five .upper-bar .note-four .title, .main-content .content-notes #box-notes .note-six .upper-bar .note-four .title, .main-content .content-notes #box-notes .note-seven .upper-bar .note-four .title, .main-content .content-notes #box-notes .note-eight .upper-bar .note-four .title {
           width: 100%;
           background-color: #16A085;
           height: 2.2rem;
           border-bottom: 1px solid #16A085;
           border-top-left-radius: 0.2rem;
           border-top-right-radius: 0.2rem; }
-          .main-content .content-notes #box-notes .note-four .upper-bar .title, .main-content .content-notes #box-notes .note-one .upper-bar .note-four .title .title, .main-content .content-notes #box-notes .note-two .upper-bar .note-four .title .title, .main-content .content-notes #box-notes .note-three .upper-bar .note-four .title .title, .main-content .content-notes #box-notes .note-five .upper-bar .note-four .title .title, .main-content .content-notes #box-notes .note-six .upper-bar .note-four .title .title, .main-content .content-notes #box-notes .note-seven .upper-bar .note-four .title .title, .main-content .content-notes #box-notes .note-eight .upper-bar .note-four .title .title, .main-content .main-description .addition-note .upper-bar .content-notes #box-notes .note-four .title .title {
+          .main-content .content-notes #box-notes .note-four .upper-bar .title, .main-content .content-notes #box-notes .note-one .upper-bar .note-four .title .title, .main-content .content-notes #box-notes .note-two .upper-bar .note-four .title .title, .main-content .content-notes #box-notes .note-three .upper-bar .note-four .title .title, .main-content .content-notes #box-notes .note-five .upper-bar .note-four .title .title, .main-content .content-notes #box-notes .note-six .upper-bar .note-four .title .title, .main-content .content-notes #box-notes .note-seven .upper-bar .note-four .title .title, .main-content .content-notes #box-notes .note-eight .upper-bar .note-four .title .title {
             background-color: #FFFFFF;
             width: 50%;
             display: block;
@@ -327,7 +327,7 @@ html {
             -webkit-box-shadow: inset 0 0 3px rgba(46, 61, 73, 0.5);
             -moz-box-shadow: inset 0 0 3px rgba(46, 61, 73, 0.5);
             box-shadow: inset 0 0 3px rgba(46, 61, 73, 0.5); }
-          .main-content .content-notes #box-notes .note-four .upper-bar h3, .main-content .content-notes #box-notes .note-one .upper-bar .note-four .title h3, .main-content .content-notes #box-notes .note-two .upper-bar .note-four .title h3, .main-content .content-notes #box-notes .note-three .upper-bar .note-four .title h3, .main-content .content-notes #box-notes .note-four .upper-bar .title h3, .main-content .content-notes #box-notes .note-five .upper-bar .note-four .title h3, .main-content .content-notes #box-notes .note-six .upper-bar .note-four .title h3, .main-content .content-notes #box-notes .note-seven .upper-bar .note-four .title h3, .main-content .content-notes #box-notes .note-eight .upper-bar .note-four .title h3, .main-content .main-description .addition-note .upper-bar .content-notes #box-notes .note-four .title h3 {
+          .main-content .content-notes #box-notes .note-four .upper-bar h3, .main-content .content-notes #box-notes .note-one .upper-bar .note-four .title h3, .main-content .content-notes #box-notes .note-two .upper-bar .note-four .title h3, .main-content .content-notes #box-notes .note-three .upper-bar .note-four .title h3, .main-content .content-notes #box-notes .note-four .upper-bar .title h3, .main-content .content-notes #box-notes .note-five .upper-bar .note-four .title h3, .main-content .content-notes #box-notes .note-six .upper-bar .note-four .title h3, .main-content .content-notes #box-notes .note-seven .upper-bar .note-four .title h3, .main-content .content-notes #box-notes .note-eight .upper-bar .note-four .title h3 {
             margin: 0;
             padding-top: 0.5rem;
             text-align: center;
@@ -355,14 +355,14 @@ html {
         -moz-box-shadow: 5px 5px 25px 5px rgba(46, 61, 73, 0.5);
         box-shadow: 5px 5px 25px 5px rgba(46, 61, 73, 0.5);
         background-color: #F0E68C; }
-        .main-content .content-notes #box-notes .note-five .upper-bar, .main-content .content-notes #box-notes .note-one .upper-bar .note-five .title, .main-content .content-notes #box-notes .note-two .upper-bar .note-five .title, .main-content .content-notes #box-notes .note-three .upper-bar .note-five .title, .main-content .content-notes #box-notes .note-four .upper-bar .note-five .title, .main-content .content-notes #box-notes .note-five .upper-bar .title, .main-content .content-notes #box-notes .note-six .upper-bar .note-five .title, .main-content .content-notes #box-notes .note-seven .upper-bar .note-five .title, .main-content .content-notes #box-notes .note-eight .upper-bar .note-five .title, .main-content .main-description .addition-note .upper-bar .content-notes #box-notes .note-five .title {
+        .main-content .content-notes #box-notes .note-five .upper-bar, .main-content .content-notes #box-notes .note-one .upper-bar .note-five .title, .main-content .content-notes #box-notes .note-two .upper-bar .note-five .title, .main-content .content-notes #box-notes .note-three .upper-bar .note-five .title, .main-content .content-notes #box-notes .note-four .upper-bar .note-five .title, .main-content .content-notes #box-notes .note-five .upper-bar .title, .main-content .content-notes #box-notes .note-six .upper-bar .note-five .title, .main-content .content-notes #box-notes .note-seven .upper-bar .note-five .title, .main-content .content-notes #box-notes .note-eight .upper-bar .note-five .title {
           width: 100%;
           background-color: #16A085;
           height: 2.2rem;
           border-bottom: 1px solid #16A085;
           border-top-left-radius: 0.2rem;
           border-top-right-radius: 0.2rem; }
-          .main-content .content-notes #box-notes .note-five .upper-bar .title, .main-content .content-notes #box-notes .note-one .upper-bar .note-five .title .title, .main-content .content-notes #box-notes .note-two .upper-bar .note-five .title .title, .main-content .content-notes #box-notes .note-three .upper-bar .note-five .title .title, .main-content .content-notes #box-notes .note-four .upper-bar .note-five .title .title, .main-content .content-notes #box-notes .note-six .upper-bar .note-five .title .title, .main-content .content-notes #box-notes .note-seven .upper-bar .note-five .title .title, .main-content .content-notes #box-notes .note-eight .upper-bar .note-five .title .title, .main-content .main-description .addition-note .upper-bar .content-notes #box-notes .note-five .title .title {
+          .main-content .content-notes #box-notes .note-five .upper-bar .title, .main-content .content-notes #box-notes .note-one .upper-bar .note-five .title .title, .main-content .content-notes #box-notes .note-two .upper-bar .note-five .title .title, .main-content .content-notes #box-notes .note-three .upper-bar .note-five .title .title, .main-content .content-notes #box-notes .note-four .upper-bar .note-five .title .title, .main-content .content-notes #box-notes .note-six .upper-bar .note-five .title .title, .main-content .content-notes #box-notes .note-seven .upper-bar .note-five .title .title, .main-content .content-notes #box-notes .note-eight .upper-bar .note-five .title .title {
             background-color: #FFFFFF;
             width: 50%;
             display: block;
@@ -371,7 +371,7 @@ html {
             -webkit-box-shadow: inset 0 0 3px rgba(46, 61, 73, 0.5);
             -moz-box-shadow: inset 0 0 3px rgba(46, 61, 73, 0.5);
             box-shadow: inset 0 0 3px rgba(46, 61, 73, 0.5); }
-          .main-content .content-notes #box-notes .note-five .upper-bar h3, .main-content .content-notes #box-notes .note-one .upper-bar .note-five .title h3, .main-content .content-notes #box-notes .note-two .upper-bar .note-five .title h3, .main-content .content-notes #box-notes .note-three .upper-bar .note-five .title h3, .main-content .content-notes #box-notes .note-four .upper-bar .note-five .title h3, .main-content .content-notes #box-notes .note-five .upper-bar .title h3, .main-content .content-notes #box-notes .note-six .upper-bar .note-five .title h3, .main-content .content-notes #box-notes .note-seven .upper-bar .note-five .title h3, .main-content .content-notes #box-notes .note-eight .upper-bar .note-five .title h3, .main-content .main-description .addition-note .upper-bar .content-notes #box-notes .note-five .title h3 {
+          .main-content .content-notes #box-notes .note-five .upper-bar h3, .main-content .content-notes #box-notes .note-one .upper-bar .note-five .title h3, .main-content .content-notes #box-notes .note-two .upper-bar .note-five .title h3, .main-content .content-notes #box-notes .note-three .upper-bar .note-five .title h3, .main-content .content-notes #box-notes .note-four .upper-bar .note-five .title h3, .main-content .content-notes #box-notes .note-five .upper-bar .title h3, .main-content .content-notes #box-notes .note-six .upper-bar .note-five .title h3, .main-content .content-notes #box-notes .note-seven .upper-bar .note-five .title h3, .main-content .content-notes #box-notes .note-eight .upper-bar .note-five .title h3 {
             margin: 0;
             padding-top: 0.5rem;
             text-align: center;
@@ -399,14 +399,14 @@ html {
         -moz-box-shadow: 5px 5px 25px 5px rgba(46, 61, 73, 0.5);
         box-shadow: 5px 5px 25px 5px rgba(46, 61, 73, 0.5);
         background-color: #7FFFD4; }
-        .main-content .content-notes #box-notes .note-six .upper-bar, .main-content .content-notes #box-notes .note-one .upper-bar .note-six .title, .main-content .content-notes #box-notes .note-two .upper-bar .note-six .title, .main-content .content-notes #box-notes .note-three .upper-bar .note-six .title, .main-content .content-notes #box-notes .note-four .upper-bar .note-six .title, .main-content .content-notes #box-notes .note-five .upper-bar .note-six .title, .main-content .content-notes #box-notes .note-six .upper-bar .title, .main-content .content-notes #box-notes .note-seven .upper-bar .note-six .title, .main-content .content-notes #box-notes .note-eight .upper-bar .note-six .title, .main-content .main-description .addition-note .upper-bar .content-notes #box-notes .note-six .title {
+        .main-content .content-notes #box-notes .note-six .upper-bar, .main-content .content-notes #box-notes .note-one .upper-bar .note-six .title, .main-content .content-notes #box-notes .note-two .upper-bar .note-six .title, .main-content .content-notes #box-notes .note-three .upper-bar .note-six .title, .main-content .content-notes #box-notes .note-four .upper-bar .note-six .title, .main-content .content-notes #box-notes .note-five .upper-bar .note-six .title, .main-content .content-notes #box-notes .note-six .upper-bar .title, .main-content .content-notes #box-notes .note-seven .upper-bar .note-six .title, .main-content .content-notes #box-notes .note-eight .upper-bar .note-six .title {
           width: 100%;
           background-color: #16A085;
           height: 2.2rem;
           border-bottom: 1px solid #16A085;
           border-top-left-radius: 0.2rem;
           border-top-right-radius: 0.2rem; }
-          .main-content .content-notes #box-notes .note-six .upper-bar .title, .main-content .content-notes #box-notes .note-one .upper-bar .note-six .title .title, .main-content .content-notes #box-notes .note-two .upper-bar .note-six .title .title, .main-content .content-notes #box-notes .note-three .upper-bar .note-six .title .title, .main-content .content-notes #box-notes .note-four .upper-bar .note-six .title .title, .main-content .content-notes #box-notes .note-five .upper-bar .note-six .title .title, .main-content .content-notes #box-notes .note-seven .upper-bar .note-six .title .title, .main-content .content-notes #box-notes .note-eight .upper-bar .note-six .title .title, .main-content .main-description .addition-note .upper-bar .content-notes #box-notes .note-six .title .title {
+          .main-content .content-notes #box-notes .note-six .upper-bar .title, .main-content .content-notes #box-notes .note-one .upper-bar .note-six .title .title, .main-content .content-notes #box-notes .note-two .upper-bar .note-six .title .title, .main-content .content-notes #box-notes .note-three .upper-bar .note-six .title .title, .main-content .content-notes #box-notes .note-four .upper-bar .note-six .title .title, .main-content .content-notes #box-notes .note-five .upper-bar .note-six .title .title, .main-content .content-notes #box-notes .note-seven .upper-bar .note-six .title .title, .main-content .content-notes #box-notes .note-eight .upper-bar .note-six .title .title {
             background-color: #FFFFFF;
             width: 50%;
             display: block;
@@ -415,7 +415,7 @@ html {
             -webkit-box-shadow: inset 0 0 3px rgba(46, 61, 73, 0.5);
             -moz-box-shadow: inset 0 0 3px rgba(46, 61, 73, 0.5);
             box-shadow: inset 0 0 3px rgba(46, 61, 73, 0.5); }
-          .main-content .content-notes #box-notes .note-six .upper-bar h3, .main-content .content-notes #box-notes .note-one .upper-bar .note-six .title h3, .main-content .content-notes #box-notes .note-two .upper-bar .note-six .title h3, .main-content .content-notes #box-notes .note-three .upper-bar .note-six .title h3, .main-content .content-notes #box-notes .note-four .upper-bar .note-six .title h3, .main-content .content-notes #box-notes .note-five .upper-bar .note-six .title h3, .main-content .content-notes #box-notes .note-six .upper-bar .title h3, .main-content .content-notes #box-notes .note-seven .upper-bar .note-six .title h3, .main-content .content-notes #box-notes .note-eight .upper-bar .note-six .title h3, .main-content .main-description .addition-note .upper-bar .content-notes #box-notes .note-six .title h3 {
+          .main-content .content-notes #box-notes .note-six .upper-bar h3, .main-content .content-notes #box-notes .note-one .upper-bar .note-six .title h3, .main-content .content-notes #box-notes .note-two .upper-bar .note-six .title h3, .main-content .content-notes #box-notes .note-three .upper-bar .note-six .title h3, .main-content .content-notes #box-notes .note-four .upper-bar .note-six .title h3, .main-content .content-notes #box-notes .note-five .upper-bar .note-six .title h3, .main-content .content-notes #box-notes .note-six .upper-bar .title h3, .main-content .content-notes #box-notes .note-seven .upper-bar .note-six .title h3, .main-content .content-notes #box-notes .note-eight .upper-bar .note-six .title h3 {
             margin: 0;
             padding-top: 0.5rem;
             text-align: center;
@@ -443,14 +443,14 @@ html {
         -moz-box-shadow: 5px 5px 25px 5px rgba(46, 61, 73, 0.5);
         box-shadow: 5px 5px 25px 5px rgba(46, 61, 73, 0.5);
         background-color: #FFC0CB; }
-        .main-content .content-notes #box-notes .note-seven .upper-bar, .main-content .content-notes #box-notes .note-one .upper-bar .note-seven .title, .main-content .content-notes #box-notes .note-two .upper-bar .note-seven .title, .main-content .content-notes #box-notes .note-three .upper-bar .note-seven .title, .main-content .content-notes #box-notes .note-four .upper-bar .note-seven .title, .main-content .content-notes #box-notes .note-five .upper-bar .note-seven .title, .main-content .content-notes #box-notes .note-six .upper-bar .note-seven .title, .main-content .content-notes #box-notes .note-seven .upper-bar .title, .main-content .content-notes #box-notes .note-eight .upper-bar .note-seven .title, .main-content .main-description .addition-note .upper-bar .content-notes #box-notes .note-seven .title {
+        .main-content .content-notes #box-notes .note-seven .upper-bar, .main-content .content-notes #box-notes .note-one .upper-bar .note-seven .title, .main-content .content-notes #box-notes .note-two .upper-bar .note-seven .title, .main-content .content-notes #box-notes .note-three .upper-bar .note-seven .title, .main-content .content-notes #box-notes .note-four .upper-bar .note-seven .title, .main-content .content-notes #box-notes .note-five .upper-bar .note-seven .title, .main-content .content-notes #box-notes .note-six .upper-bar .note-seven .title, .main-content .content-notes #box-notes .note-seven .upper-bar .title, .main-content .content-notes #box-notes .note-eight .upper-bar .note-seven .title {
           width: 100%;
           background-color: #16A085;
           height: 2.2rem;
           border-bottom: 1px solid #16A085;
           border-top-left-radius: 0.2rem;
           border-top-right-radius: 0.2rem; }
-          .main-content .content-notes #box-notes .note-seven .upper-bar .title, .main-content .content-notes #box-notes .note-one .upper-bar .note-seven .title .title, .main-content .content-notes #box-notes .note-two .upper-bar .note-seven .title .title, .main-content .content-notes #box-notes .note-three .upper-bar .note-seven .title .title, .main-content .content-notes #box-notes .note-four .upper-bar .note-seven .title .title, .main-content .content-notes #box-notes .note-five .upper-bar .note-seven .title .title, .main-content .content-notes #box-notes .note-six .upper-bar .note-seven .title .title, .main-content .content-notes #box-notes .note-eight .upper-bar .note-seven .title .title, .main-content .main-description .addition-note .upper-bar .content-notes #box-notes .note-seven .title .title {
+          .main-content .content-notes #box-notes .note-seven .upper-bar .title, .main-content .content-notes #box-notes .note-one .upper-bar .note-seven .title .title, .main-content .content-notes #box-notes .note-two .upper-bar .note-seven .title .title, .main-content .content-notes #box-notes .note-three .upper-bar .note-seven .title .title, .main-content .content-notes #box-notes .note-four .upper-bar .note-seven .title .title, .main-content .content-notes #box-notes .note-five .upper-bar .note-seven .title .title, .main-content .content-notes #box-notes .note-six .upper-bar .note-seven .title .title, .main-content .content-notes #box-notes .note-eight .upper-bar .note-seven .title .title {
             background-color: #FFFFFF;
             width: 50%;
             display: block;
@@ -459,7 +459,7 @@ html {
             -webkit-box-shadow: inset 0 0 3px rgba(46, 61, 73, 0.5);
             -moz-box-shadow: inset 0 0 3px rgba(46, 61, 73, 0.5);
             box-shadow: inset 0 0 3px rgba(46, 61, 73, 0.5); }
-          .main-content .content-notes #box-notes .note-seven .upper-bar h3, .main-content .content-notes #box-notes .note-one .upper-bar .note-seven .title h3, .main-content .content-notes #box-notes .note-two .upper-bar .note-seven .title h3, .main-content .content-notes #box-notes .note-three .upper-bar .note-seven .title h3, .main-content .content-notes #box-notes .note-four .upper-bar .note-seven .title h3, .main-content .content-notes #box-notes .note-five .upper-bar .note-seven .title h3, .main-content .content-notes #box-notes .note-six .upper-bar .note-seven .title h3, .main-content .content-notes #box-notes .note-seven .upper-bar .title h3, .main-content .content-notes #box-notes .note-eight .upper-bar .note-seven .title h3, .main-content .main-description .addition-note .upper-bar .content-notes #box-notes .note-seven .title h3 {
+          .main-content .content-notes #box-notes .note-seven .upper-bar h3, .main-content .content-notes #box-notes .note-one .upper-bar .note-seven .title h3, .main-content .content-notes #box-notes .note-two .upper-bar .note-seven .title h3, .main-content .content-notes #box-notes .note-three .upper-bar .note-seven .title h3, .main-content .content-notes #box-notes .note-four .upper-bar .note-seven .title h3, .main-content .content-notes #box-notes .note-five .upper-bar .note-seven .title h3, .main-content .content-notes #box-notes .note-six .upper-bar .note-seven .title h3, .main-content .content-notes #box-notes .note-seven .upper-bar .title h3, .main-content .content-notes #box-notes .note-eight .upper-bar .note-seven .title h3 {
             margin: 0;
             padding-top: 0.5rem;
             text-align: center;
@@ -487,14 +487,14 @@ html {
         -moz-box-shadow: 5px 5px 25px 5px rgba(46, 61, 73, 0.5);
         box-shadow: 5px 5px 25px 5px rgba(46, 61, 73, 0.5);
         background-color: #FA8072; }
-        .main-content .content-notes #box-notes .note-eight .upper-bar, .main-content .content-notes #box-notes .note-one .upper-bar .note-eight .title, .main-content .content-notes #box-notes .note-two .upper-bar .note-eight .title, .main-content .content-notes #box-notes .note-three .upper-bar .note-eight .title, .main-content .content-notes #box-notes .note-four .upper-bar .note-eight .title, .main-content .content-notes #box-notes .note-five .upper-bar .note-eight .title, .main-content .content-notes #box-notes .note-six .upper-bar .note-eight .title, .main-content .content-notes #box-notes .note-seven .upper-bar .note-eight .title, .main-content .content-notes #box-notes .note-eight .upper-bar .title, .main-content .main-description .addition-note .upper-bar .content-notes #box-notes .note-eight .title {
+        .main-content .content-notes #box-notes .note-eight .upper-bar, .main-content .content-notes #box-notes .note-one .upper-bar .note-eight .title, .main-content .content-notes #box-notes .note-two .upper-bar .note-eight .title, .main-content .content-notes #box-notes .note-three .upper-bar .note-eight .title, .main-content .content-notes #box-notes .note-four .upper-bar .note-eight .title, .main-content .content-notes #box-notes .note-five .upper-bar .note-eight .title, .main-content .content-notes #box-notes .note-six .upper-bar .note-eight .title, .main-content .content-notes #box-notes .note-seven .upper-bar .note-eight .title, .main-content .content-notes #box-notes .note-eight .upper-bar .title {
           width: 100%;
           background-color: #16A085;
           height: 2.2rem;
           border-bottom: 1px solid #16A085;
           border-top-left-radius: 0.2rem;
           border-top-right-radius: 0.2rem; }
-          .main-content .content-notes #box-notes .note-eight .upper-bar .title, .main-content .content-notes #box-notes .note-one .upper-bar .note-eight .title .title, .main-content .content-notes #box-notes .note-two .upper-bar .note-eight .title .title, .main-content .content-notes #box-notes .note-three .upper-bar .note-eight .title .title, .main-content .content-notes #box-notes .note-four .upper-bar .note-eight .title .title, .main-content .content-notes #box-notes .note-five .upper-bar .note-eight .title .title, .main-content .content-notes #box-notes .note-six .upper-bar .note-eight .title .title, .main-content .content-notes #box-notes .note-seven .upper-bar .note-eight .title .title, .main-content .main-description .addition-note .upper-bar .content-notes #box-notes .note-eight .title .title {
+          .main-content .content-notes #box-notes .note-eight .upper-bar .title, .main-content .content-notes #box-notes .note-one .upper-bar .note-eight .title .title, .main-content .content-notes #box-notes .note-two .upper-bar .note-eight .title .title, .main-content .content-notes #box-notes .note-three .upper-bar .note-eight .title .title, .main-content .content-notes #box-notes .note-four .upper-bar .note-eight .title .title, .main-content .content-notes #box-notes .note-five .upper-bar .note-eight .title .title, .main-content .content-notes #box-notes .note-six .upper-bar .note-eight .title .title, .main-content .content-notes #box-notes .note-seven .upper-bar .note-eight .title .title {
             background-color: #FFFFFF;
             width: 50%;
             display: block;
@@ -503,7 +503,7 @@ html {
             -webkit-box-shadow: inset 0 0 3px rgba(46, 61, 73, 0.5);
             -moz-box-shadow: inset 0 0 3px rgba(46, 61, 73, 0.5);
             box-shadow: inset 0 0 3px rgba(46, 61, 73, 0.5); }
-          .main-content .content-notes #box-notes .note-eight .upper-bar h3, .main-content .content-notes #box-notes .note-one .upper-bar .note-eight .title h3, .main-content .content-notes #box-notes .note-two .upper-bar .note-eight .title h3, .main-content .content-notes #box-notes .note-three .upper-bar .note-eight .title h3, .main-content .content-notes #box-notes .note-four .upper-bar .note-eight .title h3, .main-content .content-notes #box-notes .note-five .upper-bar .note-eight .title h3, .main-content .content-notes #box-notes .note-six .upper-bar .note-eight .title h3, .main-content .content-notes #box-notes .note-seven .upper-bar .note-eight .title h3, .main-content .content-notes #box-notes .note-eight .upper-bar .title h3, .main-content .main-description .addition-note .upper-bar .content-notes #box-notes .note-eight .title h3 {
+          .main-content .content-notes #box-notes .note-eight .upper-bar h3, .main-content .content-notes #box-notes .note-one .upper-bar .note-eight .title h3, .main-content .content-notes #box-notes .note-two .upper-bar .note-eight .title h3, .main-content .content-notes #box-notes .note-three .upper-bar .note-eight .title h3, .main-content .content-notes #box-notes .note-four .upper-bar .note-eight .title h3, .main-content .content-notes #box-notes .note-five .upper-bar .note-eight .title h3, .main-content .content-notes #box-notes .note-six .upper-bar .note-eight .title h3, .main-content .content-notes #box-notes .note-seven .upper-bar .note-eight .title h3, .main-content .content-notes #box-notes .note-eight .upper-bar .title h3 {
             margin: 0;
             padding-top: 0.5rem;
             text-align: center;
@@ -531,49 +531,5 @@ html {
       height: 0.5px;
       border: 1px solid #16A085;
       background-color: #16A085; }
-    .main-content .main-description .addition-note {
-      background-color: #FFFFFF;
-      width: 23%;
-      height: 20rem;
-      border-bottom: 1px solid #16A085;
-      border-radius: 0.3rem;
-      float: left;
-      margin-right: 2%;
-      margin-bottom: 2%;
-      -webkit-box-shadow: 5px 5px 25px 5px rgba(46, 61, 73, 0.5);
-      -moz-box-shadow: 5px 5px 25px 5px rgba(46, 61, 73, 0.5);
-      box-shadow: 5px 5px 25px 5px rgba(46, 61, 73, 0.5);
-      background-color: #DAA671; }
-      .main-content .main-description .addition-note .upper-bar, .main-content .main-description .addition-note .content-notes #box-notes .note-one .upper-bar .title, .main-content .content-notes #box-notes .note-one .upper-bar .main-description .addition-note .title, .main-content .main-description .addition-note .content-notes #box-notes .note-two .upper-bar .title, .main-content .content-notes #box-notes .note-two .upper-bar .main-description .addition-note .title, .main-content .main-description .addition-note .content-notes #box-notes .note-three .upper-bar .title, .main-content .content-notes #box-notes .note-three .upper-bar .main-description .addition-note .title, .main-content .main-description .addition-note .content-notes #box-notes .note-four .upper-bar .title, .main-content .content-notes #box-notes .note-four .upper-bar .main-description .addition-note .title, .main-content .main-description .addition-note .content-notes #box-notes .note-five .upper-bar .title, .main-content .content-notes #box-notes .note-five .upper-bar .main-description .addition-note .title, .main-content .main-description .addition-note .content-notes #box-notes .note-six .upper-bar .title, .main-content .content-notes #box-notes .note-six .upper-bar .main-description .addition-note .title, .main-content .main-description .addition-note .content-notes #box-notes .note-seven .upper-bar .title, .main-content .content-notes #box-notes .note-seven .upper-bar .main-description .addition-note .title, .main-content .main-description .addition-note .content-notes #box-notes .note-eight .upper-bar .title, .main-content .content-notes #box-notes .note-eight .upper-bar .main-description .addition-note .title, .main-content .main-description .addition-note .upper-bar .title {
-        width: 100%;
-        background-color: #16A085;
-        height: 2.2rem;
-        border-bottom: 1px solid #16A085;
-        border-top-left-radius: 0.2rem;
-        border-top-right-radius: 0.2rem; }
-        .main-content .main-description .addition-note .upper-bar .title, .main-content .main-description .addition-note .content-notes #box-notes .note-one .upper-bar .title .title, .main-content .content-notes #box-notes .note-one .upper-bar .main-description .addition-note .title .title, .main-content .main-description .addition-note .content-notes #box-notes .note-two .upper-bar .title .title, .main-content .content-notes #box-notes .note-two .upper-bar .main-description .addition-note .title .title, .main-content .main-description .addition-note .content-notes #box-notes .note-three .upper-bar .title .title, .main-content .content-notes #box-notes .note-three .upper-bar .main-description .addition-note .title .title, .main-content .main-description .addition-note .content-notes #box-notes .note-four .upper-bar .title .title, .main-content .content-notes #box-notes .note-four .upper-bar .main-description .addition-note .title .title, .main-content .main-description .addition-note .content-notes #box-notes .note-five .upper-bar .title .title, .main-content .content-notes #box-notes .note-five .upper-bar .main-description .addition-note .title .title, .main-content .main-description .addition-note .content-notes #box-notes .note-six .upper-bar .title .title, .main-content .content-notes #box-notes .note-six .upper-bar .main-description .addition-note .title .title, .main-content .main-description .addition-note .content-notes #box-notes .note-seven .upper-bar .title .title, .main-content .content-notes #box-notes .note-seven .upper-bar .main-description .addition-note .title .title, .main-content .main-description .addition-note .content-notes #box-notes .note-eight .upper-bar .title .title, .main-content .content-notes #box-notes .note-eight .upper-bar .main-description .addition-note .title .title {
-          background-color: #FFFFFF;
-          width: 50%;
-          display: block;
-          margin: 0 auto;
-          border-radius: 0;
-          -webkit-box-shadow: inset 0 0 3px rgba(46, 61, 73, 0.5);
-          -moz-box-shadow: inset 0 0 3px rgba(46, 61, 73, 0.5);
-          box-shadow: inset 0 0 3px rgba(46, 61, 73, 0.5); }
-        .main-content .main-description .addition-note .upper-bar h3, .main-content .main-description .addition-note .content-notes #box-notes .note-one .upper-bar .title h3, .main-content .content-notes #box-notes .note-one .upper-bar .main-description .addition-note .title h3, .main-content .main-description .addition-note .content-notes #box-notes .note-two .upper-bar .title h3, .main-content .content-notes #box-notes .note-two .upper-bar .main-description .addition-note .title h3, .main-content .main-description .addition-note .content-notes #box-notes .note-three .upper-bar .title h3, .main-content .content-notes #box-notes .note-three .upper-bar .main-description .addition-note .title h3, .main-content .main-description .addition-note .content-notes #box-notes .note-four .upper-bar .title h3, .main-content .content-notes #box-notes .note-four .upper-bar .main-description .addition-note .title h3, .main-content .main-description .addition-note .content-notes #box-notes .note-five .upper-bar .title h3, .main-content .content-notes #box-notes .note-five .upper-bar .main-description .addition-note .title h3, .main-content .main-description .addition-note .content-notes #box-notes .note-six .upper-bar .title h3, .main-content .content-notes #box-notes .note-six .upper-bar .main-description .addition-note .title h3, .main-content .main-description .addition-note .content-notes #box-notes .note-seven .upper-bar .title h3, .main-content .content-notes #box-notes .note-seven .upper-bar .main-description .addition-note .title h3, .main-content .main-description .addition-note .content-notes #box-notes .note-eight .upper-bar .title h3, .main-content .content-notes #box-notes .note-eight .upper-bar .main-description .addition-note .title h3, .main-content .main-description .addition-note .upper-bar .title h3 {
-          margin: 0;
-          padding-top: 0.5rem;
-          text-align: center;
-          text-transform: uppercase;
-          font-size: 1rem;
-          font-weight: 500;
-          font-family: "Roboto Slab", serif; }
-      .main-content .main-description .addition-note p {
-        padding-left: 0.8rem;
-        padding-right: 0.8rem;
-        font-size: 1rem;
-        font-family: "Roboto Slab", serif;
-        text-transform: none;
-        line-height: 1.6; }
 
 /*# sourceMappingURL=main.css.map */

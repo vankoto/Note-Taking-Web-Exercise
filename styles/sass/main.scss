@@ -319,9 +319,5 @@ $note-color-add: #DAA671;
       border: 1px solid $hover-color;
       background-color: $hover-color;
     }
-    .addition-note{
-      @include note-content;
-      background-color: $note-color-add;
-    }
   }
 }
