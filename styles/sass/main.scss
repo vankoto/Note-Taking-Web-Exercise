@@ -329,4 +329,26 @@ $note-color-add: #DAA671;
     border: 1px solid $hover-color;
     background-color: $hover-color;
   }
+  .articles{
+    width: 80%;
+    display: block;
+    margin: 3% auto;
+    font-weight: bold;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    font-size: 1rem;
+    font-family: $font;
+    text-transform: none;
+    line-height: 1.6;
+    .left-article-wrapper{
+      width: 50%;
+      float: left;
+      padding-left: 2rem;
+    }
+    .right-article-wrapper{
+      width: 50%;
+      float: right;
+      padding-left: 1.5rem;
+    }
+  }
 }
