@@ -254,6 +254,7 @@ $note-color-add: #DAA671;
   background-color: $msection-color;
   .content-notes{
     overflow: hidden; //The hr line was messing with the content blocks.
+    margin-bottom: 5%;
     h1{
       font-size: 1.75rem;
       font-weight: 500;
@@ -304,20 +305,20 @@ $note-color-add: #DAA671;
       }
     }
   }
-  .main-description{
-    overflow: hidden;
-    h1{
-      font-size: 1.75rem;
-      font-weight: 500;
-      font-family: $font;
-      text-align: center;
-      margin-top: 5%;
-    }
-    hr{
-      width:10%;
-      height: 0.5px;
-      border: 1px solid $hover-color;
-      background-color: $hover-color;
-    }
+}
+.main-description{
+  overflow: hidden;
+  h1{
+    font-size: 1.75rem;
+    font-weight: 500;
+    font-family: $font;
+    text-align: center;
+    margin-top: 5%;
+  }
+  hr{
+    width:10%;
+    height: 0.5px;
+    border: 1px solid $hover-color;
+    background-color: $hover-color;
   }
 }
