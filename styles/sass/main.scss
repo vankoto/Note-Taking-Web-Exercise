@@ -393,7 +393,7 @@ $note-color-add: #DAA671;
       padding: 0;
       float: left;
       margin-top: 3.3%;
-      margin-left: 6%;  
+      margin-left: 6%;
     }
     li{
       line-height: 2;
@@ -413,36 +413,54 @@ $note-color-add: #DAA671;
   .footer-social{
     ul{
       list-style: none;
-      margin-top: 5.2%;
-      margin-left: 44%;
+      margin-top: 5.8%;
+      margin-left: 43%;
     }
     li{
-      margin-left: 1%;
+      margin-left: 2%;
       display: block;
       float: left;
     }
     a.icon{
       background-repeat: no-repeat;
-      background-size: 4.3rem;
+      background-size: 3.5rem;
       cursor: pointer;
       display: block;
-      width: 4.3rem;
-      height: 4.3rem;
+      width: 3.5rem;
+      height: 3.5rem;
+      &:hover{
+        @extend .icon;
+      }
     }
     .facebook{
       background: url("../../images/facebook-icon.png");
+      &:hover{
+        background: url("../../images/facebook-icon-hover.png");
+      }
     }
     .twitter{
       background: url("../../images/twitter-icon.png");
+      &:hover{
+        background: url("../../images/twitter-icon-hover.png");
+      }
     }
     .googleplus{
       background: url("../../images/googleplus-icon.png");
+      &:hover{
+        background: url("../../images/googleplus-icon-hover.png");
+      }
     }
     .instagram{
       background: url("../../images/instagram-icon.png");
+      &:hover{
+        background: url("../../images/instagram-icon-hover.png");
+      }
     }
     .linkedin{
       background: url("../../images/linkedin-icon.png");
+      &:hover{
+        background: url("../../images/linkedin-icon-hover.png");
+      }
     }
   }
 }
