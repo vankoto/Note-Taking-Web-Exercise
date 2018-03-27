@@ -562,4 +562,19 @@ html {
       float: right;
       padding-left: 1.5rem; }
 
+.contact-section {
+  margin-top: 5%;
+  width: 100%;
+  height: 16.5rem;
+  background-color: #16A085;
+  background: linear-gradient(to right, #2C3E50, #16A085);
+  text-align: center;
+  line-height: 1.6;
+  font-family: "Roboto Slab", serif;
+  color: #FFFFFF;
+  font-size: 1.2rem; }
+  .contact-section h1, .contact-section .image-wrapper .overlay h2, .image-wrapper .overlay .contact-section h2, .contact-section .image-wrapper .overlay p, .image-wrapper .overlay .contact-section p {
+    position: relative;
+    top: 1.2rem; }
+
 /*# sourceMappingURL=main.css.map */
