@@ -347,7 +347,7 @@ $note-color-add: #DAA671;
         margin-bottom: 0.7rem;
       }
       p{
-        margin-top: 0;
+        margin: 0;
       }
     }
     .right-article-wrapper{
@@ -373,4 +373,12 @@ $note-color-add: #DAA671;
       position: relative;
       top: 1.2rem;
     }
+}
+
+.footer{
+  margin-top: 6.5%;
+  border-top: 4px solid $hover-color;
+  width: 100%;
+  height: 16rem;
+  background-color: $bg-color;
 }
