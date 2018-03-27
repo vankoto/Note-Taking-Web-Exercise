@@ -381,11 +381,17 @@ $note-color-add: #DAA671;
   width: 100%;
   height: 15rem;
   background-color: $bg-color;
+  .footer-logo{
+  display: block;
+  float: left;
+  margin-top: 6%;
+  margin-left: 13%;
+  }
   .footer-list{
-    width: 70%;
     ul{
     list-style: none;
-    margin: 0;
+    margin-top: 3.5%;
+    margin-left: 6%;
     padding: 0;
     float: left;
     }
