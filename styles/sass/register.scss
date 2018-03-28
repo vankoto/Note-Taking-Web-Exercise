@@ -1,0 +1,193 @@
+//Just resseting the box-sizing of all elements including any pseudo-elements.
+html{
+  //overflow-x: hidden;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+         -o-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+      -webkit-box-sizing: inherit;
+         -moz-box-sizing: inherit;
+          -ms-box-sizing: inherit;
+           -o-box-sizing: inherit;
+              box-sizing: inherit;
+    }
+
+$bg-color: #2C3E50;
+$text-color: #FFFFFF;
+$hover-color: #16A085;
+$font: 'Roboto Slab', serif;
+$msection-color: #EEEFF1;
+
+
+.navbar{
+  ul{
+    background-color: $bg-color;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+  }
+  li{
+    display: inline-block;
+  }
+  a{
+    display: inline-block;
+    color: $text-color;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 2.1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-family: $font;
+    border-bottom: 3px solid transparent;
+    &:hover{
+      color: $hover-color;
+      border-bottom: 3px solid $hover-color;
+    }
+  }
+  img{
+    position: relative;
+    top: 1.3rem;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  .line{
+      border: 0.7px solid $text-color;
+      display: block;
+      width: 400px;
+      margin-bottom: 1%;
+  }
+}
+
+.divider-before-section{
+  padding: 0;
+  margin: 0;
+  height: 5px;
+  border: 1px solid $hover-color;
+  background-color: $hover-color;
+}
+
+
+
+
+
+
+.footer{
+  margin-top: 6.5%;
+  padding: 0;
+  border-top: 4px solid $hover-color;
+  width: 100%;
+  height: auto;
+  background-color: $bg-color;
+  .footer-logo{
+  display: block;
+  float: left;
+  margin-top: 6%;
+  margin-left: 13%;
+  }
+  .footer-list{
+    ul{
+      list-style: none;
+      padding: 0;
+      float: left;
+      margin-top: 3.3%;
+      margin-left: 6%;
+    }
+    li{
+      line-height: 2;
+    }
+    a{
+      color: $text-color;
+      font-family: $font;
+      font-size: 0.9rem;
+      text-decoration: none;
+      &:hover{
+        color: $hover-color;
+        -webkit-transition-duration: 0.1s;
+        transition-duration: 0.1s;
+      }
+    }
+  }
+  .footer-social{
+    ul{
+      list-style: none;
+      margin-top: 5.8%;
+      margin-left: 43%;
+    }
+    li{
+      margin-left: 2%;
+      display: block;
+      float: left;
+    }
+    a.icon{
+      background-repeat: no-repeat;
+      background-size: 3.5rem;
+      cursor: pointer;
+      display: block;
+      width: 3.5rem;
+      height: 3.5rem;
+      &:hover{
+        @extend .icon;
+      }
+    }
+    .facebook{
+      background: url("../../images/facebook-icon.png");
+      &:hover{
+        background: url("../../images/facebook-icon-hover.png");
+      }
+    }
+    .twitter{
+      background: url("../../images/twitter-icon.png");
+      &:hover{
+        background: url("../../images/twitter-icon-hover.png");
+      }
+    }
+    .googleplus{
+      background: url("../../images/googleplus-icon.png");
+      &:hover{
+        background: url("../../images/googleplus-icon-hover.png");
+      }
+    }
+    .instagram{
+      background: url("../../images/instagram-icon.png");
+      &:hover{
+        background: url("../../images/instagram-icon-hover.png");
+      }
+    }
+    .linkedin{
+      background: url("../../images/linkedin-icon.png");
+      &:hover{
+        background: url("../../images/linkedin-icon-hover.png");
+      }
+    }
+  }
+  .footer-divider{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 74.5%;
+    height: 1px;
+    background-color: $hover-color;
+    border: 0 solid $hover-color;
+    overflow: hidden; //If there is no overflow it will position on the same place with
+                      //the other elements in the footer.
+  }
+  h4{
+    margin: 0.7% 0 0 0;
+    padding-bottom: 2rem;
+    text-align: right;
+    width: 87.3%;
+    font-family: $font;
+    font-size: 0.9rem;
+    font-weight: normal;
+    color: $text-color;
+  }
+}
