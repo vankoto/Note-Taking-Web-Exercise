@@ -368,14 +368,21 @@ $note-color-add: #DAA671;
   background-color: $hover-color; //for browsers not supporting gradients
   background: linear-gradient(to right, $bg-color, $hover-color);
   text-align: center;
-  line-height: 1.6;
-  font-family: $font;
-  color: $text-color;
-  font-size: 1.2rem;
-  h1{
-      position: relative;
-      top: 1.2rem;
-    }
+  .contact-wrapper{
+    display: inline-block;
+    margin-top: 1%;
+    line-height: 1.6;
+    font-family: $font;
+    color: $text-color;
+    font-size: 1.1rem;
+    h1{
+        padding: 0;
+        margin: 0;
+        position: relative;
+        top: 0.5rem;
+        font-weight: normal;
+      }
+  }
 }
 
 .footer{

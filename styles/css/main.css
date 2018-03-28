@@ -571,14 +571,20 @@ html {
   height: 16.5rem;
   background-color: #16A085;
   background: linear-gradient(to right, #2C3E50, #16A085);
-  text-align: center;
-  line-height: 1.6;
-  font-family: "Roboto Slab", serif;
-  color: #FFFFFF;
-  font-size: 1.2rem; }
-  .contact-section h1, .contact-section .image-wrapper .overlay h2, .image-wrapper .overlay .contact-section h2, .contact-section .image-wrapper .overlay p, .image-wrapper .overlay .contact-section p {
-    position: relative;
-    top: 1.2rem; }
+  text-align: center; }
+  .contact-section .contact-wrapper {
+    display: inline-block;
+    margin-top: 1%;
+    line-height: 1.6;
+    font-family: "Roboto Slab", serif;
+    color: #FFFFFF;
+    font-size: 1.1rem; }
+    .contact-section .contact-wrapper h1, .contact-section .contact-wrapper .image-wrapper .overlay h2, .image-wrapper .overlay .contact-section .contact-wrapper h2, .contact-section .contact-wrapper .image-wrapper .overlay p, .image-wrapper .overlay .contact-section .contact-wrapper p {
+      padding: 0;
+      margin: 0;
+      position: relative;
+      top: 0.5rem;
+      font-weight: normal; }
 
 .footer {
   margin-top: 6.5%;
