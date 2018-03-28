@@ -137,6 +137,10 @@ $note-color-add: #DAA671;
 .image-wrapper{
   position:relative;
   .introimg{
+    background: url("../../images/takingnotes.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     display:block;
     width: 100%;
     height: 35.5rem;
