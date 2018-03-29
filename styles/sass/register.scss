@@ -24,14 +24,23 @@ $hover-color: #16A085;
 $font: 'Roboto Slab', serif;
 $wrapper-bg-color: rgba(22, 160, 133, 0.7);
 $content-bg-color: rgba(44,62,80, 0.9);
+$box-shadow: rgba(46,61,73,0.5);
 
-@mixin box-shadow($shadow-box: 0 0 25px 5px rgba(46,61,73,0.5)){
-  -webkit-box-shadow: $shadow-box;
-     -moz-box-shadow: $shadow-box;
-      -ms-box-shadow: $shadow-box;
-       -o-box-shadow: $shadow-box;
-          box-shadow: $shadow-box;
+@mixin box-shadow($box-shadow: 0 0 25px 5px $box-shadow){
+  -webkit-box-shadow: $box-shadow;
+     -moz-box-shadow: $box-shadow;
+      -ms-box-shadow: $box-shadow;
+       -o-box-shadow: $box-shadow;
+          box-shadow: $box-shadow;
 }
+@mixin box-focus($box-shadow: inset 0px 0px 5px 1px $wrapper-bg-color){
+  -webkit-box-shadow: $box-shadow;
+     -moz-box-shadow: $box-shadow;
+      -ms-box-shadow: $box-shadow;
+       -o-box-shadow: $box-shadow;
+          box-shadow: $box-shadow;
+}
+
 
 
 .navbar{
@@ -103,7 +112,37 @@ $content-bg-color: rgba(44,62,80, 0.9);
     @include box-shadow();
   }
   .main-content{
-
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    img{
+      display: block;
+      margin: 10% auto 0 auto;
+    }
+    form{
+      .first-name{
+        float: left;
+        width: 48%;
+      }
+      .last-name{
+        float: right;
+        width: 48%;
+      }
+    input[type]{
+      width: 100%;
+      margin-top: 5%;
+      padding: 0.5rem 0.5rem;
+      border: 1px solid $hover-color;
+      border-radius: 0.2rem;
+      outline: none;
+      &:focus{
+        @include box-focus();
+      }
+    }
+    input[type=submit]{
+      //margin-top: 8%;
+    }
+    }
   }
 }
 
