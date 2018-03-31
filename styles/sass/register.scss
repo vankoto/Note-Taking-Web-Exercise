@@ -26,7 +26,7 @@ $wrapper-bg-color: rgba(22, 160, 133, 0.7);
 $content-bg-color: rgba(44,62,80, 0.9);
 $box-shadow: rgba(46,61,73,0.5);
 
-@mixin box-shadow($box-shadow: 0 0 25px 5px $box-shadow){
+@mixin box-shadow($box-shadow: 0 0 25px 2px $box-shadow){
   -webkit-box-shadow: $box-shadow;
      -moz-box-shadow: $box-shadow;
       -ms-box-shadow: $box-shadow;
@@ -34,6 +34,13 @@ $box-shadow: rgba(46,61,73,0.5);
           box-shadow: $box-shadow;
 }
 @mixin box-focus($box-shadow: inset 0px 0px 5px 1px $wrapper-bg-color){
+  -webkit-box-shadow: $box-shadow;
+     -moz-box-shadow: $box-shadow;
+      -ms-box-shadow: $box-shadow;
+       -o-box-shadow: $box-shadow;
+          box-shadow: $box-shadow;
+}
+@mixin box-focus-btn($box-shadow: inset 0px 0px 5px 1px $bg-color){
   -webkit-box-shadow: $box-shadow;
      -moz-box-shadow: $box-shadow;
       -ms-box-shadow: $box-shadow;
@@ -115,9 +122,35 @@ $box-shadow: rgba(46,61,73,0.5);
     width: 60%;
     display: block;
     margin: 0 auto;
+    text-align: center;
     img{
       display: block;
-      margin: 10% auto 0 auto;
+      margin: 7% auto 0 auto;
+    }
+    h1{
+      font-family: $font;
+      color: $hover-color;
+      margin: 5% auto 3% auto;
+      font-weight: normal;
+    }
+    h3{
+      @extend h1;
+      margin: 2% auto 3% auto;
+    }
+    h4{
+      @extend h1;
+      font-weight: normal;
+      margin-top: 13%;
+      color: $text-color;
+      a{
+        color: $bg-color;
+        text-decoration: underline;
+        &:hover{
+          color: $text-color;
+          -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+        }
+      }
     }
     form{
       .first-name{
@@ -132,7 +165,7 @@ $box-shadow: rgba(46,61,73,0.5);
       width: 100%;
       margin-top: 5%;
       padding: 0.5rem 0.5rem;
-      border: 1px solid $hover-color;
+      border: 1px solid $bg-color;
       border-radius: 0.2rem;
       outline: none;
       &:focus{
@@ -140,7 +173,12 @@ $box-shadow: rgba(46,61,73,0.5);
       }
     }
     input[type=submit]{
-      //margin-top: 8%;
+      font-family: $font;
+      cursor: pointer;
+      background-color: $hover-color;
+      &:active{
+        @include box-focus-btn();
+      }
     }
     }
   }
