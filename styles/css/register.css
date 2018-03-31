@@ -128,7 +128,8 @@ body {
     .main-wrapper .main-content form input[type=submit] {
       font-family: "Roboto Slab", serif;
       cursor: pointer;
-      background-color: #16A085; }
+      background-color: #16A085;
+      color: #FFFFFF; }
       .main-wrapper .main-content form input[type=submit]:active {
         -webkit-box-shadow: inset 0px 0px 5px 1px #2C3E50;
         -moz-box-shadow: inset 0px 0px 5px 1px #2C3E50;

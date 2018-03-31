@@ -180,6 +180,7 @@ body{
       font-family: $font;
       cursor: pointer;
       background-color: $hover-color;
+      color: $text-color;
       &:active{
         @include box-focus-btn();
       }
