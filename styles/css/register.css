@@ -14,6 +14,9 @@ html {
   -o-box-sizing: inherit;
   box-sizing: inherit; }
 
+body {
+  background-color: rgba(22, 160, 133, 0.7); }
+
 .navbar ul {
   background-color: #2C3E50;
   margin: 0;
@@ -56,44 +59,35 @@ html {
   background-color: #16A085; }
 
 .main-wrapper {
-  display: block;
-  width: 100%;
-  height: 40rem;
-  background-color: rgba(22, 160, 133, 0.7); }
-  .main-wrapper .main-content-frame {
-    position: absolute;
-    width: 80%;
-    height: 25.5rem;
-    border-left: 1px solid white;
-    border-right: 1px solid white;
-    top: 10%;
-    left: 10%;
-    z-index: -1; }
+  margin-top: 5%;
+  margin-bottom: 5%; }
   .main-wrapper .main-content-wrapper {
-    position: relative;
-    top: 10%;
     display: block;
     margin: 0 auto;
     width: 50%;
+    max-width: 70rem;
     min-width: 20rem;
-    height: 32rem;
+    height: auto;
     background-color: rgba(44, 62, 80, 0.9);
     border: 3px solid #2C3E50;
     border-radius: 0.2rem;
-    z-index: 1;
     -webkit-box-shadow: 0 0 25px 2px rgba(46, 61, 73, 0.5);
     -moz-box-shadow: 0 0 25px 2px rgba(46, 61, 73, 0.5);
     -ms-box-shadow: 0 0 25px 2px rgba(46, 61, 73, 0.5);
     -o-box-shadow: 0 0 25px 2px rgba(46, 61, 73, 0.5);
     box-shadow: 0 0 25px 2px rgba(46, 61, 73, 0.5); }
   .main-wrapper .main-content {
-    width: 60%;
+    width: 80%;
     display: block;
-    margin: 0 auto;
-    text-align: center; }
+    margin: 5% auto;
+    text-align: center;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding-left: 5.2rem;
+    padding-right: 5.2rem; }
     .main-wrapper .main-content img {
       display: block;
-      margin: 7% auto 0 auto; }
+      margin: 0 auto; }
     .main-wrapper .main-content h1, .main-wrapper .main-content h3, .main-wrapper .main-content h4 {
       font-family: "Roboto Slab", serif;
       color: #16A085;
@@ -103,10 +97,10 @@ html {
       margin: 2% auto 3% auto; }
     .main-wrapper .main-content h4 {
       font-weight: normal;
-      margin-top: 13%;
+      margin-top: 8%;
       color: #FFFFFF; }
       .main-wrapper .main-content h4 a {
-        color: #2C3E50;
+        color: #16A085;
         text-decoration: underline; }
         .main-wrapper .main-content h4 a:hover {
           color: #FFFFFF;
@@ -121,7 +115,7 @@ html {
     .main-wrapper .main-content form input[type] {
       width: 100%;
       margin-top: 5%;
-      padding: 0.5rem 0.5rem;
+      padding: 0.6rem 0.6rem;
       border: 1px solid #2C3E50;
       border-radius: 0.2rem;
       outline: none; }
@@ -143,6 +137,7 @@ html {
         box-shadow: inset 0px 0px 5px 1px #2C3E50; }
 
 .footer {
+  margin-top: 1%;
   padding: 0;
   border-top: 4px solid #16A085;
   width: 100%;
