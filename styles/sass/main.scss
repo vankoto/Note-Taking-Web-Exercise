@@ -251,10 +251,12 @@ $note-color-add: #DAA671;
 //Here for the h1 of content-notes I can have properties from h1 intro section
 //but I cannot extend nested selectors, (workaround is to use a placeholder) but..
 //I prefer to rewrite some code instead.
+//I could use a max-width for the whole body, but this time I am doing it for specific elements.
 .main-content{
   display: block;
   margin: 0 auto;
   width: 100%;
+  max-width: 150rem;
   height: auto;
   border-top: 0.5px solid $hover-color;
   border-bottom: 0.5px solid $hover-color;
@@ -323,6 +325,8 @@ $note-color-add: #DAA671;
 }
 .main-description{
   overflow: hidden;
+  max-width: 180rem;
+  margin: 0 auto;
   h1{
     font-size: 1.75rem;
     font-weight: 500;
@@ -366,8 +370,9 @@ $note-color-add: #DAA671;
 }
 
 .contact-section{
-  margin-top: 5%;
+  margin: 6% auto;
   width: 100%;
+  max-width: 150rem;
   height: 16.5rem;
   background-color: $hover-color; //for browsers not supporting gradients
   background: linear-gradient(to right, $bg-color, $hover-color);
@@ -396,6 +401,11 @@ $note-color-add: #DAA671;
   width: 100%;
   height: auto;
   background-color: $bg-color;
+  .footer-container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 185rem;
+  }
   .footer-logo{
   display: block;
   float: left;
@@ -428,11 +438,14 @@ $note-color-add: #DAA671;
   .footer-social{
     ul{
       list-style: none;
+      float: left;
+      padding: 0;
       margin-top: 5.8%;
-      margin-left: 43%;
+      margin-left: 8%;
+      width: 25%;
     }
     li{
-      margin-left: 2%;
+      margin-left: 4%;
       display: block;
       float: left;
     }

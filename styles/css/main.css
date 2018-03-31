@@ -153,6 +153,7 @@ html {
   display: block;
   margin: 0 auto;
   width: 100%;
+  max-width: 150rem;
   height: auto;
   border-top: 0.5px solid #16A085;
   border-bottom: 0.5px solid #16A085;
@@ -535,7 +536,9 @@ html {
     background-color: #16A085; }
 
 .main-description {
-  overflow: hidden; }
+  overflow: hidden;
+  max-width: 180rem;
+  margin: 0 auto; }
   .main-description h1, .main-description .image-wrapper .overlay h2, .image-wrapper .overlay .main-description h2, .main-description .image-wrapper .overlay p, .image-wrapper .overlay .main-description p {
     font-size: 1.75rem;
     font-weight: 500;
@@ -570,8 +573,9 @@ html {
       padding-left: 1.5rem; }
 
 .contact-section {
-  margin-top: 5%;
+  margin: 6% auto;
   width: 100%;
+  max-width: 150rem;
   height: 16.5rem;
   background-color: #16A085;
   background: linear-gradient(to right, #2C3E50, #16A085);
@@ -597,6 +601,10 @@ html {
   width: 100%;
   height: auto;
   background-color: #2C3E50; }
+  .footer .footer-container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 185rem; }
   .footer .footer-logo {
     display: block;
     float: left;
@@ -621,10 +629,13 @@ html {
       transition-duration: 0.1s; }
   .footer .footer-social ul {
     list-style: none;
+    float: left;
+    padding: 0;
     margin-top: 5.8%;
-    margin-left: 43%; }
+    margin-left: 8%;
+    width: 25%; }
   .footer .footer-social li {
-    margin-left: 2%;
+    margin-left: 4%;
     display: block;
     float: left; }
   .footer .footer-social a.icon, .footer .footer-social a.icon:hover {

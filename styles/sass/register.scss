@@ -189,15 +189,18 @@ body{
   }
 }
 
-
-
 .footer{
-  margin-top: 1%;
+  margin-top: 6.5%;
   padding: 0;
   border-top: 4px solid $hover-color;
   width: 100%;
   height: auto;
   background-color: $bg-color;
+  .footer-container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 185rem;
+  }
   .footer-logo{
   display: block;
   float: left;
@@ -230,8 +233,11 @@ body{
   .footer-social{
     ul{
       list-style: none;
+      float: left;
+      padding: 0;
       margin-top: 5.8%;
-      margin-left: 43%;
+      margin-left: 8%;
+      width: 25%;
     }
     li{
       margin-left: 2%;
