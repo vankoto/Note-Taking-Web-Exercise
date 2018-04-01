@@ -105,6 +105,7 @@ $close-btn: #AC2925;
 }
 
 .modal-overlay{
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -115,7 +116,7 @@ $close-btn: #AC2925;
 }
 
 .modal-box{
-  display: block;
+  display: none;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -141,7 +142,7 @@ $close-btn: #AC2925;
   padding-right: 5.2rem;
   img{
     display: block;
-    margin: 0 auto;
+    margin: 7% auto;
   }
   h1{
     font-family: $font;
@@ -222,8 +223,8 @@ $close-btn: #AC2925;
     width: 100%;
   }
   input[type=checkbox]{
-    width: 1rem;
-    height: 1rem;
+    width: 0.9rem;
+    height: 0.9rem;
     margin: 0;
     padding: 0;
     vertical-align: bottom;
@@ -234,6 +235,7 @@ $close-btn: #AC2925;
     font-family: $font;
     color: $text-color;
     padding-left: 2%;
+    font-size: 0.9rem;
   }
   }
 }
@@ -572,6 +574,9 @@ $close-btn: #AC2925;
       float: left;
       margin-top: 3.3%;
       margin-left: 6%;
+      .current{
+        color: $hover-color;
+      }
     }
     li{
       line-height: 2;
@@ -586,6 +591,7 @@ $close-btn: #AC2925;
         -webkit-transition-duration: 0.1s;
         transition-duration: 0.1s;
       }
+
     }
   }
   .footer-social{
