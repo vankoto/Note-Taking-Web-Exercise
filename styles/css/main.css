@@ -43,7 +43,6 @@ html {
   width: 80%;
   display: block;
   margin: 5% auto;
-  text-align: center;
   border-left: 1px solid white;
   border-right: 1px solid white;
   padding-left: 5.2rem;
@@ -55,32 +54,33 @@ html {
     font-family: "Roboto Slab", serif;
     color: #16A085;
     margin: 5% auto 3% auto;
-    font-weight: normal; }
+    font-weight: normal;
+    text-align: center; }
   .modal-content h4 {
     font-weight: normal;
     color: #FFFFFF; }
     .modal-content h4 a {
       color: #16A085;
-      text-decoration: underline; }
+      text-decoration: none; }
       .modal-content h4 a:hover {
         color: #FFFFFF;
         -webkit-transition-duration: 0.2s;
         transition-duration: 0.2s; }
   .modal-content form .login-button, .modal-content form .close-button {
     margin-top: 2%;
-    margin-bottom: 10%;
+    margin-bottom: 3%;
     float: left;
     width: 48%; }
   .modal-content form .close-button {
     float: right; }
-  .modal-content form input[type] {
+  .modal-content form input[type], .modal-content form .close-btn {
     width: 100%;
     margin-top: 5%;
     padding: 0.6rem 0.6rem;
     border: 1px solid #2C3E50;
     border-radius: 0.2rem;
     outline: none; }
-    .modal-content form input[type]:focus {
+    .modal-content form input[type]:focus, .modal-content form .close-btn:focus {
       -webkit-box-shadow: inset 0px 0px 5px 1px rgba(22, 160, 133, 0.5);
       -moz-box-shadow: inset 0px 0px 5px 1px rgba(22, 160, 133, 0.5);
       -ms-box-shadow: inset 0px 0px 5px 1px rgba(22, 160, 133, 0.5);
@@ -97,6 +97,42 @@ html {
       -ms-box-shadow: inset 0px 0px 5px 1px #2C3E50;
       -o-box-shadow: inset 0px 0px 5px 1px #2C3E50;
       box-shadow: inset 0px 0px 5px 1px #2C3E50; }
+    .modal-content form input[type=submit]:hover {
+      background-color: #FFFFFF;
+      color: #16A085;
+      -webkit-transition-duration: 0.2s;
+      transition-duration: 0.2s; }
+  .modal-content form .close-btn {
+    font-family: "Roboto Slab", serif;
+    cursor: pointer;
+    background-color: #AC2925;
+    color: #FFFFFF; }
+    .modal-content form .close-btn:active {
+      -webkit-box-shadow: inset 0px 0px 5px 1px #2C3E50;
+      -moz-box-shadow: inset 0px 0px 5px 1px #2C3E50;
+      -ms-box-shadow: inset 0px 0px 5px 1px #2C3E50;
+      -o-box-shadow: inset 0px 0px 5px 1px #2C3E50;
+      box-shadow: inset 0px 0px 5px 1px #2C3E50; }
+    .modal-content form .close-btn:hover {
+      background-color: #FFFFFF;
+      color: #AC2925;
+      -webkit-transition-duration: 0.2s;
+      transition-duration: 0.2s; }
+  .modal-content form label {
+    display: inline-block;
+    width: 100%; }
+  .modal-content form input[type=checkbox] {
+    width: 1rem;
+    height: 1rem;
+    margin: 0;
+    padding: 0;
+    vertical-align: bottom;
+    position: relative;
+    top: -0.1rem; }
+  .modal-content form .remember-me {
+    font-family: "Roboto Slab", serif;
+    color: #FFFFFF;
+    padding-left: 2%; }
 
 .navbar ul {
   background-color: #2C3E50;
