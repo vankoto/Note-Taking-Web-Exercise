@@ -85,6 +85,22 @@ $note-color-add: #DAA671;
       line-height: 1.6;
       }
 }
+
+.modal-box{
+  display: block;
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  min-width: 30rem;
+  max-width: 60rem;
+  height: 600px;
+  max-height: 100%;
+  background-color: $bg-color;
+  z-index: 999;
+}
+
 .navbar{
   ul{
     background-color: $bg-color;

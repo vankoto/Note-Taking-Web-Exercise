@@ -14,6 +14,20 @@ html {
   -o-box-sizing: inherit;
   box-sizing: inherit; }
 
+.modal-box {
+  display: block;
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  min-width: 30rem;
+  max-width: 60rem;
+  height: 600px;
+  max-height: 100%;
+  background-color: #2C3E50;
+  z-index: 999; }
+
 .navbar ul {
   background-color: #2C3E50;
   margin: 0;
