@@ -14,6 +14,29 @@
 </head>
 <body>
 
+  <div class="modal-overlay"></div>
+    <div class="modal-box">
+      <div class="modal-content">
+        <img src="images/logo-mx.png" alt="Company logo">
+        <h1>Login</h1>
+        <form action="" method="post">
+          <input type="email" id="eAddress" name="email" placeholder="Email" required>
+          <input type="password" id="uPassword" minlength="8" maxlength="128" placeholder="Password" required>
+          <div class="login-button">
+          <input type="submit" value="Login">
+          </div>
+          <div class="close-button">
+          <button type="button" class="close-btn" onclick="closeFunction()">Cancel</button>
+          </div>
+          <label>
+          <input type="checkbox" name="remember"><span class="remember-me">Remember me</span>
+          </label>
+          <span><h4><a href="">Reset password</a></h4></span>
+          <span><h4><a href="register.html">Register</a></h4></span>
+        </form>
+      </div>
+    </div>
+
   <header>
     <nav class="navbar">
       <!--Added comment trick for the blank space between the list elements-->
@@ -23,7 +46,7 @@
      --><li><a href="#">Erase</a></li>
         <img src="images/logo-mx.png" alt="Company logo">
         <li><a href="register.html">Register</a></li><!--
-     --><li><a href="#">Login</a></li>
+     --><li><a href="#" onclick="loginFunction()">Login</a></li>
         <li><div class="line"></div></li>
       </ul>
     </nav>
@@ -48,7 +71,7 @@
           <input type="password" id="uPassword" minlength="8" maxlength="128" placeholder="Password" required>
           <input type="password" id="rPassword" minlength="8" maxlength="128" placeholder="Confirm Password" required>
           <input type="submit" value="Register Now">
-          <span><h4>Already have an account? <a href="">Login</a></h4></span>
+          <span><h4>Already have an account? <a href="#" onclick="loginFunction()">Login</a></h4></span>
         </form>
       </div>
     </div>
@@ -67,8 +90,8 @@
           <li><a href="#">Check Notes</a></li>
         </ul>
         <ul>
-          <li><a href="register.html">Register</a></li>
-          <li><a href="#">Login</a></li>
+          <li><a href="register.html" class="current">Register</a></li>
+          <li><a href="#" onclick="loginFunction()">Login</a></li>
         </ul>
       </div>
       <!--Usually I would create the icons myself but for right now I took them from this website.

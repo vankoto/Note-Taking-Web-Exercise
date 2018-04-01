@@ -17,6 +17,128 @@ html {
 body {
   background-color: rgba(22, 160, 133, 0.7); }
 
+.modal-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 998;
+  background-color: rgba(22, 160, 133, 0.5); }
+
+.modal-box {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  min-width: 30rem;
+  max-width: 60rem;
+  height: auto;
+  max-height: 100%;
+  background-color: #2c3e50;
+  border: 3px solid #2C3E50;
+  border-radius: 0.2rem;
+  z-index: 999; }
+
+.modal-content {
+  width: 80%;
+  display: block;
+  margin: 5% auto;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  padding-left: 5.2rem;
+  padding-right: 5.2rem; }
+  .modal-content img {
+    display: block;
+    margin: 7% auto; }
+  .modal-content h1, .modal-content h4, .modal-content .main-wrapper .main-content h3, .main-wrapper .main-content .modal-content h3, .modal-content .main-wrapper .main-content h4, .main-wrapper .main-content .modal-content h4 {
+    font-family: "Roboto Slab", serif;
+    color: #16A085;
+    margin: 5% auto 3% auto;
+    font-weight: normal;
+    text-align: center; }
+  .modal-content h4 {
+    font-weight: normal;
+    color: #FFFFFF; }
+    .modal-content h4 a {
+      color: #16A085;
+      text-decoration: none; }
+      .modal-content h4 a:hover {
+        color: #FFFFFF;
+        -webkit-transition-duration: 0.2s;
+        transition-duration: 0.2s; }
+  .modal-content form .login-button, .modal-content form .close-button {
+    margin-top: 2%;
+    margin-bottom: 3%;
+    float: left;
+    width: 48%; }
+  .modal-content form .close-button {
+    float: right; }
+  .modal-content form input[type], .modal-content form .close-btn {
+    width: 100%;
+    margin-top: 5%;
+    padding: 0.6rem 0.6rem;
+    border: 1px solid #2C3E50;
+    border-radius: 0.2rem;
+    outline: none; }
+    .modal-content form input[type]:focus, .modal-content form .close-btn:focus {
+      -webkit-box-shadow: inset 0px 0px 5px 1px rgba(22, 160, 133, 0.7);
+      -moz-box-shadow: inset 0px 0px 5px 1px rgba(22, 160, 133, 0.7);
+      -ms-box-shadow: inset 0px 0px 5px 1px rgba(22, 160, 133, 0.7);
+      -o-box-shadow: inset 0px 0px 5px 1px rgba(22, 160, 133, 0.7);
+      box-shadow: inset 0px 0px 5px 1px rgba(22, 160, 133, 0.7); }
+  .modal-content form input[type=submit] {
+    font-family: "Roboto Slab", serif;
+    cursor: pointer;
+    background-color: #16A085;
+    color: #FFFFFF; }
+    .modal-content form input[type=submit]:active {
+      -webkit-box-shadow: inset 0px 0px 5px 1px #2C3E50;
+      -moz-box-shadow: inset 0px 0px 5px 1px #2C3E50;
+      -ms-box-shadow: inset 0px 0px 5px 1px #2C3E50;
+      -o-box-shadow: inset 0px 0px 5px 1px #2C3E50;
+      box-shadow: inset 0px 0px 5px 1px #2C3E50; }
+    .modal-content form input[type=submit]:hover {
+      background-color: #FFFFFF;
+      color: #16A085;
+      -webkit-transition-duration: 0.2s;
+      transition-duration: 0.2s; }
+  .modal-content form .close-btn {
+    font-family: "Roboto Slab", serif;
+    cursor: pointer;
+    background-color: #AC2925;
+    color: #FFFFFF; }
+    .modal-content form .close-btn:active {
+      -webkit-box-shadow: inset 0px 0px 5px 1px #2C3E50;
+      -moz-box-shadow: inset 0px 0px 5px 1px #2C3E50;
+      -ms-box-shadow: inset 0px 0px 5px 1px #2C3E50;
+      -o-box-shadow: inset 0px 0px 5px 1px #2C3E50;
+      box-shadow: inset 0px 0px 5px 1px #2C3E50; }
+    .modal-content form .close-btn:hover {
+      background-color: #FFFFFF;
+      color: #AC2925;
+      -webkit-transition-duration: 0.2s;
+      transition-duration: 0.2s; }
+  .modal-content form label {
+    display: inline-block;
+    width: 100%; }
+  .modal-content form input[type=checkbox] {
+    width: 0.9rem;
+    height: 0.9rem;
+    margin: 0;
+    padding: 0;
+    vertical-align: bottom;
+    position: relative;
+    top: -0.1rem; }
+  .modal-content form .remember-me {
+    font-family: "Roboto Slab", serif;
+    color: #FFFFFF;
+    padding-left: 2%;
+    font-size: 0.9rem; }
+
 .navbar ul {
   background-color: #2C3E50;
   margin: 0;
@@ -112,14 +234,14 @@ body {
     .main-wrapper .main-content form .last-name {
       float: right;
       width: 48%; }
-    .main-wrapper .main-content form input[type] {
+    .main-wrapper .main-content form input[type], .main-wrapper .main-content .modal-content form .close-btn, .modal-content .main-wrapper .main-content form .close-btn {
       width: 100%;
       margin-top: 5%;
       padding: 0.6rem 0.6rem;
       border: 1px solid #2C3E50;
       border-radius: 0.2rem;
       outline: none; }
-      .main-wrapper .main-content form input[type]:focus {
+      .main-wrapper .main-content form input[type]:focus, .main-wrapper .main-content .modal-content form .close-btn:focus, .modal-content .main-wrapper .main-content form .close-btn:focus {
         -webkit-box-shadow: inset 0px 0px 5px 1px rgba(22, 160, 133, 0.7);
         -moz-box-shadow: inset 0px 0px 5px 1px rgba(22, 160, 133, 0.7);
         -ms-box-shadow: inset 0px 0px 5px 1px rgba(22, 160, 133, 0.7);
@@ -136,6 +258,11 @@ body {
         -ms-box-shadow: inset 0px 0px 5px 1px #2C3E50;
         -o-box-shadow: inset 0px 0px 5px 1px #2C3E50;
         box-shadow: inset 0px 0px 5px 1px #2C3E50; }
+      .main-wrapper .main-content form input[type=submit]:hover {
+        background-color: #FFFFFF;
+        color: #16A085;
+        -webkit-transition-duration: 0.2s;
+        transition-duration: 0.2s; }
 
 .footer {
   margin-top: 6.5%;
@@ -159,6 +286,8 @@ body {
     float: left;
     margin-top: 3.3%;
     margin-left: 6%; }
+    .footer .footer-list ul .current {
+      color: #16A085; }
   .footer .footer-list li {
     line-height: 2; }
   .footer .footer-list a {

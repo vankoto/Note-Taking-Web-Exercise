@@ -25,6 +25,9 @@ $font: 'Roboto Slab', serif;
 $wrapper-bg-color: rgba(22, 160, 133, 0.7);
 $content-bg-color: rgba(44,62,80, 0.9);
 $box-shadow: rgba(46,61,73,0.5);
+$mod-overlay-color: rgba(22, 160, 133, 0.5);
+$contentlog-bg-color: rgba(44,62,80, 1);
+$close-btn: #AC2925;
 
 @mixin box-shadow($box-shadow: 0 0 25px 2px $box-shadow){
   -webkit-box-shadow: $box-shadow;
@@ -48,9 +51,144 @@ $box-shadow: rgba(46,61,73,0.5);
           box-shadow: $box-shadow;
 }
 
-
 body{
   background-color: $wrapper-bg-color;
+}
+
+.modal-overlay{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 998;
+  background-color: $mod-overlay-color;
+}
+
+.modal-box{
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  min-width: 30rem;
+  max-width: 60rem;
+  height: auto;
+  max-height: 100%;
+  background-color: $contentlog-bg-color;
+  border: 3px solid $bg-color;
+  border-radius: 0.2rem;
+  z-index: 999;
+}
+
+.modal-content{
+  width: 80%;
+  display: block;
+  margin: 5% auto;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  padding-left: 5.2rem;
+  padding-right: 5.2rem;
+  img{
+    display: block;
+    margin: 7% auto;
+  }
+  h1{
+    font-family: $font;
+    color: $hover-color;
+    margin: 5% auto 3% auto;
+    font-weight: normal;
+    text-align: center
+  }
+  h4{
+    @extend h1;
+    font-weight: normal;
+    color: $text-color;
+    a{
+      color: $hover-color;
+      text-decoration: none;
+      &:hover{
+        color: $text-color;
+        -webkit-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+      }
+    }
+  }
+  form{
+    .login-button{
+      margin-top: 2%;
+      margin-bottom: 3%;
+      float: left;
+      width: 48%;
+    }
+    .close-button{
+      float: right;
+      @extend .login-button;
+    }
+  input[type]{
+    width: 100%;
+    margin-top: 5%;
+    padding: 0.6rem 0.6rem;
+    border: 1px solid $bg-color;
+    border-radius: 0.2rem;
+    outline: none;
+    &:focus{
+      @include box-focus();
+    }
+  }
+  input[type=submit]{
+    font-family: $font;
+    cursor: pointer;
+    background-color: $hover-color;
+    color: $text-color;
+    &:active{
+      @include box-focus-btn();
+    }
+    &:hover{
+      background-color: $text-color;
+      color: $hover-color;
+      -webkit-transition-duration: 0.2s;
+      transition-duration: 0.2s;
+    }
+  }
+  .close-btn{
+    @extend input[type];
+    font-family: $font;
+    cursor: pointer;
+    background-color: $close-btn;
+    color: $text-color;
+    &:active{
+      @include box-focus-btn();
+    }
+    &:hover{
+      background-color: $text-color;
+      color: $close-btn;
+      -webkit-transition-duration: 0.2s;
+      transition-duration: 0.2s;
+    }
+  }
+  label{
+    display: inline-block;
+    width: 100%;
+  }
+  input[type=checkbox]{
+    width: 0.9rem;
+    height: 0.9rem;
+    margin: 0;
+    padding: 0;
+    vertical-align: bottom;
+    position: relative;
+    top: -0.1rem;
+  }
+  .remember-me{
+    font-family: $font;
+    color: $text-color;
+    padding-left: 2%;
+    font-size: 0.9rem;
+  }
+  }
 }
 
 .navbar{
@@ -184,6 +322,12 @@ body{
       &:active{
         @include box-focus-btn();
       }
+      &:hover{
+        background-color: $text-color;
+        color: $hover-color;
+        -webkit-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+      }
     }
     }
   }
@@ -214,6 +358,9 @@ body{
       float: left;
       margin-top: 3.3%;
       margin-left: 6%;
+      .current{
+        color: $hover-color;
+      }
     }
     li{
       line-height: 2;
