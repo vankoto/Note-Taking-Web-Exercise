@@ -172,6 +172,9 @@ body {
   display: block;
   width: 400px;
   margin-bottom: 1%; }
+.navbar .disabled {
+  pointer-events: none;
+  opacity: 0.5; }
 
 .divider-before-section {
   padding: 0;
@@ -299,6 +302,9 @@ body {
       color: #16A085;
       -webkit-transition-duration: 0.1s;
       transition-duration: 0.1s; }
+  .footer .footer-list .disabled {
+    pointer-events: none;
+    opacity: 0.5; }
   .footer .footer-social ul {
     list-style: none;
     float: left;
