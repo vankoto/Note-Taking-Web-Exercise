@@ -14,19 +14,89 @@ html {
   -o-box-sizing: inherit;
   box-sizing: inherit; }
 
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 998;
+  background-color: rgba(22, 160, 133, 0.5); }
+
 .modal-box {
   display: block;
   position: fixed;
-  top: 55%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 40%;
   min-width: 30rem;
   max-width: 60rem;
-  height: 600px;
+  height: auto;
   max-height: 100%;
-  background-color: #2C3E50;
+  background-color: #2c3e50;
+  border: 3px solid #2C3E50;
+  border-radius: 0.2rem;
   z-index: 999; }
+
+.modal-content {
+  width: 80%;
+  display: block;
+  margin: 5% auto;
+  text-align: center;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  padding-left: 5.2rem;
+  padding-right: 5.2rem; }
+  .modal-content img {
+    display: block;
+    margin: 0 auto; }
+  .modal-content h1, .modal-content h4, .modal-content .image-wrapper .overlay h2, .image-wrapper .overlay .modal-content h2, .modal-content .image-wrapper .overlay p, .image-wrapper .overlay .modal-content p {
+    font-family: "Roboto Slab", serif;
+    color: #16A085;
+    margin: 5% auto 3% auto;
+    font-weight: normal; }
+  .modal-content h4 {
+    font-weight: normal;
+    color: #FFFFFF; }
+    .modal-content h4 a {
+      color: #16A085;
+      text-decoration: underline; }
+      .modal-content h4 a:hover {
+        color: #FFFFFF;
+        -webkit-transition-duration: 0.2s;
+        transition-duration: 0.2s; }
+  .modal-content form .login-button, .modal-content form .close-button {
+    margin-top: 2%;
+    margin-bottom: 10%;
+    float: left;
+    width: 48%; }
+  .modal-content form .close-button {
+    float: right; }
+  .modal-content form input[type] {
+    width: 100%;
+    margin-top: 5%;
+    padding: 0.6rem 0.6rem;
+    border: 1px solid #2C3E50;
+    border-radius: 0.2rem;
+    outline: none; }
+    .modal-content form input[type]:focus {
+      -webkit-box-shadow: inset 0px 0px 5px 1px rgba(22, 160, 133, 0.5);
+      -moz-box-shadow: inset 0px 0px 5px 1px rgba(22, 160, 133, 0.5);
+      -ms-box-shadow: inset 0px 0px 5px 1px rgba(22, 160, 133, 0.5);
+      -o-box-shadow: inset 0px 0px 5px 1px rgba(22, 160, 133, 0.5);
+      box-shadow: inset 0px 0px 5px 1px rgba(22, 160, 133, 0.5); }
+  .modal-content form input[type=submit] {
+    font-family: "Roboto Slab", serif;
+    cursor: pointer;
+    background-color: #16A085;
+    color: #FFFFFF; }
+    .modal-content form input[type=submit]:active {
+      -webkit-box-shadow: inset 0px 0px 5px 1px #2C3E50;
+      -moz-box-shadow: inset 0px 0px 5px 1px #2C3E50;
+      -ms-box-shadow: inset 0px 0px 5px 1px #2C3E50;
+      -o-box-shadow: inset 0px 0px 5px 1px #2C3E50;
+      box-shadow: inset 0px 0px 5px 1px #2C3E50; }
 
 .navbar ul {
   background-color: #2C3E50;
@@ -89,7 +159,7 @@ html {
     .image-wrapper .overlay .overlay-content {
       position: relative;
       top: 20%; }
-    .image-wrapper .overlay h1, .image-wrapper .overlay h2, .image-wrapper .overlay p {
+    .image-wrapper .overlay h1, .image-wrapper .overlay .modal-content h4, .modal-content .image-wrapper .overlay h4, .image-wrapper .overlay h2, .image-wrapper .overlay p {
       text-transform: uppercase;
       font-size: 2.3rem;
       font-weight: bold;
@@ -175,7 +245,7 @@ html {
   .main-content .content-notes {
     overflow: hidden;
     margin-bottom: 4%; }
-    .main-content .content-notes h1, .main-content .content-notes .image-wrapper .overlay h2, .image-wrapper .overlay .main-content .content-notes h2, .main-content .content-notes .image-wrapper .overlay p, .image-wrapper .overlay .main-content .content-notes p {
+    .main-content .content-notes h1, .main-content .content-notes .modal-content h4, .modal-content .main-content .content-notes h4, .main-content .content-notes .image-wrapper .overlay h2, .image-wrapper .overlay .main-content .content-notes h2, .main-content .content-notes .image-wrapper .overlay p, .image-wrapper .overlay .main-content .content-notes p {
       font-size: 1.75rem;
       font-weight: 500;
       font-family: "Roboto Slab", serif;
@@ -553,7 +623,7 @@ html {
   overflow: hidden;
   max-width: 180rem;
   margin: 0 auto; }
-  .main-description h1, .main-description .image-wrapper .overlay h2, .image-wrapper .overlay .main-description h2, .main-description .image-wrapper .overlay p, .image-wrapper .overlay .main-description p {
+  .main-description h1, .main-description .modal-content h4, .modal-content .main-description h4, .main-description .image-wrapper .overlay h2, .image-wrapper .overlay .main-description h2, .main-description .image-wrapper .overlay p, .image-wrapper .overlay .main-description p {
     font-size: 1.75rem;
     font-weight: 500;
     font-family: "Roboto Slab", serif;
@@ -601,7 +671,7 @@ html {
     font-family: "Roboto Slab", serif;
     color: #FFFFFF;
     font-size: 1.1rem; }
-    .contact-section .contact-wrapper h1, .contact-section .contact-wrapper .image-wrapper .overlay h2, .image-wrapper .overlay .contact-section .contact-wrapper h2, .contact-section .contact-wrapper .image-wrapper .overlay p, .image-wrapper .overlay .contact-section .contact-wrapper p {
+    .contact-section .contact-wrapper h1, .contact-section .contact-wrapper .modal-content h4, .modal-content .contact-section .contact-wrapper h4, .contact-section .contact-wrapper .image-wrapper .overlay h2, .image-wrapper .overlay .contact-section .contact-wrapper h2, .contact-section .contact-wrapper .image-wrapper .overlay p, .image-wrapper .overlay .contact-section .contact-wrapper p {
       padding: 0;
       margin: 0;
       position: relative;

@@ -23,6 +23,8 @@ $text-color: #FFFFFF;
 $hover-color: #16A085;
 $font: 'Roboto Slab', serif;
 $overlay-color: rgba(44, 62, 80, 0.6);
+$mod-overlay-color: rgba(22, 160, 133, 0.5);
+$content-bg-color: rgba(44,62,80, 1);
 $msection-color: #EEEFF1;
 $note-color-one: $text-color;
 $note-color-two: #FFE4B5;
@@ -86,19 +88,113 @@ $note-color-add: #DAA671;
       }
 }
 
+@mixin box-focus($box-shadow: inset 0px 0px 5px 1px $mod-overlay-color){
+  -webkit-box-shadow: $box-shadow;
+     -moz-box-shadow: $box-shadow;
+      -ms-box-shadow: $box-shadow;
+       -o-box-shadow: $box-shadow;
+          box-shadow: $box-shadow;
+}
+@mixin box-focus-btn($box-shadow: inset 0px 0px 5px 1px $bg-color){
+  -webkit-box-shadow: $box-shadow;
+     -moz-box-shadow: $box-shadow;
+      -ms-box-shadow: $box-shadow;
+       -o-box-shadow: $box-shadow;
+          box-shadow: $box-shadow;
+}
+
+.modal-overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 998;
+  background-color: $mod-overlay-color;
+}
+
 .modal-box{
   display: block;
   position: fixed;
-  top: 55%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 40%;
   min-width: 30rem;
   max-width: 60rem;
-  height: 600px;
+  height: auto;
   max-height: 100%;
-  background-color: $bg-color;
+  background-color: $content-bg-color;
+  border: 3px solid $bg-color;
+  border-radius: 0.2rem;
   z-index: 999;
+}
+
+.modal-content{
+  width: 80%;
+  display: block;
+  margin: 5% auto;
+  text-align: center;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  padding-left: 5.2rem;
+  padding-right: 5.2rem;
+  img{
+    display: block;
+    margin: 0 auto;
+  }
+  h1{
+    font-family: $font;
+    color: $hover-color;
+    margin: 5% auto 3% auto;
+    font-weight: normal;
+  }
+  h4{
+    @extend h1;
+    font-weight: normal;
+    color: $text-color;
+    a{
+      color: $hover-color;
+      text-decoration: underline;
+      &:hover{
+        color: $text-color;
+        -webkit-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+      }
+    }
+  }
+  form{
+    .login-button{
+      margin-top: 2%;
+      margin-bottom: 10%;
+      float: left;
+      width: 48%;
+    }
+    .close-button{
+      float: right;
+      @extend .login-button;
+    }
+  input[type]{
+    width: 100%;
+    margin-top: 5%;
+    padding: 0.6rem 0.6rem;
+    border: 1px solid $bg-color;
+    border-radius: 0.2rem;
+    outline: none;
+    &:focus{
+      @include box-focus();
+    }
+  }
+  input[type=submit]{
+    font-family: $font;
+    cursor: pointer;
+    background-color: $hover-color;
+    color: $text-color;
+    &:active{
+      @include box-focus-btn();
+    }
+  }
+  }
 }
 
 .navbar{

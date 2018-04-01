@@ -13,12 +13,24 @@
   <title>Note Taking Website</title>
 </head>
 <body>
-
-<div class="modal-box">
-  <div class="modal-content">
-
+<div class="modal-overlay"></div>
+  <div class="modal-box">
+    <div class="modal-content">
+      <img src="images/logo-mx.png" alt="Company logo">
+      <h1>Login</h1>
+      <form action="" method="post">
+        <input type="email" id="eAddress" name="email" placeholder="Email" required>
+        <input type="password" id="uPassword" minlength="8" maxlength="128" placeholder="Password" required>
+        <div class="login-button">
+        <input type="submit" value="Login">
+        </div>
+        <div class="close-button">
+        <input type="submit" value="Close">
+        </div>
+        <span><h4>Already have an account? <a href="">Login</a></h4></span>
+      </form>
+    </div>
   </div>
-</div>
 
   <header>
     <nav class="navbar">
