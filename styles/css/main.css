@@ -285,6 +285,40 @@ html {
           cursor: pointer;
           -webkit-transition-duration: 0.5s;
           transition-duration: 0.5s; }
+  @media only screen and (min-width: 320px) and (max-width: 768px) {
+    .image-wrapper .overlay h1, .image-wrapper .overlay .modal-content h4, .modal-content .image-wrapper .overlay h4, .image-wrapper .overlay h2, .image-wrapper .overlay p {
+      font-size: 1.9rem; }
+    .image-wrapper .overlay h2, .image-wrapper .overlay p {
+      font-size: 1.1rem; }
+    .image-wrapper .overlay p {
+      font-size: 0.8rem; }
+    .image-wrapper .overlay .intro-buttons .large-button {
+      padding-top: 0.7rem;
+      padding-bottom: 0.7rem;
+      padding-left: 1.6rem;
+      padding-right: 1.6rem;
+      font-size: 0.9rem; }
+    .image-wrapper .overlay .intro-buttons span {
+      font-size: 0.9rem; }
+    .image-wrapper .overlay .intro-buttons .jump-link {
+      font-size: 0.9rem; } }
+  @media only screen and (min-width: 1600px) {
+    .image-wrapper .overlay h1, .image-wrapper .overlay .modal-content h4, .modal-content .image-wrapper .overlay h4, .image-wrapper .overlay h2, .image-wrapper .overlay p {
+      font-size: 2.5rem; }
+    .image-wrapper .overlay h2, .image-wrapper .overlay p {
+      font-size: 1.7rem; }
+    .image-wrapper .overlay p {
+      font-size: 1.2rem; }
+    .image-wrapper .overlay .intro-buttons .large-button {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      padding-left: 1.9rem;
+      padding-right: 1.9rem;
+      font-size: 1.1rem; }
+    .image-wrapper .overlay .intro-buttons span {
+      font-size: 1.1rem; }
+    .image-wrapper .overlay .intro-buttons .jump-link {
+      font-size: 1.1rem; } }
 
 .note-tickers {
   margin-top: 1rem;
@@ -305,6 +339,12 @@ html {
     font-size: 1rem;
     font-weight: 500;
     font-family: "Roboto Slab", serif; }
+  @media only screen and (min-width: 320px) and (max-width: 768px) {
+    .note-tickers li {
+      font-size: 0.8rem; } }
+  @media only screen and (min-width: 1600px) {
+    .note-tickers li {
+      font-size: 1.2rem; } }
 
 .main-content {
   display: block;
@@ -397,6 +437,21 @@ html {
     height: 0.5px;
     border: 1px solid #16A085;
     background-color: #16A085; }
+  @media only screen and (min-width: 768px) {
+    .main-content .line {
+      width: 100px; } }
+  @media only screen and (min-width: 922px) {
+    .main-content .line {
+      width: 180px; } }
+  @media only screen and (min-width: 1200px) {
+    .main-content .line {
+      width: 300px; } }
+  @media only screen and (min-width: 1400px) {
+    .main-content .line {
+      width: 400px; } }
+  @media only screen and (min-width: 1600px) {
+    .main-content .line {
+      width: 500px; } }
 
 .main-description {
   overflow: hidden;
