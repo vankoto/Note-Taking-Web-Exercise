@@ -342,6 +342,12 @@ html {
   @media only screen and (min-width: 320px) and (max-width: 768px) {
     .note-tickers li {
       font-size: 0.8rem; } }
+  @media only screen and (min-width: 768px) and (max-width: 922px) {
+    .note-tickers li {
+      font-size: 0.9rem; } }
+  @media only screen and (min-width: 922px) and (max-width: 1200px) {
+    .note-tickers li {
+      font-size: 0.9rem; } }
   @media only screen and (min-width: 1600px) {
     .note-tickers li {
       font-size: 1.2rem; } }
@@ -437,21 +443,48 @@ html {
     height: 0.5px;
     border: 1px solid #16A085;
     background-color: #16A085; }
-  @media only screen and (min-width: 768px) {
-    .main-content .line {
-      width: 100px; } }
-  @media only screen and (min-width: 922px) {
-    .main-content .line {
-      width: 180px; } }
-  @media only screen and (min-width: 1200px) {
-    .main-content .line {
-      width: 300px; } }
-  @media only screen and (min-width: 1400px) {
-    .main-content .line {
-      width: 400px; } }
+  @media only screen and (min-width: 320px) and (max-width: 768px) {
+    .main-content .content-notes h1, .main-content .content-notes .modal-content h4, .modal-content .main-content .content-notes h4, .main-content .content-notes .image-wrapper .overlay h2, .image-wrapper .overlay .main-content .content-notes h2, .main-content .content-notes .image-wrapper .overlay p, .image-wrapper .overlay .main-content .content-notes p {
+      font-size: 1.35rem; }
+    .main-content .content-notes #box-notes .note-one, .main-content .content-notes #box-notes .note-two, .main-content .content-notes #box-notes .note-three, .main-content .content-notes #box-notes .note-four, .main-content .content-notes #box-notes .note-five, .main-content .content-notes #box-notes .note-six, .main-content .content-notes #box-notes .note-seven, .main-content .content-notes #box-notes .note-eight {
+      width: 100%;
+      margin-bottom: 4%; }
+      .main-content .content-notes #box-notes .note-one .upper-bar h3, .main-content .content-notes #box-notes .note-two .upper-bar h3, .main-content .content-notes #box-notes .note-three .upper-bar h3, .main-content .content-notes #box-notes .note-four .upper-bar h3, .main-content .content-notes #box-notes .note-five .upper-bar h3, .main-content .content-notes #box-notes .note-six .upper-bar h3, .main-content .content-notes #box-notes .note-seven .upper-bar h3, .main-content .content-notes #box-notes .note-eight .upper-bar h3 {
+        font-size: 0.9rem; }
+      .main-content .content-notes #box-notes .note-one p, .main-content .content-notes #box-notes .note-two p, .main-content .content-notes #box-notes .note-three p, .main-content .content-notes #box-notes .note-four p, .main-content .content-notes #box-notes .note-five p, .main-content .content-notes #box-notes .note-six p, .main-content .content-notes #box-notes .note-seven p, .main-content .content-notes #box-notes .note-eight p {
+        font-size: 0.9rem; }
+    .main-content .small-line {
+      position: relative;
+      top: 0; } }
+  @media only screen and (min-width: 768px) and (max-width: 922px) {
+    .main-content .content-notes h1, .main-content .content-notes .modal-content h4, .modal-content .main-content .content-notes h4, .main-content .content-notes .image-wrapper .overlay h2, .image-wrapper .overlay .main-content .content-notes h2, .main-content .content-notes .image-wrapper .overlay p, .image-wrapper .overlay .main-content .content-notes p {
+      font-size: 1.50rem; }
+    .main-content .content-notes #box-notes .note-one, .main-content .content-notes #box-notes .note-two, .main-content .content-notes #box-notes .note-three, .main-content .content-notes #box-notes .note-four, .main-content .content-notes #box-notes .note-five, .main-content .content-notes #box-notes .note-six, .main-content .content-notes #box-notes .note-seven, .main-content .content-notes #box-notes .note-eight {
+      width: 48%; }
+      .main-content .content-notes #box-notes .note-one .upper-bar h3, .main-content .content-notes #box-notes .note-two .upper-bar h3, .main-content .content-notes #box-notes .note-three .upper-bar h3, .main-content .content-notes #box-notes .note-four .upper-bar h3, .main-content .content-notes #box-notes .note-five .upper-bar h3, .main-content .content-notes #box-notes .note-six .upper-bar h3, .main-content .content-notes #box-notes .note-seven .upper-bar h3, .main-content .content-notes #box-notes .note-eight .upper-bar h3 {
+        font-size: 0.9rem; }
+      .main-content .content-notes #box-notes .note-one p, .main-content .content-notes #box-notes .note-two p, .main-content .content-notes #box-notes .note-three p, .main-content .content-notes #box-notes .note-four p, .main-content .content-notes #box-notes .note-five p, .main-content .content-notes #box-notes .note-six p, .main-content .content-notes #box-notes .note-seven p, .main-content .content-notes #box-notes .note-eight p {
+        font-size: 0.9rem; }
+    .main-content .small-line {
+      position: relative;
+      top: -0.7rem; } }
+  @media only screen and (min-width: 922px) and (max-width: 1200px) {
+    .main-content .content-notes h1, .main-content .content-notes .modal-content h4, .modal-content .main-content .content-notes h4, .main-content .content-notes .image-wrapper .overlay h2, .image-wrapper .overlay .main-content .content-notes h2, .main-content .content-notes .image-wrapper .overlay p, .image-wrapper .overlay .main-content .content-notes p {
+      font-size: 1.50rem; }
+    .main-content .content-notes #box-notes .note-one, .main-content .content-notes #box-notes .note-two, .main-content .content-notes #box-notes .note-three, .main-content .content-notes #box-notes .note-four, .main-content .content-notes #box-notes .note-five, .main-content .content-notes #box-notes .note-six, .main-content .content-notes #box-notes .note-seven, .main-content .content-notes #box-notes .note-eight {
+      width: 31%; }
+      .main-content .content-notes #box-notes .note-one .upper-bar h3, .main-content .content-notes #box-notes .note-two .upper-bar h3, .main-content .content-notes #box-notes .note-three .upper-bar h3, .main-content .content-notes #box-notes .note-four .upper-bar h3, .main-content .content-notes #box-notes .note-five .upper-bar h3, .main-content .content-notes #box-notes .note-six .upper-bar h3, .main-content .content-notes #box-notes .note-seven .upper-bar h3, .main-content .content-notes #box-notes .note-eight .upper-bar h3 {
+        font-size: 0.9rem; }
+      .main-content .content-notes #box-notes .note-one p, .main-content .content-notes #box-notes .note-two p, .main-content .content-notes #box-notes .note-three p, .main-content .content-notes #box-notes .note-four p, .main-content .content-notes #box-notes .note-five p, .main-content .content-notes #box-notes .note-six p, .main-content .content-notes #box-notes .note-seven p, .main-content .content-notes #box-notes .note-eight p {
+        font-size: 0.9rem; } }
+  @media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    .main-content .content-notes #box-notes .note-one, .main-content .content-notes #box-notes .note-two, .main-content .content-notes #box-notes .note-three, .main-content .content-notes #box-notes .note-four, .main-content .content-notes #box-notes .note-five, .main-content .content-notes #box-notes .note-six, .main-content .content-notes #box-notes .note-seven, .main-content .content-notes #box-notes .note-eight {
+      width: 31%; } }
   @media only screen and (min-width: 1600px) {
-    .main-content .line {
-      width: 500px; } }
+    .main-content .content-notes h1, .main-content .content-notes .modal-content h4, .modal-content .main-content .content-notes h4, .main-content .content-notes .image-wrapper .overlay h2, .image-wrapper .overlay .main-content .content-notes h2, .main-content .content-notes .image-wrapper .overlay p, .image-wrapper .overlay .main-content .content-notes p {
+      font-size: 2rem; }
+    .main-content .content-notes #box-notes .note-one, .main-content .content-notes #box-notes .note-two, .main-content .content-notes #box-notes .note-three, .main-content .content-notes #box-notes .note-four, .main-content .content-notes #box-notes .note-five, .main-content .content-notes #box-notes .note-six, .main-content .content-notes #box-notes .note-seven, .main-content .content-notes #box-notes .note-eight {
+      width: 18%; } }
 
 .main-description {
   overflow: hidden;
@@ -489,6 +522,16 @@ html {
     .main-description .articles .right-article-wrapper {
       float: right;
       padding-left: 1.5rem; }
+  @media only screen and (min-width: 320px) and (max-width: 768px) {
+    .main-description h1, .main-description .modal-content h4, .modal-content .main-description h4, .main-description .image-wrapper .overlay h2, .image-wrapper .overlay .main-description h2, .main-description .image-wrapper .overlay p, .image-wrapper .overlay .main-description p {
+      font-size: 1.35rem; }
+    .main-description .articles {
+      font-size: 0.8rem; } }
+  @media only screen and (min-width: 768px) and (max-width: 922px) {
+    .main-description h1, .main-description .modal-content h4, .modal-content .main-description h4, .main-description .image-wrapper .overlay h2, .image-wrapper .overlay .main-description h2, .main-description .image-wrapper .overlay p, .image-wrapper .overlay .main-description p {
+      font-size: 1.50rem; }
+    .main-description .articles {
+      font-size: 0.9rem; } }
 
 .contact-section {
   margin: 6% auto;

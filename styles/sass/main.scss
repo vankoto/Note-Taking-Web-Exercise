@@ -474,6 +474,16 @@ $huge-screen: 1600px;
       font-size: 0.8rem;
     }
   }
+  @media only screen and (min-width: $md-screen) and (max-width: $lg-screen){
+    li{
+      font-size: 0.9rem;
+    }
+  }
+  @media only screen and (min-width: $lg-screen) and (max-width: $larger-screen){
+    li{
+      font-size: 0.9rem;
+    }
+  }
   @media only screen and (min-width: $huge-screen){
     li{
       font-size: 1.2rem;
@@ -604,29 +614,85 @@ $huge-screen: 1600px;
     border: 1px solid $hover-color;
     background-color: $hover-color;
   }
-  @media only screen and (min-width: $md-screen){
-    .line{
-      width: 100px;
+  @media only screen and (min-width: $sm-screen) and (max-width: $md-screen){
+      .content-notes{
+        h1{
+          font-size: 1.35rem;
+        }
+        %note-content{
+          width: 100%;
+          margin-bottom: 4%;
+          .upper-bar{
+            h3{
+              font-size: 0.9rem;
+            }
+          }
+          p{
+            font-size: 0.9rem;
+          }
+        }
+      }
+      .small-line{
+        position: relative;
+        top: 0;
+      }
+  }
+  @media only screen and (min-width: $md-screen) and (max-width: $lg-screen){
+    .content-notes{
+      h1{
+        font-size: 1.50rem;
+      }
+    }
+    %note-content{
+      width: 48%;
+      .upper-bar{
+        h3{
+          font-size: 0.9rem;
+        }
+      }
+      p{
+        font-size: 0.9rem;
+      }
+    }
+    .small-line{
+      position: relative;
+      top: -0.7rem;
     }
   }
-  @media only screen and (min-width: $lg-screen){
-    .line{
-      width: 180px;
+  @media only screen and (min-width: $lg-screen) and (max-width: $larger-screen){
+    .content-notes{
+      h1{
+        font-size: 1.50rem;
+      }
+    }
+    %note-content{
+      width: 31%;
+      .upper-bar{
+        h3{
+          font-size: 0.9rem;
+        }
+      }
+      p{
+        font-size: 0.9rem;
+      }
     }
   }
-  @media only screen and (min-width: $larger-screen){
-    .line{
-      width: 300px;
+  @media only screen and (min-width: $larger-screen) and (max-width: $extra-lg-screen){
+    %note-content{
+      width: 31%;
     }
   }
   @media only screen and (min-width: $extra-lg-screen){
-    .line{
-      width: 400px;
-    }
+
   }
   @media only screen and (min-width: $huge-screen){
-    .line{
-      width: 500px;
+    .content-notes{
+      h1{
+        font-size: 2rem;
+      }
+    }
+    %note-content{
+      width: 18%;
     }
   }
 }
@@ -673,6 +739,22 @@ $huge-screen: 1600px;
       float: right;
       padding-left: 1.5rem;
     }
+  }
+  @media only screen and (min-width: $sm-screen) and (max-width: $md-screen){
+      h1{
+        font-size: 1.35rem;
+      }
+      .articles{
+        font-size: 0.8rem;
+      }
+  }
+  @media only screen and (min-width: $md-screen) and (max-width: $lg-screen){
+      h1{
+        font-size: 1.50rem;
+      }
+      .articles{
+        font-size: 0.9rem;
+      }
   }
 }
 
