@@ -682,9 +682,6 @@ $huge-screen: 1600px;
       width: 31%;
     }
   }
-  @media only screen and (min-width: $extra-lg-screen){
-
-  }
   @media only screen and (min-width: $huge-screen){
     .content-notes{
       h1{
@@ -746,6 +743,10 @@ $huge-screen: 1600px;
       }
       .articles{
         font-size: 0.8rem;
+        width: 100%;
+        .left-article-wrapper{
+          padding-left: 0.8rem;
+        }
       }
   }
   @media only screen and (min-width: $md-screen) and (max-width: $lg-screen){
@@ -756,19 +757,36 @@ $huge-screen: 1600px;
         font-size: 0.9rem;
       }
   }
+  @media only screen and (min-width: $lg-screen) and (max-width: $larger-screen){
+      h1{
+        font-size: 1.50rem;
+      }
+      .articles{
+        font-size: 0.9rem;
+      }
+  }
+  @media only screen and (min-width: $huge-screen){
+      h1{
+        font-size: 2rem;
+      }
+      .articles{
+        font-size: 1.2rem;
+      }
+  }
 }
 
 .contact-section{
   margin: 6% auto;
   width: 100%;
   max-width: 150rem;
-  height: 16.5rem;
+  height: auto;
   background-color: $hover-color; //for browsers not supporting gradients
   background: linear-gradient(to right, $bg-color, $hover-color);
   text-align: center;
   .contact-wrapper{
     display: inline-block;
     margin-top: 1%;
+    margin-bottom: 1.2%;
     line-height: 1.6;
     font-family: $font;
     color: $text-color;
@@ -780,6 +798,24 @@ $huge-screen: 1600px;
         top: 0.5rem;
         font-weight: normal;
       }
+  }
+  @media only screen and (min-width: $sm-screen) and (max-width: $md-screen){
+    .contact-wrapper{
+      font-size: 0.9rem;
+    }
+  }
+  @media only screen and (min-width: $md-screen) and (max-width: $lg-screen){
+    .contact-wrapper{
+      font-size: 1rem;
+    }
+  }
+  @media only screen and (min-width: $lg-screen) and (max-width: $larger-screen){
+    .contact-wrapper{
+      font-size: 1rem;
+    }
+  }
+  @media only screen and (min-width: $huge-screen){
+
   }
 }
 

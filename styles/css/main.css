@@ -526,24 +526,38 @@ html {
     .main-description h1, .main-description .modal-content h4, .modal-content .main-description h4, .main-description .image-wrapper .overlay h2, .image-wrapper .overlay .main-description h2, .main-description .image-wrapper .overlay p, .image-wrapper .overlay .main-description p {
       font-size: 1.35rem; }
     .main-description .articles {
-      font-size: 0.8rem; } }
+      font-size: 0.8rem;
+      width: 100%; }
+      .main-description .articles .left-article-wrapper, .main-description .articles .right-article-wrapper {
+        padding-left: 0.8rem; } }
   @media only screen and (min-width: 768px) and (max-width: 922px) {
     .main-description h1, .main-description .modal-content h4, .modal-content .main-description h4, .main-description .image-wrapper .overlay h2, .image-wrapper .overlay .main-description h2, .main-description .image-wrapper .overlay p, .image-wrapper .overlay .main-description p {
       font-size: 1.50rem; }
     .main-description .articles {
       font-size: 0.9rem; } }
+  @media only screen and (min-width: 922px) and (max-width: 1200px) {
+    .main-description h1, .main-description .modal-content h4, .modal-content .main-description h4, .main-description .image-wrapper .overlay h2, .image-wrapper .overlay .main-description h2, .main-description .image-wrapper .overlay p, .image-wrapper .overlay .main-description p {
+      font-size: 1.50rem; }
+    .main-description .articles {
+      font-size: 0.9rem; } }
+  @media only screen and (min-width: 1600px) {
+    .main-description h1, .main-description .modal-content h4, .modal-content .main-description h4, .main-description .image-wrapper .overlay h2, .image-wrapper .overlay .main-description h2, .main-description .image-wrapper .overlay p, .image-wrapper .overlay .main-description p {
+      font-size: 2rem; }
+    .main-description .articles {
+      font-size: 1.2rem; } }
 
 .contact-section {
   margin: 6% auto;
   width: 100%;
   max-width: 150rem;
-  height: 16.5rem;
+  height: auto;
   background-color: #16A085;
   background: linear-gradient(to right, #2C3E50, #16A085);
   text-align: center; }
   .contact-section .contact-wrapper {
     display: inline-block;
     margin-top: 1%;
+    margin-bottom: 1.2%;
     line-height: 1.6;
     font-family: "Roboto Slab", serif;
     color: #FFFFFF;
@@ -554,6 +568,15 @@ html {
       position: relative;
       top: 0.5rem;
       font-weight: normal; }
+  @media only screen and (min-width: 320px) and (max-width: 768px) {
+    .contact-section .contact-wrapper {
+      font-size: 0.9rem; } }
+  @media only screen and (min-width: 768px) and (max-width: 922px) {
+    .contact-section .contact-wrapper {
+      font-size: 1rem; } }
+  @media only screen and (min-width: 922px) and (max-width: 1200px) {
+    .contact-section .contact-wrapper {
+      font-size: 1rem; } }
 
 .footer {
   margin-top: 6.5%;
