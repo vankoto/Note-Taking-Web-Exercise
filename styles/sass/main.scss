@@ -37,6 +37,13 @@ $note-color-eight: #FA8072;
 $note-color-add: #DAA671;
 $close-btn: #AC2925;
 
+//Screen sizes for media queries
+$sm-screen: 320px;
+$md-screen: 768px;
+$lg-screen: 922px;
+$larger-screen: 1200px;
+$extra-lg-screen: 1400px;
+$huge-screen: 1600px;
 
 
 @mixin box-focus($box-shadow: inset 0px 0px 5px 1px $mod-overlay-color){
@@ -234,7 +241,7 @@ $close-btn: #AC2925;
     pointer-events:none;
     opacity: 0.5;
   }
-  @media only screen and (min-width: 320px) and (max-width: 768px){
+  @media only screen and (min-width: $sm-screen) and (max-width: $md-screen){
     .line{
     display: inline-block;
     margin-top: 0.7rem;
@@ -258,28 +265,28 @@ $close-btn: #AC2925;
       display: none;
     }
   }
-  @media only screen and (min-width: 768px){
+  @media only screen and (min-width: $md-screen){
     .line{
       width: 100px;
     }
   }
 
-  @media only screen and (min-width: 922px){
+  @media only screen and (min-width: $lg-screen){
     .line{
       width: 180px;
     }
   }
-  @media only screen and (min-width: 1200px){
+  @media only screen and (min-width: $larger-screen){
     .line{
       width: 300px;
     }
   }
-  @media only screen and (min-width: 1400px){
+  @media only screen and (min-width: $extra-lg-screen){
     .line{
       width: 400px;
     }
   }
-  @media only screen and (min-width: 1600px){
+  @media only screen and (min-width: $huge-screen){
     .line{
       width: 500px;
     }
