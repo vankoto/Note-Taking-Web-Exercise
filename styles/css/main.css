@@ -1,4 +1,5 @@
 html {
+  overflow-x: hidden;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
@@ -172,6 +173,37 @@ html {
 .navbar .disabled {
   pointer-events: none;
   opacity: 0.5; }
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .navbar .line {
+    display: inline-block;
+    margin-top: 0.7rem; }
+  .navbar li {
+    display: block; }
+  .navbar a {
+    border-bottom: none; }
+    .navbar a:hover {
+      border-bottom: none; }
+    .navbar a:last-child {
+      padding-bottom: 1rem; }
+    .navbar a:first-child {
+      padding-top: 1rem; }
+  .navbar img {
+    display: none; } }
+@media only screen and (min-width: 768px) {
+  .navbar .line {
+    width: 100px; } }
+@media only screen and (min-width: 922px) {
+  .navbar .line {
+    width: 180px; } }
+@media only screen and (min-width: 1200px) {
+  .navbar .line {
+    width: 300px; } }
+@media only screen and (min-width: 1400px) {
+  .navbar .line {
+    width: 400px; } }
+@media only screen and (min-width: 1600px) {
+  .navbar .line {
+    width: 500px; } }
 
 .divider-before-section, .divider-after-section {
   padding: 0;

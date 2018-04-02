@@ -1,6 +1,6 @@
 //Just resseting the box-sizing of all elements including any pseudo-elements.
 html{
-  //overflow-x: hidden;
+    overflow-x: hidden;
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
         -ms-box-sizing: border-box;
@@ -233,6 +233,56 @@ $close-btn: #AC2925;
   .disabled{
     pointer-events:none;
     opacity: 0.5;
+  }
+  @media only screen and (min-width: 320px) and (max-width: 768px){
+    .line{
+    display: inline-block;
+    margin-top: 0.7rem;
+    }
+    li{
+      display: block;
+    }
+    a{
+      border-bottom: none;
+      &:hover{
+        border-bottom: none;
+      }
+      &:last-child{
+        padding-bottom: 1rem;
+      }
+      &:first-child{
+        padding-top: 1rem;
+      }
+    }
+    img{
+      display: none;
+    }
+  }
+  @media only screen and (min-width: 768px){
+    .line{
+      width: 100px;
+    }
+  }
+
+  @media only screen and (min-width: 922px){
+    .line{
+      width: 180px;
+    }
+  }
+  @media only screen and (min-width: 1200px){
+    .line{
+      width: 300px;
+    }
+  }
+  @media only screen and (min-width: 1400px){
+    .line{
+      width: 400px;
+    }
+  }
+  @media only screen and (min-width: 1600px){
+    .line{
+      width: 500px;
+    }
   }
 }
 
