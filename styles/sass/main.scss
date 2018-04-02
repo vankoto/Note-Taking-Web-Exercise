@@ -153,7 +153,7 @@ $close-btn: #AC2925;
     }
   }
   .close-btn{
-    @extend input[type];
+    @extend input, [type];
     font-family: $font;
     cursor: pointer;
     background-color: $close-btn;

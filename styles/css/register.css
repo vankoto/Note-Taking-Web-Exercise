@@ -90,18 +90,18 @@ body {
       -ms-box-shadow: inset 0px 0px 5px 1px rgba(22, 160, 133, 0.7);
       -o-box-shadow: inset 0px 0px 5px 1px rgba(22, 160, 133, 0.7);
       box-shadow: inset 0px 0px 5px 1px rgba(22, 160, 133, 0.7); }
-  .modal-content form input[type=submit] {
+  .modal-content form input[type=submit], .modal-content form [type=submit].close-btn {
     font-family: "Roboto Slab", serif;
     cursor: pointer;
     background-color: #16A085;
     color: #FFFFFF; }
-    .modal-content form input[type=submit]:active {
+    .modal-content form input[type=submit]:active, .modal-content form [type=submit].close-btn:active {
       -webkit-box-shadow: inset 0px 0px 5px 1px #2C3E50;
       -moz-box-shadow: inset 0px 0px 5px 1px #2C3E50;
       -ms-box-shadow: inset 0px 0px 5px 1px #2C3E50;
       -o-box-shadow: inset 0px 0px 5px 1px #2C3E50;
       box-shadow: inset 0px 0px 5px 1px #2C3E50; }
-    .modal-content form input[type=submit]:hover {
+    .modal-content form input[type=submit]:hover, .modal-content form [type=submit].close-btn:hover {
       background-color: #FFFFFF;
       color: #16A085;
       -webkit-transition-duration: 0.2s;
@@ -125,7 +125,7 @@ body {
   .modal-content form label {
     display: inline-block;
     width: 100%; }
-  .modal-content form input[type=checkbox] {
+  .modal-content form input[type=checkbox], .modal-content form [type=checkbox].close-btn {
     width: 0.9rem;
     height: 0.9rem;
     margin: 0;
@@ -250,18 +250,18 @@ body {
         -ms-box-shadow: inset 0px 0px 5px 1px rgba(22, 160, 133, 0.7);
         -o-box-shadow: inset 0px 0px 5px 1px rgba(22, 160, 133, 0.7);
         box-shadow: inset 0px 0px 5px 1px rgba(22, 160, 133, 0.7); }
-    .main-wrapper .main-content form input[type=submit] {
+    .main-wrapper .main-content form input[type=submit], .main-wrapper .main-content .modal-content form [type=submit].close-btn, .modal-content .main-wrapper .main-content form [type=submit].close-btn {
       font-family: "Roboto Slab", serif;
       cursor: pointer;
       background-color: #16A085;
       color: #FFFFFF; }
-      .main-wrapper .main-content form input[type=submit]:active {
+      .main-wrapper .main-content form input[type=submit]:active, .main-wrapper .main-content .modal-content form [type=submit].close-btn:active, .modal-content .main-wrapper .main-content form [type=submit].close-btn:active {
         -webkit-box-shadow: inset 0px 0px 5px 1px #2C3E50;
         -moz-box-shadow: inset 0px 0px 5px 1px #2C3E50;
         -ms-box-shadow: inset 0px 0px 5px 1px #2C3E50;
         -o-box-shadow: inset 0px 0px 5px 1px #2C3E50;
         box-shadow: inset 0px 0px 5px 1px #2C3E50; }
-      .main-wrapper .main-content form input[type=submit]:hover {
+      .main-wrapper .main-content form input[type=submit]:hover, .main-wrapper .main-content .modal-content form [type=submit].close-btn:hover, .modal-content .main-wrapper .main-content form [type=submit].close-btn:hover {
         background-color: #FFFFFF;
         color: #16A085;
         -webkit-transition-duration: 0.2s;
