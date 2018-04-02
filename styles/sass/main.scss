@@ -815,7 +815,9 @@ $huge-screen: 1600px;
     }
   }
   @media only screen and (min-width: $huge-screen){
-
+    .contact-wrapper{
+      font-size: 1.2rem;
+    }
   }
 }
 

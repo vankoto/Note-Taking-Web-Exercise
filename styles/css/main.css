@@ -577,6 +577,9 @@ html {
   @media only screen and (min-width: 922px) and (max-width: 1200px) {
     .contact-section .contact-wrapper {
       font-size: 1rem; } }
+  @media only screen and (min-width: 1600px) {
+    .contact-section .contact-wrapper {
+      font-size: 1.2rem; } }
 
 .footer {
   margin-top: 6.5%;
