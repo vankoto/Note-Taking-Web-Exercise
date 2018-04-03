@@ -188,7 +188,12 @@ body {
   border-bottom: 3px solid transparent; }
   .navbar a:hover {
     color: #16A085;
-    border-bottom: 3px solid #16A085; }
+    border-bottom: 3px solid #16A085;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
 .navbar img {
   position: relative;
   top: 1.3rem;

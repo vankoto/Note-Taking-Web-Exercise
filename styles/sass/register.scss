@@ -245,6 +245,7 @@ body{
     &:hover{
       color: $hover-color;
       border-bottom: 3px solid $hover-color;
+      @include transition();
     }
   }
   img{
