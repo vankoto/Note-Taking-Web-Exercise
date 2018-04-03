@@ -78,9 +78,9 @@ $huge-screen: 1600px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 40%;
-  min-width: 30rem;
-  max-width: 60rem;
+  width: 70%;
+  min-width: 20rem;
+  max-width: 38rem;
   height: auto;
   max-height: 100%;
   background-color: $contentlog-bg-color;
@@ -194,6 +194,14 @@ $huge-screen: 1600px;
     padding-left: 2%;
     font-size: 0.9rem;
   }
+  }
+  @media only screen and (min-width: $sm-screen) and (max-width: $md-screen){
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+  }
+  @media only screen and (min-width: $huge-screen){
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 }
 
