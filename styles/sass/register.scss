@@ -1,6 +1,6 @@
 //Just resseting the box-sizing of all elements including any pseudo-elements.
 html{
-  //overflow-x: hidden;
+    overflow-x: hidden;
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
         -ms-box-sizing: border-box;
@@ -28,6 +28,14 @@ $box-shadow: rgba(46,61,73,0.5);
 $mod-overlay-color: rgba(22, 160, 133, 0.5);
 $contentlog-bg-color: rgba(44,62,80, 1);
 $close-btn: #AC2925;
+
+//Screen sizes for media queries
+$sm-screen: 320px;
+$md-screen: 768px;
+$lg-screen: 922px;
+$larger-screen: 1200px;
+$extra-lg-screen: 1400px;
+$huge-screen: 1600px;
 
 @mixin box-shadow($box-shadow: 0 0 25px 2px $box-shadow){
   -webkit-box-shadow: $box-shadow;
@@ -72,9 +80,9 @@ body{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 40%;
-  min-width: 30rem;
-  max-width: 60rem;
+  width: 70%;
+  min-width: 20rem;
+  max-width: 38rem;
   height: auto;
   max-height: 100%;
   background-color: $contentlog-bg-color;
@@ -189,6 +197,14 @@ body{
     font-size: 0.9rem;
   }
   }
+  @media only screen and (min-width: $sm-screen) and (max-width: $md-screen){
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+  }
+  @media only screen and (min-width: $huge-screen){
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
 }
 
 .navbar{
@@ -234,6 +250,55 @@ body{
   .disabled{
     pointer-events:none;
     opacity: 0.5;
+  }
+  @media only screen and (min-width: $sm-screen) and (max-width: $md-screen){
+    .line{
+    display: inline-block;
+    margin-top: 0.7rem;
+    }
+    li{
+      display: block;
+    }
+    a{
+      border-bottom: none;
+      &:hover{
+        border-bottom: none;
+      }
+      &:last-child{
+        padding-bottom: 1rem;
+      }
+      &:first-child{
+        padding-top: 1rem;
+      }
+    }
+    img{
+      display: none;
+    }
+  }
+  @media only screen and (min-width: $md-screen){
+    .line{
+      width: 100px;
+    }
+  }
+  @media only screen and (min-width: $lg-screen){
+    .line{
+      width: 180px;
+    }
+  }
+  @media only screen and (min-width: $larger-screen){
+    .line{
+      width: 300px;
+    }
+  }
+  @media only screen and (min-width: $extra-lg-screen){
+    .line{
+      width: 400px;
+    }
+  }
+  @media only screen and (min-width: $huge-screen){
+    .line{
+      width: 500px;
+    }
   }
 }
 
@@ -395,7 +460,7 @@ body{
       width: 25%;
     }
     li{
-      margin-left: 2%;
+      margin-left: 4%;
       display: block;
       float: left;
     }
@@ -461,5 +526,63 @@ body{
     font-size: 0.9rem;
     font-weight: normal;
     color: $text-color;
+  }
+  @media only screen and (min-width: $sm-screen) and (max-width: $md-screen){
+    .footer-container{
+      width: 80%;
+    }
+    .footer-logo{
+      float: none;
+      margin: 7% 0 5% 0;
+      padding: 0;
+      img{
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+      }
+    }
+    .footer-list{
+      text-align: center;
+      ul{
+        float: none;
+        margin: 2% auto;
+        padding: 0;
+      }
+    }
+    .footer-social{
+      ul{
+        float: none;
+        margin: 6% auto;
+        padding: 0;
+      }
+      li{
+        float: none;
+        margin: 5% auto;
+        padding: 0;
+      }
+      a{
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+      }
+    }
+    h4{
+      font-size: 0.8rem;
+    }
+  }
+  @media only screen and (min-width: $md-screen) and (max-width: $lg-screen){
+    h4{
+    font-size: 0.85rem;
+    }
+  }
+  @media only screen and (min-width: $lg-screen) and (max-width: $larger-screen){
+    h4{
+    font-size: 0.85rem;
+    }
+  }
+  @media only screen and (min-width: $huge-screen){
+    h4{
+    font-size: 1rem;
+    }
   }
 }
