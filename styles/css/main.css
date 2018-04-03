@@ -15,6 +15,8 @@ html {
   -o-box-sizing: inherit;
   box-sizing: inherit; }
 
+/*I was not sure if I could use rem for border radius, but I found this article useful and applied it
+https://stackoverflow.com/questions/23991054/does-rem-make-sense-on-border-radius*/
 .modal-overlay {
   display: none;
   position: fixed;

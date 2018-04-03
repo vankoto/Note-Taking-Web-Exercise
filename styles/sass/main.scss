@@ -75,6 +75,8 @@ $huge-screen: 1600px;
        -o-box-shadow: $box-shadow;
           box-shadow: $box-shadow;
 }
+/*I was not sure if I could use rem for border radius, but I found this article useful and applied it
+https://stackoverflow.com/questions/23991054/does-rem-make-sense-on-border-radius*/
 @mixin rounded($radius: 0.2rem){
   -webkit-border-radius: $radius;
      -moz-border-radius: $radius;
@@ -934,6 +936,8 @@ $huge-screen: 1600px;
         @extend .icon;
       }
     }
+    //This is where I got the idea for the social icons and with some changes I managed to do my version of it.
+    //https://stackoverflow.com/questions/15645634/how-can-i-display-social-icons-on-my-website-with-html-and-css
     .facebook{
       background: url("../../images/facebook-icon.png");
       &:hover{
