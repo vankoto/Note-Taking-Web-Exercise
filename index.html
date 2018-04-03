@@ -4,16 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--The icon should usually be ico but png also works in this case for better image -->
   <link rel="icon" href="favicon/logo-mx-icon.png" type="image/png">
-
   <!--Adding normalize.css to render all elements on all browsers more consistently-->
   <link rel="stylesheet" type="text/css" href="styles/normalize.css">
   <link rel="stylesheet" type="text/css" href="styles/css/main.css">
+  <!--This is the link where I took the font from - https://fonts.google.com/ -->
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" type="text/css" rel="stylesheet">
   <title>Note Taking Website</title>
 </head>
 <body>
-
+  <!--This is where I got an idea about the box model - https://css-tricks.com/considerations-styling-modal/ -->
   <div class="modal-overlay"></div>
     <div class="modal-box">
       <div class="modal-content">
@@ -36,7 +37,8 @@
         </form>
       </div>
     </div>
-
+  <!--Usually there is header above the navigation bar but I decided to combine them-->
+  <!--I inserted a disabled class so that the buttons for erase and add new to show only when logged in. -->
   <header>
     <nav class="navbar">
       <!--Added comment trick for the blank space between the list elements-->
@@ -56,7 +58,8 @@
 
   <section>
     <div class="container">
-
+<!--This is the website where I took the image from just for the purpose of the exercise
+https://www.gradschools.com/get-informed/surviving-graduate-school/study-skills-grad-school/tips-taking-notes-graduate-school -->
       <div class="image-wrapper">
         <div class="introimg">
           <div class="overlay">
@@ -81,7 +84,7 @@
       </div>
 
       <hr class="divider-after-section">
-
+    <!--This is where I took the checkmark from - https://www.toptal.com/designers/htmlarrows/symbols/check-mark/ -->
       <div class="note-tickers">
         <ul>
           <li><h4><span class="tick">&#10003;</span>Daily Notes</h4></li>
@@ -91,7 +94,7 @@
           <li><h4><span class="tick">&#10003;</span>Future Notes</h4></li>
         </ul>
       </div>
-
+    <!--Decided to make a representation of what the notes will look like. -->
       <section class="main-content">
         <div class="content-notes">
           <h1>Here you can see some examples of Notes!</h1>
@@ -189,7 +192,7 @@
         </div>
         <hr class="small-line">
       </section>
-
+     <!--This is just a dummy text for description and probably future improvement of the note website. -->
       <article class="main-description">
         <h1>Below is a description of optional note settings.</h1>
         <hr>
@@ -256,7 +259,7 @@
       <h4>&copy 2018 Job Assignment. All Rights Reserved. Note Taking Exercise</h4>
     </div>
   </footer>
-
+<!--If I had many different scripts I would put them below -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="scripts/app.js"></script>
 </body>
