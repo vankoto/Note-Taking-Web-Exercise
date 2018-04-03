@@ -1,3 +1,13 @@
+/*
+    Note Taking Job Assignment SASS main file.
+    Author: Ivan Ivanov
+
+*/
+/* There are many ways to structure a sass file, files for buttons, colors, images, etc.
+I decided to make it by sections and not having many files, just fix a specific section and that's all. */
+/* In helpers sub-folder I have variables, mixins and boxsizing file. */
+/*I was not sure if I could use rem for border radius, but I found this article useful and applied it
+https://stackoverflow.com/questions/23991054/does-rem-make-sense-on-border-radius*/
 html {
   overflow-x: hidden;
   -webkit-box-sizing: border-box;
@@ -15,156 +25,7 @@ html {
   -o-box-sizing: inherit;
   box-sizing: inherit; }
 
-/*I was not sure if I could use rem for border radius, but I found this article useful and applied it
-https://stackoverflow.com/questions/23991054/does-rem-make-sense-on-border-radius*/
-.modal-overlay {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 998;
-  background-color: rgba(22, 160, 133, 0.5); }
-
-.modal-box {
-  display: none;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 70%;
-  min-width: 20rem;
-  max-width: 38rem;
-  height: auto;
-  max-height: 100%;
-  background-color: #2c3e50;
-  border: 3px solid #2C3E50;
-  -webkit-border-radius: 0.2rem;
-  -moz-border-radius: 0.2rem;
-  -ms-border-radius: 0.2rem;
-  -o-border-radius: 0.2rem;
-  border-radius: 0.2rem;
-  z-index: 999; }
-
-.modal-content {
-  width: 80%;
-  display: block;
-  margin: 5% auto;
-  border-left: 1px solid white;
-  border-right: 1px solid white;
-  padding-left: 5.2rem;
-  padding-right: 5.2rem; }
-  .modal-content img {
-    display: block;
-    margin: 7% auto; }
-  .modal-content h1, .modal-content h4, .modal-content .image-wrapper .overlay h2, .image-wrapper .overlay .modal-content h2, .modal-content .image-wrapper .overlay p, .image-wrapper .overlay .modal-content p {
-    font-family: "Roboto Slab", serif;
-    color: #16A085;
-    margin: 5% auto 3% auto;
-    font-weight: normal;
-    text-align: center; }
-  .modal-content h4 {
-    font-weight: normal;
-    color: #FFFFFF; }
-    .modal-content h4 a {
-      color: #16A085;
-      text-decoration: none; }
-      .modal-content h4 a:hover {
-        color: #FFFFFF;
-        -webkit-transition-duration: 0.3s;
-        -moz-transition-duration: 0.3s;
-        -ms-transition-duration: 0.3s;
-        -o-transition-duration: 0.3s;
-        transition-duration: 0.3s; }
-  .modal-content form .login-button, .modal-content form .close-button {
-    margin-top: 2%;
-    margin-bottom: 3%;
-    float: left;
-    width: 48%; }
-  .modal-content form .close-button {
-    float: right; }
-  .modal-content form input[type], .modal-content form .close-btn {
-    width: 100%;
-    margin-top: 5%;
-    padding: 0.6rem 0.6rem;
-    border: 1px solid #2C3E50;
-    -webkit-border-radius: 0.2rem;
-    -moz-border-radius: 0.2rem;
-    -ms-border-radius: 0.2rem;
-    -o-border-radius: 0.2rem;
-    border-radius: 0.2rem;
-    outline: none; }
-    .modal-content form input[type]:focus, .modal-content form .close-btn:focus {
-      -webkit-box-shadow: inset 0px 0px 5px 1px rgba(22, 160, 133, 0.5);
-      -moz-box-shadow: inset 0px 0px 5px 1px rgba(22, 160, 133, 0.5);
-      -ms-box-shadow: inset 0px 0px 5px 1px rgba(22, 160, 133, 0.5);
-      -o-box-shadow: inset 0px 0px 5px 1px rgba(22, 160, 133, 0.5);
-      box-shadow: inset 0px 0px 5px 1px rgba(22, 160, 133, 0.5); }
-  .modal-content form input[type=submit], .modal-content form [type=submit].close-btn {
-    font-family: "Roboto Slab", serif;
-    cursor: pointer;
-    background-color: #16A085;
-    color: #FFFFFF; }
-    .modal-content form input[type=submit]:active, .modal-content form [type=submit].close-btn:active {
-      -webkit-box-shadow: inset 0px 0px 5px 1px #2C3E50;
-      -moz-box-shadow: inset 0px 0px 5px 1px #2C3E50;
-      -ms-box-shadow: inset 0px 0px 5px 1px #2C3E50;
-      -o-box-shadow: inset 0px 0px 5px 1px #2C3E50;
-      box-shadow: inset 0px 0px 5px 1px #2C3E50; }
-    .modal-content form input[type=submit]:hover, .modal-content form [type=submit].close-btn:hover {
-      background-color: #FFFFFF;
-      color: #16A085;
-      -webkit-transition-duration: 0.3s;
-      -moz-transition-duration: 0.3s;
-      -ms-transition-duration: 0.3s;
-      -o-transition-duration: 0.3s;
-      transition-duration: 0.3s; }
-  .modal-content form .close-btn {
-    font-family: "Roboto Slab", serif;
-    cursor: pointer;
-    background-color: #AC2925;
-    color: #FFFFFF; }
-    .modal-content form .close-btn:active {
-      -webkit-box-shadow: inset 0px 0px 5px 1px #2C3E50;
-      -moz-box-shadow: inset 0px 0px 5px 1px #2C3E50;
-      -ms-box-shadow: inset 0px 0px 5px 1px #2C3E50;
-      -o-box-shadow: inset 0px 0px 5px 1px #2C3E50;
-      box-shadow: inset 0px 0px 5px 1px #2C3E50; }
-    .modal-content form .close-btn:hover {
-      background-color: #FFFFFF;
-      color: #AC2925;
-      -webkit-transition-duration: 0.3s;
-      -moz-transition-duration: 0.3s;
-      -ms-transition-duration: 0.3s;
-      -o-transition-duration: 0.3s;
-      transition-duration: 0.3s; }
-  .modal-content form label {
-    display: inline-block;
-    width: 100%; }
-  .modal-content form input[type=checkbox], .modal-content form [type=checkbox].close-btn {
-    width: 0.9rem;
-    height: 0.9rem;
-    margin: 0;
-    padding: 0;
-    vertical-align: bottom;
-    position: relative;
-    top: -0.1rem; }
-  .modal-content form .remember-me {
-    font-family: "Roboto Slab", serif;
-    color: #FFFFFF;
-    padding-left: 2%;
-    font-size: 0.9rem; }
-  @media only screen and (min-width: 320px) and (max-width: 768px) {
-    .modal-content {
-      padding-left: 1.3rem;
-      padding-right: 1.3rem;
-      font-size: 0.9rem; } }
-  @media only screen and (min-width: 1600px) {
-    .modal-content {
-      padding-left: 4rem;
-      padding-right: 4rem; } }
-
+/* The layout sub-folder contains only the footer and the header. */
 .navbar ul {
   background-color: #2C3E50;
   margin: 0;
@@ -244,6 +105,294 @@ https://stackoverflow.com/questions/23991054/does-rem-make-sense-on-border-radiu
   height: 5px;
   border: 1px solid #16A085;
   background-color: #16A085; }
+
+.footer {
+  margin-top: 6.5%;
+  padding: 0;
+  border-top: 4px solid #16A085;
+  width: 100%;
+  height: auto;
+  background-color: #2C3E50; }
+  .footer .footer-container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 185rem; }
+  .footer .footer-logo {
+    display: block;
+    float: left;
+    margin-top: 6%;
+    margin-left: 13%; }
+  .footer .footer-list ul {
+    list-style: none;
+    padding: 0;
+    float: left;
+    margin-top: 3.3%;
+    margin-left: 6%; }
+    .footer .footer-list ul .current {
+      color: #16A085; }
+  .footer .footer-list li {
+    line-height: 2; }
+  .footer .footer-list a {
+    color: #FFFFFF;
+    font-family: "Roboto Slab", serif;
+    font-size: 0.9rem;
+    text-decoration: none; }
+    .footer .footer-list a:hover {
+      color: #16A085;
+      -webkit-transition-duration: 0.3s;
+      -moz-transition-duration: 0.3s;
+      -ms-transition-duration: 0.3s;
+      -o-transition-duration: 0.3s;
+      transition-duration: 0.3s; }
+  .footer .footer-list .disabled {
+    pointer-events: none;
+    opacity: 0.5; }
+  .footer .footer-social ul {
+    list-style: none;
+    float: left;
+    padding: 0;
+    margin-top: 5.8%;
+    margin-left: 8%;
+    width: 25%; }
+  .footer .footer-social li {
+    margin-left: 4%;
+    display: block;
+    float: left; }
+  .footer .footer-social a.icon, .footer .footer-social a.icon:hover {
+    background-repeat: no-repeat;
+    background-size: 3.5rem;
+    cursor: pointer;
+    display: block;
+    width: 3.5rem;
+    height: 3.5rem; }
+  .footer .footer-social .facebook {
+    background: url("../../images/facebook-icon.png"); }
+    .footer .footer-social .facebook:hover {
+      background: url("../../images/facebook-icon-hover.png"); }
+  .footer .footer-social .twitter {
+    background: url("../../images/twitter-icon.png"); }
+    .footer .footer-social .twitter:hover {
+      background: url("../../images/twitter-icon-hover.png"); }
+  .footer .footer-social .googleplus {
+    background: url("../../images/googleplus-icon.png"); }
+    .footer .footer-social .googleplus:hover {
+      background: url("../../images/googleplus-icon-hover.png"); }
+  .footer .footer-social .instagram {
+    background: url("../../images/instagram-icon.png"); }
+    .footer .footer-social .instagram:hover {
+      background: url("../../images/instagram-icon-hover.png"); }
+  .footer .footer-social .linkedin {
+    background: url("../../images/linkedin-icon.png"); }
+    .footer .footer-social .linkedin:hover {
+      background: url("../../images/linkedin-icon-hover.png"); }
+  .footer .footer-divider {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 74.5%;
+    height: 1px;
+    background-color: #16A085;
+    border: 0 solid #16A085;
+    overflow: hidden; }
+  .footer h4 {
+    margin: 0.7% 0 0 0;
+    padding-bottom: 2rem;
+    text-align: right;
+    width: 87.3%;
+    font-family: "Roboto Slab", serif;
+    font-size: 0.9rem;
+    font-weight: normal;
+    color: #FFFFFF; }
+  @media only screen and (min-width: 320px) and (max-width: 768px) {
+    .footer .footer-container {
+      width: 80%; }
+    .footer .footer-logo {
+      float: none;
+      margin: 7% 0 5% 0;
+      padding: 0; }
+      .footer .footer-logo img {
+        display: block;
+        margin: 0 auto;
+        padding: 0; }
+    .footer .footer-list {
+      text-align: center; }
+      .footer .footer-list ul {
+        float: none;
+        margin: 2% auto;
+        padding: 0; }
+    .footer .footer-social ul {
+      float: none;
+      margin: 6% auto;
+      padding: 0; }
+    .footer .footer-social li {
+      float: none;
+      margin: 5% auto;
+      padding: 0; }
+    .footer .footer-social a {
+      display: block;
+      margin: 0 auto;
+      padding: 0; }
+    .footer h4 {
+      font-size: 0.8rem; } }
+  @media only screen and (min-width: 768px) and (max-width: 922px) {
+    .footer h4 {
+      font-size: 0.85rem; } }
+  @media only screen and (min-width: 922px) and (max-width: 1200px) {
+    .footer h4 {
+      font-size: 0.85rem; } }
+  @media only screen and (min-width: 1600px) {
+    .footer h4 {
+      font-size: 1rem; } }
+
+/* I decided to make elements folder to hold different parts of the home page and register page.
+There is not much in the register page so it contains only sections from the home page.*/
+.modal-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 998;
+  background-color: rgba(22, 160, 133, 0.5); }
+
+.modal-box {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  min-width: 20rem;
+  max-width: 38rem;
+  height: auto;
+  max-height: 100%;
+  background-color: #2c3e50;
+  border: 3px solid #2C3E50;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+  -ms-border-radius: 0.2rem;
+  -o-border-radius: 0.2rem;
+  border-radius: 0.2rem;
+  z-index: 999; }
+
+.modal-content {
+  width: 80%;
+  display: block;
+  margin: 5% auto;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  padding-left: 5.2rem;
+  padding-right: 5.2rem; }
+  .modal-content img {
+    display: block;
+    margin: 7% auto; }
+  .modal-content h1, .modal-content h4, .modal-content .image-wrapper .overlay h2, .image-wrapper .overlay .modal-content h2, .modal-content .image-wrapper .overlay p, .image-wrapper .overlay .modal-content p {
+    font-family: "Roboto Slab", serif;
+    color: #16A085;
+    margin: 5% auto 3% auto;
+    font-weight: normal;
+    text-align: center; }
+  .modal-content h4 {
+    font-weight: normal;
+    color: #FFFFFF; }
+    .modal-content h4 a {
+      color: #16A085;
+      text-decoration: none; }
+      .modal-content h4 a:hover {
+        color: #FFFFFF;
+        -webkit-transition-duration: 0.3s;
+        -moz-transition-duration: 0.3s;
+        -ms-transition-duration: 0.3s;
+        -o-transition-duration: 0.3s;
+        transition-duration: 0.3s; }
+  .modal-content form .login-button, .modal-content form .close-button {
+    margin-top: 2%;
+    margin-bottom: 3%;
+    float: left;
+    width: 48%; }
+  .modal-content form .close-button {
+    float: right; }
+  .modal-content form input[type], .modal-content form .close-btn {
+    width: 100%;
+    margin-top: 5%;
+    padding: 0.6rem 0.6rem;
+    border: 1px solid #2C3E50;
+    -webkit-border-radius: 0.2rem;
+    -moz-border-radius: 0.2rem;
+    -ms-border-radius: 0.2rem;
+    -o-border-radius: 0.2rem;
+    border-radius: 0.2rem;
+    outline: none; }
+    .modal-content form input[type]:focus, .modal-content form .close-btn:focus {
+      -webkit-box-shadow: inset 0px 0px 5px 1px #16a085;
+      -moz-box-shadow: inset 0px 0px 5px 1px #16a085;
+      -ms-box-shadow: inset 0px 0px 5px 1px #16a085;
+      -o-box-shadow: inset 0px 0px 5px 1px #16a085;
+      box-shadow: inset 0px 0px 5px 1px #16a085; }
+  .modal-content form input[type=submit], .modal-content form [type=submit].close-btn {
+    font-family: "Roboto Slab", serif;
+    cursor: pointer;
+    background-color: #16A085;
+    color: #FFFFFF; }
+    .modal-content form input[type=submit]:active, .modal-content form [type=submit].close-btn:active {
+      -webkit-box-shadow: inset 0px 0px 5px 1px #2C3E50;
+      -moz-box-shadow: inset 0px 0px 5px 1px #2C3E50;
+      -ms-box-shadow: inset 0px 0px 5px 1px #2C3E50;
+      -o-box-shadow: inset 0px 0px 5px 1px #2C3E50;
+      box-shadow: inset 0px 0px 5px 1px #2C3E50; }
+    .modal-content form input[type=submit]:hover, .modal-content form [type=submit].close-btn:hover {
+      background-color: #FFFFFF;
+      color: #16A085;
+      -webkit-transition-duration: 0.3s;
+      -moz-transition-duration: 0.3s;
+      -ms-transition-duration: 0.3s;
+      -o-transition-duration: 0.3s;
+      transition-duration: 0.3s; }
+  .modal-content form .close-btn {
+    font-family: "Roboto Slab", serif;
+    cursor: pointer;
+    background-color: #AC2925;
+    color: #FFFFFF; }
+    .modal-content form .close-btn:active {
+      -webkit-box-shadow: inset 0px 0px 5px 1px #2C3E50;
+      -moz-box-shadow: inset 0px 0px 5px 1px #2C3E50;
+      -ms-box-shadow: inset 0px 0px 5px 1px #2C3E50;
+      -o-box-shadow: inset 0px 0px 5px 1px #2C3E50;
+      box-shadow: inset 0px 0px 5px 1px #2C3E50; }
+    .modal-content form .close-btn:hover {
+      background-color: #FFFFFF;
+      color: #AC2925;
+      -webkit-transition-duration: 0.3s;
+      -moz-transition-duration: 0.3s;
+      -ms-transition-duration: 0.3s;
+      -o-transition-duration: 0.3s;
+      transition-duration: 0.3s; }
+  .modal-content form label {
+    display: inline-block;
+    width: 100%; }
+  .modal-content form input[type=checkbox], .modal-content form [type=checkbox].close-btn {
+    width: 0.9rem;
+    height: 0.9rem;
+    margin: 0;
+    padding: 0;
+    vertical-align: bottom;
+    position: relative;
+    top: -0.1rem; }
+  .modal-content form .remember-me {
+    font-family: "Roboto Slab", serif;
+    color: #FFFFFF;
+    padding-left: 2%;
+    font-size: 0.9rem; }
+  @media only screen and (min-width: 320px) and (max-width: 768px) {
+    .modal-content {
+      padding-left: 1.3rem;
+      padding-right: 1.3rem;
+      font-size: 0.9rem; } }
+  @media only screen and (min-width: 1600px) {
+    .modal-content {
+      padding-left: 4rem;
+      padding-right: 4rem; } }
 
 .image-wrapper {
   position: relative; }
@@ -403,6 +552,103 @@ https://stackoverflow.com/questions/23991054/does-rem-make-sense-on-border-radiu
     .note-tickers li {
       font-size: 1.2rem; } }
 
+.main-description {
+  overflow: hidden;
+  max-width: 180rem;
+  margin: 0 auto; }
+  .main-description h1, .main-description .modal-content h4, .modal-content .main-description h4, .main-description .image-wrapper .overlay h2, .image-wrapper .overlay .main-description h2, .main-description .image-wrapper .overlay p, .image-wrapper .overlay .main-description p {
+    font-size: 1.75rem;
+    font-weight: 500;
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+    margin-top: 5%; }
+  .main-description hr {
+    width: 10%;
+    height: 0.5px;
+    border: 1px solid #16A085;
+    background-color: #16A085; }
+  .main-description .articles {
+    width: 80%;
+    display: block;
+    margin: 3% auto;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    font-size: 1rem;
+    font-family: "Roboto Slab", serif;
+    text-transform: none;
+    line-height: 1.6; }
+    .main-description .articles .left-article-wrapper, .main-description .articles .right-article-wrapper {
+      width: 50%;
+      float: left;
+      padding-left: 2rem; }
+      .main-description .articles .left-article-wrapper h3, .main-description .articles .right-article-wrapper h3 {
+        margin-bottom: 0.7rem; }
+      .main-description .articles .left-article-wrapper p, .main-description .articles .right-article-wrapper p {
+        margin: 0; }
+    .main-description .articles .right-article-wrapper {
+      float: right;
+      padding-left: 1.5rem; }
+  @media only screen and (min-width: 320px) and (max-width: 768px) {
+    .main-description h1, .main-description .modal-content h4, .modal-content .main-description h4, .main-description .image-wrapper .overlay h2, .image-wrapper .overlay .main-description h2, .main-description .image-wrapper .overlay p, .image-wrapper .overlay .main-description p {
+      font-size: 1.35rem; }
+    .main-description .articles {
+      font-size: 0.8rem;
+      width: 100%; }
+      .main-description .articles .left-article-wrapper, .main-description .articles .right-article-wrapper {
+        padding-left: 0.8rem; } }
+  @media only screen and (min-width: 768px) and (max-width: 922px) {
+    .main-description h1, .main-description .modal-content h4, .modal-content .main-description h4, .main-description .image-wrapper .overlay h2, .image-wrapper .overlay .main-description h2, .main-description .image-wrapper .overlay p, .image-wrapper .overlay .main-description p {
+      font-size: 1.50rem; }
+    .main-description .articles {
+      font-size: 0.9rem; } }
+  @media only screen and (min-width: 922px) and (max-width: 1200px) {
+    .main-description h1, .main-description .modal-content h4, .modal-content .main-description h4, .main-description .image-wrapper .overlay h2, .image-wrapper .overlay .main-description h2, .main-description .image-wrapper .overlay p, .image-wrapper .overlay .main-description p {
+      font-size: 1.50rem; }
+    .main-description .articles {
+      font-size: 0.9rem; } }
+  @media only screen and (min-width: 1600px) {
+    .main-description h1, .main-description .modal-content h4, .modal-content .main-description h4, .main-description .image-wrapper .overlay h2, .image-wrapper .overlay .main-description h2, .main-description .image-wrapper .overlay p, .image-wrapper .overlay .main-description p {
+      font-size: 2rem; }
+    .main-description .articles {
+      font-size: 1.2rem; } }
+
+.contact-section {
+  margin: 6% auto;
+  width: 100%;
+  max-width: 150rem;
+  height: auto;
+  background-color: #16A085;
+  background: linear-gradient(to right, #2C3E50, #16A085);
+  text-align: center; }
+  .contact-section .contact-wrapper {
+    display: inline-block;
+    margin-top: 1%;
+    margin-bottom: 1.2%;
+    line-height: 1.6;
+    font-family: "Roboto Slab", serif;
+    color: #FFFFFF;
+    font-size: 1.1rem; }
+    .contact-section .contact-wrapper h1, .contact-section .contact-wrapper .modal-content h4, .modal-content .contact-section .contact-wrapper h4, .contact-section .contact-wrapper .image-wrapper .overlay h2, .image-wrapper .overlay .contact-section .contact-wrapper h2, .contact-section .contact-wrapper .image-wrapper .overlay p, .image-wrapper .overlay .contact-section .contact-wrapper p {
+      padding: 0;
+      margin: 0;
+      position: relative;
+      top: 0.5rem;
+      font-weight: normal; }
+  @media only screen and (min-width: 320px) and (max-width: 768px) {
+    .contact-section .contact-wrapper {
+      font-size: 0.9rem; } }
+  @media only screen and (min-width: 768px) and (max-width: 922px) {
+    .contact-section .contact-wrapper {
+      font-size: 1rem; } }
+  @media only screen and (min-width: 922px) and (max-width: 1200px) {
+    .contact-section .contact-wrapper {
+      font-size: 1rem; } }
+  @media only screen and (min-width: 1600px) {
+    .contact-section .contact-wrapper {
+      font-size: 1.2rem; } }
+
+/* This is the folder which contains the main content of both pages - the home page and the register page.
+In this case home sass file contains the notes of the home page. */
 .main-content {
   display: block;
   margin: 0 auto;
@@ -544,238 +790,5 @@ https://stackoverflow.com/questions/23991054/does-rem-make-sense-on-border-radiu
       font-size: 2rem; }
     .main-content .content-notes #box-notes .note-one, .main-content .content-notes #box-notes .note-two, .main-content .content-notes #box-notes .note-three, .main-content .content-notes #box-notes .note-four, .main-content .content-notes #box-notes .note-five, .main-content .content-notes #box-notes .note-six, .main-content .content-notes #box-notes .note-seven, .main-content .content-notes #box-notes .note-eight {
       width: 18%; } }
-
-.main-description {
-  overflow: hidden;
-  max-width: 180rem;
-  margin: 0 auto; }
-  .main-description h1, .main-description .modal-content h4, .modal-content .main-description h4, .main-description .image-wrapper .overlay h2, .image-wrapper .overlay .main-description h2, .main-description .image-wrapper .overlay p, .image-wrapper .overlay .main-description p {
-    font-size: 1.75rem;
-    font-weight: 500;
-    font-family: "Roboto Slab", serif;
-    text-align: center;
-    margin-top: 5%; }
-  .main-description hr {
-    width: 10%;
-    height: 0.5px;
-    border: 1px solid #16A085;
-    background-color: #16A085; }
-  .main-description .articles {
-    width: 80%;
-    display: block;
-    margin: 3% auto;
-    padding-left: 0.8rem;
-    padding-right: 0.8rem;
-    font-size: 1rem;
-    font-family: "Roboto Slab", serif;
-    text-transform: none;
-    line-height: 1.6; }
-    .main-description .articles .left-article-wrapper, .main-description .articles .right-article-wrapper {
-      width: 50%;
-      float: left;
-      padding-left: 2rem; }
-      .main-description .articles .left-article-wrapper h3, .main-description .articles .right-article-wrapper h3 {
-        margin-bottom: 0.7rem; }
-      .main-description .articles .left-article-wrapper p, .main-description .articles .right-article-wrapper p {
-        margin: 0; }
-    .main-description .articles .right-article-wrapper {
-      float: right;
-      padding-left: 1.5rem; }
-  @media only screen and (min-width: 320px) and (max-width: 768px) {
-    .main-description h1, .main-description .modal-content h4, .modal-content .main-description h4, .main-description .image-wrapper .overlay h2, .image-wrapper .overlay .main-description h2, .main-description .image-wrapper .overlay p, .image-wrapper .overlay .main-description p {
-      font-size: 1.35rem; }
-    .main-description .articles {
-      font-size: 0.8rem;
-      width: 100%; }
-      .main-description .articles .left-article-wrapper, .main-description .articles .right-article-wrapper {
-        padding-left: 0.8rem; } }
-  @media only screen and (min-width: 768px) and (max-width: 922px) {
-    .main-description h1, .main-description .modal-content h4, .modal-content .main-description h4, .main-description .image-wrapper .overlay h2, .image-wrapper .overlay .main-description h2, .main-description .image-wrapper .overlay p, .image-wrapper .overlay .main-description p {
-      font-size: 1.50rem; }
-    .main-description .articles {
-      font-size: 0.9rem; } }
-  @media only screen and (min-width: 922px) and (max-width: 1200px) {
-    .main-description h1, .main-description .modal-content h4, .modal-content .main-description h4, .main-description .image-wrapper .overlay h2, .image-wrapper .overlay .main-description h2, .main-description .image-wrapper .overlay p, .image-wrapper .overlay .main-description p {
-      font-size: 1.50rem; }
-    .main-description .articles {
-      font-size: 0.9rem; } }
-  @media only screen and (min-width: 1600px) {
-    .main-description h1, .main-description .modal-content h4, .modal-content .main-description h4, .main-description .image-wrapper .overlay h2, .image-wrapper .overlay .main-description h2, .main-description .image-wrapper .overlay p, .image-wrapper .overlay .main-description p {
-      font-size: 2rem; }
-    .main-description .articles {
-      font-size: 1.2rem; } }
-
-.contact-section {
-  margin: 6% auto;
-  width: 100%;
-  max-width: 150rem;
-  height: auto;
-  background-color: #16A085;
-  background: linear-gradient(to right, #2C3E50, #16A085);
-  text-align: center; }
-  .contact-section .contact-wrapper {
-    display: inline-block;
-    margin-top: 1%;
-    margin-bottom: 1.2%;
-    line-height: 1.6;
-    font-family: "Roboto Slab", serif;
-    color: #FFFFFF;
-    font-size: 1.1rem; }
-    .contact-section .contact-wrapper h1, .contact-section .contact-wrapper .modal-content h4, .modal-content .contact-section .contact-wrapper h4, .contact-section .contact-wrapper .image-wrapper .overlay h2, .image-wrapper .overlay .contact-section .contact-wrapper h2, .contact-section .contact-wrapper .image-wrapper .overlay p, .image-wrapper .overlay .contact-section .contact-wrapper p {
-      padding: 0;
-      margin: 0;
-      position: relative;
-      top: 0.5rem;
-      font-weight: normal; }
-  @media only screen and (min-width: 320px) and (max-width: 768px) {
-    .contact-section .contact-wrapper {
-      font-size: 0.9rem; } }
-  @media only screen and (min-width: 768px) and (max-width: 922px) {
-    .contact-section .contact-wrapper {
-      font-size: 1rem; } }
-  @media only screen and (min-width: 922px) and (max-width: 1200px) {
-    .contact-section .contact-wrapper {
-      font-size: 1rem; } }
-  @media only screen and (min-width: 1600px) {
-    .contact-section .contact-wrapper {
-      font-size: 1.2rem; } }
-
-.footer {
-  margin-top: 6.5%;
-  padding: 0;
-  border-top: 4px solid #16A085;
-  width: 100%;
-  height: auto;
-  background-color: #2C3E50; }
-  .footer .footer-container {
-    margin: 0 auto;
-    width: 100%;
-    max-width: 185rem; }
-  .footer .footer-logo {
-    display: block;
-    float: left;
-    margin-top: 6%;
-    margin-left: 13%; }
-  .footer .footer-list ul {
-    list-style: none;
-    padding: 0;
-    float: left;
-    margin-top: 3.3%;
-    margin-left: 6%; }
-    .footer .footer-list ul .current {
-      color: #16A085; }
-  .footer .footer-list li {
-    line-height: 2; }
-  .footer .footer-list a {
-    color: #FFFFFF;
-    font-family: "Roboto Slab", serif;
-    font-size: 0.9rem;
-    text-decoration: none; }
-    .footer .footer-list a:hover {
-      color: #16A085;
-      -webkit-transition-duration: 0.3s;
-      -moz-transition-duration: 0.3s;
-      -ms-transition-duration: 0.3s;
-      -o-transition-duration: 0.3s;
-      transition-duration: 0.3s; }
-  .footer .footer-list .disabled {
-    pointer-events: none;
-    opacity: 0.5; }
-  .footer .footer-social ul {
-    list-style: none;
-    float: left;
-    padding: 0;
-    margin-top: 5.8%;
-    margin-left: 8%;
-    width: 25%; }
-  .footer .footer-social li {
-    margin-left: 4%;
-    display: block;
-    float: left; }
-  .footer .footer-social a.icon, .footer .footer-social a.icon:hover {
-    background-repeat: no-repeat;
-    background-size: 3.5rem;
-    cursor: pointer;
-    display: block;
-    width: 3.5rem;
-    height: 3.5rem; }
-  .footer .footer-social .facebook {
-    background: url("../../images/facebook-icon.png"); }
-    .footer .footer-social .facebook:hover {
-      background: url("../../images/facebook-icon-hover.png"); }
-  .footer .footer-social .twitter {
-    background: url("../../images/twitter-icon.png"); }
-    .footer .footer-social .twitter:hover {
-      background: url("../../images/twitter-icon-hover.png"); }
-  .footer .footer-social .googleplus {
-    background: url("../../images/googleplus-icon.png"); }
-    .footer .footer-social .googleplus:hover {
-      background: url("../../images/googleplus-icon-hover.png"); }
-  .footer .footer-social .instagram {
-    background: url("../../images/instagram-icon.png"); }
-    .footer .footer-social .instagram:hover {
-      background: url("../../images/instagram-icon-hover.png"); }
-  .footer .footer-social .linkedin {
-    background: url("../../images/linkedin-icon.png"); }
-    .footer .footer-social .linkedin:hover {
-      background: url("../../images/linkedin-icon-hover.png"); }
-  .footer .footer-divider {
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-    width: 74.5%;
-    height: 1px;
-    background-color: #16A085;
-    border: 0 solid #16A085;
-    overflow: hidden; }
-  .footer h4 {
-    margin: 0.7% 0 0 0;
-    padding-bottom: 2rem;
-    text-align: right;
-    width: 87.3%;
-    font-family: "Roboto Slab", serif;
-    font-size: 0.9rem;
-    font-weight: normal;
-    color: #FFFFFF; }
-  @media only screen and (min-width: 320px) and (max-width: 768px) {
-    .footer .footer-container {
-      width: 80%; }
-    .footer .footer-logo {
-      float: none;
-      margin: 7% 0 5% 0;
-      padding: 0; }
-      .footer .footer-logo img {
-        display: block;
-        margin: 0 auto;
-        padding: 0; }
-    .footer .footer-list {
-      text-align: center; }
-      .footer .footer-list ul {
-        float: none;
-        margin: 2% auto;
-        padding: 0; }
-    .footer .footer-social ul {
-      float: none;
-      margin: 6% auto;
-      padding: 0; }
-    .footer .footer-social li {
-      float: none;
-      margin: 5% auto;
-      padding: 0; }
-    .footer .footer-social a {
-      display: block;
-      margin: 0 auto;
-      padding: 0; }
-    .footer h4 {
-      font-size: 0.8rem; } }
-  @media only screen and (min-width: 768px) and (max-width: 922px) {
-    .footer h4 {
-      font-size: 0.85rem; } }
-  @media only screen and (min-width: 922px) and (max-width: 1200px) {
-    .footer h4 {
-      font-size: 0.85rem; } }
-  @media only screen and (min-width: 1600px) {
-    .footer h4 {
-      font-size: 1rem; } }
 
 /*# sourceMappingURL=main.css.map */

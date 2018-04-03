@@ -1,0 +1,45 @@
+.contact-section{
+  margin: 6% auto;
+  width: 100%;
+  max-width: 150rem;
+  height: auto;
+  background-color: $hover-color; //for browsers not supporting gradients
+  background: linear-gradient(to right, $bg-color, $hover-color);
+  text-align: center;
+  .contact-wrapper{
+    display: inline-block;
+    margin-top: 1%;
+    margin-bottom: 1.2%;
+    line-height: 1.6;
+    font-family: $font;
+    color: $text-color;
+    font-size: 1.1rem;
+    h1{
+        padding: 0;
+        margin: 0;
+        position: relative;
+        top: 0.5rem;
+        font-weight: normal;
+      }
+  }
+  @media only screen and (min-width: $sm-screen) and (max-width: $md-screen){
+    .contact-wrapper{
+      font-size: 0.9rem;
+    }
+  }
+  @media only screen and (min-width: $md-screen) and (max-width: $lg-screen){
+    .contact-wrapper{
+      font-size: 1rem;
+    }
+  }
+  @media only screen and (min-width: $lg-screen) and (max-width: $larger-screen){
+    .contact-wrapper{
+      font-size: 1rem;
+    }
+  }
+  @media only screen and (min-width: $huge-screen){
+    .contact-wrapper{
+      font-size: 1.2rem;
+    }
+  }
+}

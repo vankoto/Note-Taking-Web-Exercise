@@ -1,0 +1,185 @@
+.footer{
+  margin-top: 6.5%;
+  padding: 0;
+  border-top: 4px solid $hover-color;
+  width: 100%;
+  height: auto;
+  background-color: $bg-color;
+  .footer-container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 185rem;
+  }
+  .footer-logo{
+  display: block;
+  float: left;
+  margin-top: 6%;
+  margin-left: 13%;
+  }
+  .footer-list{
+    ul{
+      list-style: none;
+      padding: 0;
+      float: left;
+      margin-top: 3.3%;
+      margin-left: 6%;
+      .current{
+        color: $hover-color;
+      }
+    }
+    li{
+      line-height: 2;
+    }
+    a{
+      color: $text-color;
+      font-family: $font;
+      font-size: 0.9rem;
+      text-decoration: none;
+      &:hover{
+        color: $hover-color;
+        @include transition();
+      }
+    }
+    .disabled{
+      pointer-events:none;
+      opacity: 0.5;
+    }
+  }
+  .footer-social{
+    ul{
+      list-style: none;
+      float: left;
+      padding: 0;
+      margin-top: 5.8%;
+      margin-left: 8%;
+      width: 25%;
+    }
+    li{
+      margin-left: 4%;
+      display: block;
+      float: left;
+    }
+    a.icon{
+      background-repeat: no-repeat;
+      background-size: 3.5rem;
+      cursor: pointer;
+      display: block;
+      width: 3.5rem;
+      height: 3.5rem;
+      &:hover{
+        @extend .icon;
+      }
+    }
+    //This is where I got the idea for the social icons and with some changes I managed to do my version of it.
+    //https://stackoverflow.com/questions/15645634/how-can-i-display-social-icons-on-my-website-with-html-and-css
+    .facebook{
+      background: url("../../images/facebook-icon.png");
+      &:hover{
+        background: url("../../images/facebook-icon-hover.png");
+      }
+    }
+    .twitter{
+      background: url("../../images/twitter-icon.png");
+      &:hover{
+        background: url("../../images/twitter-icon-hover.png");
+      }
+    }
+    .googleplus{
+      background: url("../../images/googleplus-icon.png");
+      &:hover{
+        background: url("../../images/googleplus-icon-hover.png");
+      }
+    }
+    .instagram{
+      background: url("../../images/instagram-icon.png");
+      &:hover{
+        background: url("../../images/instagram-icon-hover.png");
+      }
+    }
+    .linkedin{
+      background: url("../../images/linkedin-icon.png");
+      &:hover{
+        background: url("../../images/linkedin-icon-hover.png");
+      }
+    }
+  }
+  .footer-divider{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 74.5%;
+    height: 1px;
+    background-color: $hover-color;
+    border: 0 solid $hover-color;
+    overflow: hidden; //If there is no overflow it will position on the same place with
+                      //the other elements in the footer.
+  }
+  h4{
+    margin: 0.7% 0 0 0;
+    padding-bottom: 2rem;
+    text-align: right;
+    width: 87.3%;
+    font-family: $font;
+    font-size: 0.9rem;
+    font-weight: normal;
+    color: $text-color;
+  }
+  @media only screen and (min-width: $sm-screen) and (max-width: $md-screen){
+    .footer-container{
+      width: 80%;
+    }
+    .footer-logo{
+      float: none;
+      margin: 7% 0 5% 0;
+      padding: 0;
+      img{
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+      }
+    }
+    .footer-list{
+      text-align: center;
+      ul{
+        float: none;
+        margin: 2% auto;
+        padding: 0;
+      }
+    }
+    .footer-social{
+      ul{
+        float: none;
+        margin: 6% auto;
+        padding: 0;
+      }
+      li{
+        float: none;
+        margin: 5% auto;
+        padding: 0;
+      }
+      a{
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+      }
+    }
+    h4{
+      font-size: 0.8rem;
+    }
+  }
+  @media only screen and (min-width: $md-screen) and (max-width: $lg-screen){
+    h4{
+    font-size: 0.85rem;
+    }
+  }
+  @media only screen and (min-width: $lg-screen) and (max-width: $larger-screen){
+    h4{
+    font-size: 0.85rem;
+    }
+  }
+  @media only screen and (min-width: $huge-screen){
+    h4{
+    font-size: 1rem;
+    }
+  }
+}

@@ -1,0 +1,199 @@
+//Here for the h1 of content-notes I can have properties from h1 intro section
+//but I cannot extend nested selectors, (workaround is to use a placeholder) but..
+//I prefer to rewrite some code instead.
+//I could use a max-width for the whole body, but this time I am doing it for specific elements.
+.main-content{
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 150rem;
+  height: auto;
+  border-top: 0.5px solid $hover-color;
+  border-bottom: 0.5px solid $hover-color;
+  background-color: $msection-color;
+  .content-notes{
+    overflow: hidden; //The hr line was messing with the content blocks.
+    margin-bottom: 4%;
+    h1{
+      font-size: 1.75rem;
+      font-weight: 500;
+      font-family: $font;
+      text-align: center;
+      margin-top: 5%;
+    }
+    hr{
+      width:10%;
+      height: 0.5px;
+      border: 1px solid $hover-color;
+      background-color: $hover-color;
+    }
+    //I decided to use a placeholder to contain all the information for a note and avoid repetition.
+    %note-content{
+      background-color: $note-color-one;
+      width: 23%;
+      height: 20rem;
+      border-bottom: 1px solid $hover-color;
+      @include rounded();
+      float:left;
+      margin-left: 1.62%;
+      margin-bottom: 2%;
+      @include box-notes-main();
+      .upper-bar{
+        width: 100%;
+        background-color: $hover-color;
+        height: 2.2rem;
+        border-bottom: 1px solid $hover-color;
+        border-top-left-radius: 0.2rem;
+        border-top-right-radius: 0.2rem;
+        .title{
+          @extend .upper-bar;
+          background-color: #FFFFFF;
+          width: 50%;
+          display: block;
+          margin: 0 auto;
+          border-radius: 0;
+          @include box-notes-title();
+        }
+        h3{
+            margin: 0;
+            padding-top: 0.5rem;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 1rem;
+            font-weight: 500;
+            font-family: $font;
+          }
+        }
+        p{
+          padding-left: 0.8rem;
+          padding-right: 0.8rem;
+          font-size: 1rem;
+          font-family: $font;
+          text-transform: none;
+          line-height: 1.6;
+          }
+    }
+    #box-notes{
+      width: 80%;
+      display: block;
+      margin: 5% auto;
+      .note-one{
+        @extend %note-content;
+      }
+      .note-two{
+        @extend %note-content;
+        background-color: $note-color-two;
+      }
+      .note-three{
+        @extend %note-content;
+        background-color: $note-color-three;
+      }
+      .note-four{
+        @extend %note-content;
+        background-color: $note-color-four;
+      }
+      .note-five{
+        @extend %note-content;
+        background-color: $note-color-five;
+      }
+      .note-six{
+        @extend %note-content;
+        background-color: $note-color-six;
+      }
+      .note-seven{
+        @extend %note-content;
+        background-color: $note-color-seven;
+      }
+      .note-eight{
+        @extend %note-content;
+        background-color: $note-color-eight;
+      }
+    }
+  }
+  .small-line{
+    width:10%;
+    position: relative;
+    top: -1.5rem;
+    height: 0.5px;
+    border: 1px solid $hover-color;
+    background-color: $hover-color;
+  }
+  @media only screen and (min-width: $sm-screen) and (max-width: $md-screen){
+      .content-notes{
+        h1{
+          font-size: 1.35rem;
+        }
+        %note-content{
+          width: 100%;
+          margin-bottom: 4%;
+          .upper-bar{
+            h3{
+              font-size: 0.9rem;
+            }
+          }
+          p{
+            font-size: 0.9rem;
+          }
+        }
+      }
+      .small-line{
+        position: relative;
+        top: 0;
+      }
+  }
+  @media only screen and (min-width: $md-screen) and (max-width: $lg-screen){
+    .content-notes{
+      h1{
+        font-size: 1.50rem;
+      }
+    }
+    %note-content{
+      width: 48%;
+      .upper-bar{
+        h3{
+          font-size: 0.9rem;
+        }
+      }
+      p{
+        font-size: 0.9rem;
+      }
+    }
+    .small-line{
+      position: relative;
+      top: -0.7rem;
+    }
+  }
+  @media only screen and (min-width: $lg-screen) and (max-width: $larger-screen){
+    .content-notes{
+      h1{
+        font-size: 1.50rem;
+      }
+    }
+    %note-content{
+      width: 31%;
+      .upper-bar{
+        h3{
+          font-size: 0.9rem;
+        }
+      }
+      p{
+        font-size: 0.9rem;
+      }
+    }
+  }
+  @media only screen and (min-width: $larger-screen) and (max-width: $extra-lg-screen){
+    %note-content{
+      width: 31%;
+    }
+  }
+  @media only screen and (min-width: $huge-screen){
+    .content-notes{
+      h1{
+        font-size: 2rem;
+      }
+    }
+    %note-content{
+      width: 18%;
+    }
+  }
+}

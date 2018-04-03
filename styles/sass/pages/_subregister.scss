@@ -1,0 +1,120 @@
+body{
+  background-color: $wrapper-bg-color;
+}
+.main-wrapper{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  .main-content-wrapper{
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    max-width: 47rem;
+    min-width: 20rem;
+    height: auto;
+    background-color: $content-bg-color;
+    border: 3px solid $bg-color;
+    @include rounded();
+    @include box-shadow();
+  }
+  .main-content{
+    width: 80%;
+    display: block;
+    margin: 5% auto;
+    text-align: center;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding-left: 5.2rem;
+    padding-right: 5.2rem;
+    img{
+      display: block;
+      margin: 0 auto;
+    }
+    h1{
+      font-family: $font;
+      color: $hover-color;
+      margin: 5% auto 3% auto;
+      font-weight: normal;
+    }
+    h3{
+      @extend h1;
+      margin: 2% auto 3% auto;
+    }
+    h4{
+      @extend h1;
+      font-weight: normal;
+      margin-top: 8%;
+      color: $text-color;
+      a{
+        color: $hover-color;
+        text-decoration: underline;
+        &:hover{
+          color: $text-color;
+          @include transition();
+        }
+      }
+    }
+    form{
+      .first-name{
+        float: left;
+        width: 48%;
+      }
+      .last-name{
+        float: right;
+        width: 48%;
+      }
+    input[type]{
+      width: 100%;
+      margin-top: 5%;
+      padding: 0.6rem 0.6rem;
+      border: 1px solid $bg-color;
+      @include rounded();
+      outline: none;
+      &:focus{
+        @include box-focus();
+      }
+    }
+    input[type=submit]{
+      font-family: $font;
+      cursor: pointer;
+      background-color: $hover-color;
+      color: $text-color;
+      &:active{
+        @include box-focus-btn();
+      }
+      &:hover{
+        background-color: $text-color;
+        color: $hover-color;
+        @include transition();
+      }
+    }
+    }
+  }
+  @media only screen and (min-width: $sm-screen) and (max-width: $md-screen){
+    .main-content{
+      padding-left: 1.3rem;
+      padding-right: 1.3rem;
+      font-size: 0.9rem;
+    }
+
+  }
+  @media only screen and (min-width: $md-screen) and (max-width: $lg-screen){
+    .main-content{
+      padding-left: 3rem;
+      padding-right: 3rem;
+      min-width: 30rem;
+      font-size: 0.9rem;
+    }
+  }
+  @media only screen and (min-width: $lg-screen) and (max-width: $larger-screen){
+    .main-content{
+      padding-left: 3rem;
+      padding-right: 3rem;
+    }
+  }
+  @media only screen and (min-width: $huge-screen){
+    .main-content{
+      padding-left: 4rem;
+      padding-right: 4rem;
+    }
+  }
+}
