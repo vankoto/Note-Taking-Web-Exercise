@@ -142,7 +142,8 @@ body {
   @media only screen and (min-width: 320px) and (max-width: 768px) {
     .modal-content {
       padding-left: 1.3rem;
-      padding-right: 1.3rem; } }
+      padding-right: 1.3rem;
+      font-size: 0.9rem; } }
   @media only screen and (min-width: 1600px) {
     .modal-content {
       padding-left: 4rem;
@@ -229,8 +230,8 @@ body {
   .main-wrapper .main-content-wrapper {
     display: block;
     margin: 0 auto;
-    width: 50%;
-    max-width: 70rem;
+    width: 70%;
+    max-width: 47rem;
     min-width: 20rem;
     height: auto;
     background-color: rgba(44, 62, 80, 0.9);
@@ -306,6 +307,25 @@ body {
         color: #16A085;
         -webkit-transition-duration: 0.2s;
         transition-duration: 0.2s; }
+  @media only screen and (min-width: 320px) and (max-width: 768px) {
+    .main-wrapper .main-content {
+      padding-left: 1.3rem;
+      padding-right: 1.3rem;
+      font-size: 0.9rem; } }
+  @media only screen and (min-width: 768px) and (max-width: 922px) {
+    .main-wrapper .main-content {
+      padding-left: 3rem;
+      padding-right: 3rem;
+      min-width: 30rem;
+      font-size: 0.9rem; } }
+  @media only screen and (min-width: 922px) and (max-width: 1200px) {
+    .main-wrapper .main-content {
+      padding-left: 3rem;
+      padding-right: 3rem; } }
+  @media only screen and (min-width: 1600px) {
+    .main-wrapper .main-content {
+      padding-left: 4rem;
+      padding-right: 4rem; } }
 
 .footer {
   margin-top: 6.5%;
