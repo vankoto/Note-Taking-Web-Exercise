@@ -946,4 +946,62 @@ $huge-screen: 1600px;
     font-weight: normal;
     color: $text-color;
   }
+  @media only screen and (min-width: $sm-screen) and (max-width: $md-screen){
+    .footer-container{
+      width: 80%;
+    }
+    .footer-logo{
+      float: none;
+      margin: 7% 0 5% 0;
+      padding: 0;
+      img{
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+      }
+    }
+    .footer-list{
+      text-align: center;
+      ul{
+        float: none;
+        margin: 2% auto;
+        padding: 0;
+      }
+    }
+    .footer-social{
+      ul{
+        float: none;
+        margin: 6% auto;
+        padding: 0;
+      }
+      li{
+        float: none;
+        margin: 5% auto;
+        padding: 0;
+      }
+      a{
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+      }
+    }
+    h4{
+      font-size: 0.8rem;
+    }
+  }
+  @media only screen and (min-width: $md-screen) and (max-width: $lg-screen){
+    h4{
+    font-size: 0.85rem;
+    }
+  }
+  @media only screen and (min-width: $lg-screen) and (max-width: $larger-screen){
+    h4{
+    font-size: 0.85rem;
+    }
+  }
+  @media only screen and (min-width: $huge-screen){
+    h4{
+    font-size: 1rem;
+    }
+  }
 }
