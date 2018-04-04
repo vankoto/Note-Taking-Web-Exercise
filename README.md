@@ -13,4 +13,4 @@ During those two weeks I really enjoyed doing the assignment and had fun. There 
 ## Before delivery
 If I had more time as I mentioned above I could have done more, but as the assignment says, it is not necessary to do everything. I managed to create a UML Diagram in a program called `Astah`. Afterwards I created the database using not the best tool out there but still it delivers results called `WAMP server`. I inserted some dummy information into the database and this is where my time was up.
 
-###### For more information contact me if you have any questions.
+##### For more information contact me if you have any questions.
